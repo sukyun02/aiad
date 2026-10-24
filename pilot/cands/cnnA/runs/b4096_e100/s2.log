@@ -1,0 +1,5 @@
+seed 2: CUDA OOM, retry 1
+seed 2: CUDA OOM, retry 2
+seed 2: CUDA OOM, retry 3
+seed 2 epoch 100: loss_sum 2.0588 mean 0.5147 acc 0.7797
+RESULT cnnA/b4096_e100 s2 e100 loss_sum 2.059 acc 0.780 | cuda: 44.28s prog 93.3 ctr 36.6 path 982 steer 0.13 maxoff 7.7

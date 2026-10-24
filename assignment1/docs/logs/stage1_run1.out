@@ -1,0 +1,22 @@
+=== run 1: training (5.3) ===
+Mem:            30Gi       4.7Gi        21Gi       474Mi       4.7Gi        26Gi
+train exit=0
+설정: data_dir=/home/sukyun02/workspace/aiad/assignment1/data/collected | start_model=scratch | model_path=/home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.pth | epochs=100 | batch_size=256 | 
+새 모델로 처음부터 학습합니다.
+전체 학습 대상: 관측 파일 15067개 (각 파일과 같은 번호의 행동 파일 사용)
+모델 저장 완료: /home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.pth
+제출할 구조 파일: /home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.network.py
+Epoch     1	[Train]	loss: 57.295861 	ETA: +214.0
+Epoch    30	[Train]	loss: 24.136791 	ETA: +135.1
+Epoch    50	[Train]	loss: 16.937797 	ETA: +96.20
+Epoch   100	[Train]	loss: 4.386221 	ETA: +0.0000
+=== run 1: kit drive (5.4) models/20261006_190301 ===
+{'status': 'finished', 'lap_time': 43.1, 'progress': 97.31, 'center': 64.5, 'max_offset': 9.12, 'offroad_frames': 53}
+5.4 verdict: FAIL
+=== run 1: official evaluation code (5.4) ===
+주행 종료: 출발점 복귀 완료
+주행 결과: 진행률 97.31/100 | 중앙선 유지 64.50/100 | 랩타임 43.10s
+=== run 1: gate skipped (5.4 not passed) ===
+=== run 1 done: models/20261006_190301 ===
+
+[exited with code 0]

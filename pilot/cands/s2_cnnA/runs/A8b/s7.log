@@ -1,0 +1,2 @@
+seed 7 epoch 100: loss_sum 15.9619 mean 0.2418 acc 0.9007
+RESULT s2_cnnA/A8b s7 e100 loss_sum 15.962 acc 0.901 | cuda: 41.74s prog 100.0 ctr 65.0 path 934 steer 0.32 maxoff 5.3 | hud_zero: 41.66s | noise2: 41.68s

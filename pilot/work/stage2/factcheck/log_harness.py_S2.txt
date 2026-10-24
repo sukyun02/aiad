@@ -1,0 +1,17 @@
+창 클릭 → Enter 시작 | 방향키 운전 | 복귀 후 Tab 저장 | Space 폐기/다시 시작 | Esc 종료
+[H] ENTER with no key held; UP only from frame 20; then LEFT+UP for 45 frames, then UP only (drives off the road) ->
+[H] frame 120 (on the road): gui_status=recording recorded_frames=120 metrics.frames=120 elapsed=2.40 finished=False aborted=False lap_time=None progress=4.20 centre=3.95 off_road_frames=0
+[H] first off-road frame: gui_status=recording recorded_frames=165 metrics.frames=165 elapsed=3.30 finished=False aborted=False lap_time=None progress=5.25 centre=4.55 off_road_frames=16
+주행 종료: 차선에 5초 동안 복귀하지 못했습니다. Space 폐기 / Esc 종료
+[H] recording stopped: gui_status=aborted recorded_frames=399 metrics.frames=399 elapsed=7.98 finished=False aborted=True lap_time=None progress=5.25 centre=4.55 off_road_frames=250
+[H] TAB on an aborted lap ->
+한 바퀴 완료 후 저장할 수 있습니다.
+[H] ENTER on an aborted lap ->
+[H] after TAB and ENTER on an aborted lap: gui_status=aborted recorded_frames=399 metrics.frames=399 elapsed=7.98 finished=False aborted=True lap_time=None progress=5.25 centre=4.55 off_road_frames=250
+[H] SPACE ->
+399프레임 폐기
+[H] after SPACE: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] ENTER, UP held; short excursions are covered by scenario S3; now ESC
+종료: 저장하지 않은 0프레임은 폐기합니다.
+[H] record_demonstrations returned
+[H] result written to /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/out/harness_S2.json

@@ -1,0 +1,22 @@
+# 5.6 확인 (2026-10-06, 제출용 4회차 20261006_191515 / 예비 3회차 20261006_191103)
+## (1) 저장된 구조 파일과 src/network.py 비교
+20261006_190301 SAME
+20261006_190649 SAME
+20261006_191103 SAME
+20261006_191515 SAME
+## (2) 공식 주행 코드 (k official)
+제출용:
+[추론] 장치: CUDA (NVIDIA GeForce RTX 5070 Ti Laptop GPU) | PyTorch 2.10.0+cu128
+설정: model_path=/home/sukyun02/workspace/aiad/assignment1/models/20261006_191515.pth | display=False | score=False | max_speed=22.5 | throttle=0.375 | steering_limit=0.45 | steering_rate=1.5
+주행 종료: 출발점 복귀 완료
+주행 결과: 진행률 100.00/100 | 중앙선 유지 66.80/100 | 랩타임 43.28s
+예비:
+[추론] 장치: CUDA (NVIDIA GeForce RTX 5070 Ti Laptop GPU) | PyTorch 2.10.0+cu128
+설정: model_path=/home/sukyun02/workspace/aiad/assignment1/models/20261006_191103.pth | display=False | score=False | max_speed=22.5 | throttle=0.375 | steering_limit=0.45 | steering_rate=1.5
+주행 종료: 출발점 복귀 완료
+주행 결과: 진행률 100.00/100 | 중앙선 유지 77.14/100 | 랩타임 43.16s
+## (3) 해시: docs/logs/submission.txt
+models/20261006_191515.pth: OK
+models/20261006_191515.network.py: OK
+models/20261006_191103.pth: OK
+models/20261006_191103.network.py: OK

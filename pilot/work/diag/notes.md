@@ -1,0 +1,9 @@
+# diag lens notes (running log)
+- start: copied trace.py / offline.py / track.py from prev_partial/work/diag into work/diag (unverified; will verify trace.py against results/*.jsonl).
+- plan: (1) track.py -> corners; (2) trace all existing checkpoints (cnnA, cnnA_crop, base, baseline) ; (3) offline.py indicators; (4) analysis scripts.
+- 17:10 launched: trace.py on 61 jobs (45 checkpoints + 16 hud_zero variants) -> traces/*.npz, out1.jsonl ; expert_ext.py -> traces/expert_lap{0..6}.npz (signed offset/heading/speed) ; offline.py -> offline.json (CPU, slow because machine shared).
+- track corners (track.py): L 45-77 (76deg), L 248-273 (42), L 381-399 (19), L 518-550 (79), L 609-634 (32), L 728-739 (14), R 749-767 (-42, the only right-hander), L 879-914 (97). Track length 959, half width 6.667.
+- analysis scripts written: common.py, an_excursion.py (Q1), an_steer.py (Q2), an_offline.py (Q3), an_zoom.py (Q4).
+- first zoom-in observation: experts hold class 0 for 12-32 frames then gas; models copy this (class 0 for 12-23 frames, then class 1). base b256 checkpoints emit class 0 for 130-270 frames AFTER frame 80 -> hypothesis: off-road view (mostly green) looks like the zoomed-out start frames -> 'do nothing' -> coast brake -> never recovers. To verify in an_excursion.
+- 17:22 verify.py: 54/54 finished traces identical (status, frames, progress, center) to kit results/*.jsonl -> trace.py is a faithful replica.
+- an_excursion.py first pass (saved excursions.json). Preliminary: base b256 all leave the road LEFT on the straight after corner C0 (along 105-170) with ~0 % right commands in the 2 s before (never counter-steers). cnnA e25 failures cluster at/after the right-hander 749-767 (exit side R at 768-773, then 802-860). cnnA_crop e100 failures (s1 @667, s3 @538) happen with HIGH logit margin (8-15) -> confident wrong, not hesitant. launched keep-obs reruns of the 3 cnnA_crop failures for feature ablation (out2.jsonl).

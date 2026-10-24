@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Assignment #1</title>
+<style>
+  @page { size: A4; margin: 18mm 21mm 15mm 21mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, "Liberation Sans", "Noto Sans CJK KR", sans-serif; font-size: 9.2pt; line-height: 1.43;
+         color: #000; word-break: keep-all; overflow-wrap: break-word; }
+  .title { font-weight: bold; font-size: 11pt; }
+  .right { text-align: right; font-size: 11pt; margin-top: 5pt; }
+  table { border-collapse: collapse; width: 100%; }
+  table.id { margin: 9pt 0 9pt; }
+  table.id td { border: 1pt solid #000; padding: 4pt 5pt 3pt; font-size: 10pt; }
+  table.id td span { display: inline-block; width: 3.2em; }
+  h2 { font-size: 10.3pt; margin: 8pt 0 2.5pt; break-after: avoid; }
+  p { margin: 0 0 2.6pt; text-align: justify; }
+  p b { font-weight: bold; }
+  code { font-family: "DejaVu Sans Mono", monospace; font-size: 8pt; }
+  table.data { margin: 3pt 0 4pt; font-size: 8.4pt; line-height: 1.3; break-inside: avoid; }
+  table.data th, table.data td { border: 0.5pt solid #777; padding: 2pt 4pt; text-align: center; vertical-align: middle; }
+  table.data th { background: #eeeeee; font-weight: bold; }
+  table.data td.l, table.data th.l { text-align: left; }
+  table.data tr.final td { font-weight: bold; }
+  .figs { display: flex; gap: 3%; margin: 4pt 0 2pt; align-items: flex-start; break-inside: avoid; }
+  .figs figure { margin: 0; }
+  .figs figure.a { width: 46%; }
+  .figs figure.b { width: 51%; }
+  .figs img { width: 100%; display: block; }
+  figcaption, .note { font-size: 7.8pt; line-height: 1.3; color: #222; margin-top: 2pt; }
+  ol.limits { margin: 0; padding-left: 1.5em; }
+  ol.limits li { margin-bottom: 1.6pt; text-align: justify; }
+</style>
+</head>
+<body>
+
+<div class="title">Assignment #1</div>
+<div class="right">AI and Autonomous Driving</div>
+<div class="right">Fall 2026</div>
+<table class="id">
+  <tr><td><span>이름</span>이석윤</td></tr>
+  <tr><td><span>학번</span>2021041621</td></tr>
+</table>
+
+<h2>1. 데이터 수집 방법</h2>
+<p><b>수집 방식.</b> <code>scripts/collect.py</code>로 채점과 같은 고정 트랙(시드 22597174)을 키보드로 직접 주행해 수집했습니다. 초당 50프레임으로 매 프레임의 관측 영상(96×96×3)과 조작(조향·가속·제동)이 기록됩니다. 한 바퀴를 완주했을 때만 저장하고 실패한 주행은 버려, 모두 36바퀴를 저장했습니다.</p>
+<p><b>주행 라인.</b> 속도 상한이 22.5로 고정이라 랩타임은 주행 거리로 정해집니다(길이 959인 중앙선을 따라가면 약 42.6초). 그래서 가속 키는 계속 누르고 제동은 쓰지 않았으며, 도로를 벗어나도 5초 안에 복귀하면 완주가 인정되는 규칙을 이용해 코너 안쪽 잔디를 가로질러 거리를 줄였습니다.</p>
+<p><b>주행 상황의 다양성.</b> 수집 초반 8바퀴는 42.2~43.9초였고, 주행을 반복하며 라인을 줄여 39.8~42.0초 바퀴를 얻었습니다. 최종적으로 사용한 21바퀴는 코너를 가로지른 깊이가 바퀴마다 다릅니다(진행률 68.7~94.2, 바퀴당 도로 밖 85~514프레임). 따라서 데이터에는 도로 위 주행뿐 아니라 도로를 벗어나는 순간, 잔디 위 주행, 도로로 복귀하는 장면이 함께 들어 있습니다. 제공된 7바퀴에는 도로 밖 장면이 전혀 없습니다.</p>
+
+<h2>2. 데이터 관리 및 구성</h2>
+<p><b>선별.</b> 목표(랩타임 42초 이내, 중앙선 유지 30 이상)에 맞춰, 저장한 36바퀴 중 랩타임 42초 이상 9바퀴와 중앙선 유지 28 이하 6바퀴를 제외하고 21바퀴를 학습에 썼습니다. 한 바퀴가 폴더 하나로 저장되므로 바퀴 단위로 넣고 뺐으며, 제공 데이터(<code>data/collected</code>)와 학습용 데이터(<code>data/stage2</code>)는 폴더를 분리했습니다. 제공된 7바퀴(42.72~43.44초)는 주행 라인이 달라 학습에 섞지 않았습니다.</p>
+<table class="data">
+  <tr><th>바퀴</th><th>프레임</th><th>랩타임(초)</th><th>중앙선 유지</th><th>진행률</th><th>행동 비율</th></tr>
+  <tr><td>21</td><td>43,098</td><td>39.92~41.98<br>(평균 41.05)</td><td>28.94~37.13<br>(평균 31.02)</td><td>68.73~94.21<br>(평균 78.77)</td>
+      <td>가속 90.3% · 좌조향+가속 7.0%<br>우조향+가속 1.7% · 무입력 0.9%</td></tr>
+</table>
+<p><b>편중 관리.</b> ① 특정 구간만 반복해 모으지 않고 완주한 바퀴 전체를 단위로 사용해, 트랙의 각 구간이 바퀴 수만큼 고르게 들어가도록 했습니다. ② 라인이 크게 다른 바퀴(느린 바퀴, 잔디를 과하게 탄 바퀴)를 제외해 같은 장면에 상반된 조작이 섞이는 것을 줄였습니다. ③ 행동은 직진 가속이 90%로 치우쳐 있습니다. 조향을 짧게 끊어 누르는 키보드 주행의 특성이고, 좌:우 조향이 4:1인 것은 좌회전이 대부분인 반시계 방향 트랙 때문입니다. 재표본화나 클래스 가중치는 쓰지 않았고, 대신 학습 후 행동별 일치율로 소수 행동이 학습됐는지 확인했습니다(좌조향+가속 99.0%, 우조향+가속 98.8%). 무입력 0.9%(405프레임)는 모두 출발 직후의 대기 구간입니다.</p>
+
+<h2>3. 모델 구조</h2>
+<table class="data">
+  <tr><th style="width:11%">구분</th><th style="width:36%">기본 모델</th><th>사용한 모델</th></tr>
+  <tr><td>합성곱</td><td>Conv(3→8, 5×5, stride 4) + ReLU<br>+ 4×4 평균 풀링</td><td>Conv(3→16, 5×5) – Conv(16→32, 3×3) – Conv(32→64, 3×3) – Conv(64→64, 3×3)<br>모두 stride 2, 층마다 ReLU (한 변 96→46→22→10→4)</td></tr>
+  <tr><td>영상 특징</td><td>8×4×4 = 128</td><td>64×4×4 = 1,024</td></tr>
+  <tr><td>분류기</td><td>Linear(135→9)</td><td>Linear(1,031→128) + ReLU + Linear(128→9)</td></tr>
+  <tr><td>파라미터</td><td>1,832</td><td>194,537</td></tr>
+</table>
+<p>입력(96×96×3)과 출력(행동 9개), 계기판에서 읽은 센서 값 7개를 영상 특징에 붙이는 부분은 그대로 두고 <code>self.conv</code>와 <code>self.fc</code>만 바꿨습니다.</p>
+<p><b>구조 선택 이유.</b> 기본 모델은 stride 4 합성곱 한 층 뒤에 평균 풀링으로 4×4까지 줄여 도로 경계의 위치 같은 공간 정보가 뭉개집니다. 제공 데이터로 다시 학습해도 학습 데이터와의 행동 일치율이 0.81~0.84에 그쳤고, 도로 이탈 없는 완주는 batch 4096에서 5회 중 1회뿐이었으며 batch 256에서는 4회 모두 실패했습니다. stride 2 합성곱을 네 번 거치며 해상도를 단계적으로 줄이고 채널을 늘리자, 같은 데이터에서 일치율 0.96~0.98, 12회 학습 중 9회가 도로 이탈 없이 완주했습니다. 은닉층(128)은 영상 특징과 센서 값을 비선형으로 결합하기 위해 넣었습니다. 추론은 CPU에서도 프레임당 1ms 미만입니다.</p>
+<p><b>학습 parameter.</b> 제공 데이터로 비교해 정했습니다. batch size는 4096에서 256으로 줄였습니다. 4096이면 100 epoch 동안 가중치 갱신이 약 400번뿐이라 새 구조도 3회 모두 완주하지 못했습니다. epoch은 100을 유지했습니다(50 미만에서는 16회 중 1회만 완주). learning rate 0.001(Adam)은 기본값 그대로이고, 매 학습은 이전 모델에서 이어 가지 않고 처음부터 시작했습니다.</p>
+
+<h2>4. 학습 및 주행 결과</h2>
+<p><b>학습.</b> 공식 <code>scripts/train.py</code>로 21바퀴(43,098프레임)를 100 epoch 학습했습니다(epoch당 169 batch, 총 16,900회 갱신, RTX 5070 Ti Laptop에서 약 9분 30초). 마지막 epoch의 loss 합은 2.29(batch 평균 0.014)이고, 학습 데이터와의 행동 일치율은 99.57%입니다.</p>
+<table class="data">
+  <tr><th class="l">모델</th><th>학습 데이터</th><th>epoch</th><th>랩타임</th><th>중앙선 유지</th><th>진행률</th></tr>
+  <tr><td class="l">기본 모델 (제공된 <code>baseline.pth</code>)</td><td>–</td><td>–</td><td>45.54초</td><td>51.03</td><td>100.00</td></tr>
+  <tr><td class="l">구조만 변경 (4층 CNN)</td><td>제공 7바퀴 (15,067프레임)</td><td>100</td><td>43.28초</td><td>66.80</td><td>100.00</td></tr>
+  <tr class="final"><td class="l">최종 모델 (4층 CNN)</td><td>직접 수집 21바퀴 (43,098프레임)</td><td>100</td><td>40.94초</td><td>33.24</td><td>70.66</td></tr>
+  <tr><td class="l">추가 학습 ① epoch 축소</td><td>같은 21바퀴</td><td>50</td><td>미완주</td><td>31.48</td><td>66.44</td></tr>
+  <tr><td class="l">추가 학습 ② 빠른 바퀴만</td><td>41초 미만 10바퀴 (20,289프레임)</td><td>100</td><td>미완주</td><td>7.07</td><td>11.76</td></tr>
+</table>
+<p class="note">로컬에서 공식 <code>scripts/infer.py</code>로 고정 트랙을 한 바퀴 주행한 결과입니다. 같은 모델의 주행은 반복해도 결과가 같고, GPU와 CPU의 결과도 같았습니다. 추가 학습 ①, ②는 도로 밖에서 5초 안에 복귀하지 못해 주행이 중단됐습니다(5절).</p>
+<p>최종 모델은 기본 모델보다 4.60초, 구조만 바꾼 모델보다 2.34초 빠르며, 목표 두 가지(42초 이내, 중앙선 유지 30 이상)를 만족합니다. <b>입력 변화에 대한 안정성</b>을 보려고 관측 영상에 ±2 픽셀 잡음을 주거나 계기판의 숫자를 지운 채로 6회 더 주행시켰습니다. 6회 모두 완주했고 랩타임 40.52~42.38초, 중앙선 유지 30.86~40.02, 진행률 69.40~85.02였습니다.</p>
+<div class="figs">
+  <figure class="a"><img src="shot.png" alt=""><figcaption>그림 1. 최종 모델의 추론 화면(완주 시점)</figcaption></figure>
+  <figure class="b"><img src="map.png" alt=""><figcaption>그림 2. 주행 궤적. 회색 띠가 도로이고, 주황색은 최종 모델이 도로 밖을 달린 구간입니다.</figcaption></figure>
+</div>
+
+<h2>5. 결과 분석</h2>
+<p><b>데이터의 영향.</b> 모델은 학습 데이터의 주행 라인을 그대로 재현했습니다. 최종 모델의 랩타임 40.94초, 중앙선 유지 33.24, 진행률 70.66은 학습 데이터의 평균(41.05초, 31.02, 78.77)과 비슷합니다. 구조가 같은 모델을 제공 데이터(42.72~43.44초)로 학습하면 43.28초였으므로, 줄어든 2.34초는 모두 데이터의 주행 라인에서 나온 것입니다. 그림 2처럼 최종 모델은 다섯 구간에서 코너 안쪽을 가로지릅니다.</p>
+<p><b>모델 구조의 영향.</b> 기본 구조는 학습 데이터조차 충분히 따라 하지 못해 완주가 어려웠습니다. 구조 변경은 랩타임을 직접 줄였다기보다 데이터를 재현할 수 있게 만든 조건이었고, 구조와 batch size를 바꾼 것만으로 제공 데이터에서 43.28초(기본 모델 45.54초), 중앙선 유지 66.80(기본 모델 51.03)이 됐습니다.</p>
+<p><b>주요 실패 사례와 한계.</b></p>
+<ol class="limits">
+  <li><b>진행률 70.66.</b> 전체 2,047프레임 중 467프레임(22.8%)을 도로 밖에서 달립니다. 특히 마지막 코너를 가로지를 때는 224프레임(4.48초)을 연속으로 벗어나, 5초 연속 이탈이면 주행이 중단되는 제한까지 0.52초밖에 남지 않습니다.</li>
+  <li><b>추가 학습의 실패.</b> 같은 21바퀴를 50 epoch만 학습한 모델(①)은 마지막 코너의 지름길에 최종 모델보다 일찍 들어가 5초(250프레임) 안에 도로로 돌아오지 못했고, 진행률 66.44에서 중단됐습니다. 41초 미만인 10바퀴만으로 학습한 모델(②)은 첫 코너를 지난 직선에서 도로를 벗어난 뒤 복귀하지 못해 진행률 11.76에서 중단됐습니다. 한 번씩만 학습해 원인을 단정할 수는 없지만, 지름길을 쓰는 라인은 학습이 조금만 달라져도 완주에 실패할 수 있음을 보여 줍니다.</li>
+  <li><b>작은 여유.</b> 중앙선 유지는 기준보다 3.24 높을 뿐이고, 입력을 조금 바꾼 6회 중 1회는 42.38초로 목표를 넘었습니다. 빠른 라인일수록 중앙선 유지와 진행률이 내려가는 관계라 둘을 함께 높이기 어렵습니다.</li>
+  <li><b>출발 대기의 모방.</b> 수집할 때 시작 후 12~43프레임을 기다린 것이 데이터에 남아, 모델도 43프레임(0.86초) 동안 멈춰 있다가 출발합니다. 대기 없이 수집한 데이터로 줄일 수 있습니다.</li>
+  <li><b>loss로는 고를 수 없음.</b> 제공 데이터로 같은 설정을 4회 학습했을 때도 loss는 비슷했지만 1회는 도로를 벗어났습니다(진행률 97.31). 모델은 주행시켜 골라야 합니다.</li>
+  <li><b>일반화.</b> 고정 트랙 하나와 한 가지 라인만 학습했으므로, 다른 트랙이나 데이터에 없던 위치에서 도로로 복귀하는 동작은 기대하기 어렵습니다.</li>
+</ol>
+
+</body>
+</html>

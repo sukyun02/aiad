@@ -1,0 +1,60 @@
+        self.conv = torch.nn.Sequential(
+            torch.nn.Conv2d(3, 8, kernel_size=5, stride=4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 16, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+        )
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(16 * 11 * 11 + 7, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.n_classes),
+        )
+
+        self.conv = torch.nn.Sequential(
+            torch.nn.Conv2d(3, 8, kernel_size=5, stride=2),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 16, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(16, 32, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(32, 32, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+        )
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(32 * 4 * 4 + 7, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.n_classes),
+        )
+
+        self.conv = torch.nn.Sequential(
+            torch.nn.Conv2d(3, 8, kernel_size=5, stride=4),
+            torch.nn.ReLU(),
+            MPSCompatibleAdaptiveAvgPool2d((12, 12)),
+        )
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(8 * 12 * 12 + 7, self.n_classes),
+        )
+
+        self.conv = torch.nn.Sequential(
+            torch.nn.Conv2d(3, 8, kernel_size=5, stride=4),
+            torch.nn.ReLU(),
+            MPSCompatibleAdaptiveAvgPool2d((4, 4)),
+        )
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(8 * 4 * 4 + 7, 64),
+            torch.nn.ReLU(),
+            torch.nn.Linear(64, self.n_classes),
+        )
+
+        self.conv = torch.nn.Sequential(
+            torch.nn.Conv2d(3, 8, kernel_size=5, stride=4),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(8, 16, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+            torch.nn.Conv2d(16, 32, kernel_size=3, stride=2),
+            torch.nn.ReLU(),
+        )
+        self.fc = torch.nn.Sequential(
+            torch.nn.Linear(32 * 5 * 5 + 7, self.n_classes),
+        )
+

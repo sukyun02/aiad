@@ -1,0 +1,133 @@
+{
+ "sections": {
+  "S0": {
+   "start": 0.0,
+   "end": 15.5,
+   "good": 44,
+   "good_min": 44,
+   "good_max": 44,
+   "centre": 44,
+   "tol": 2
+  },
+  "C1": {
+   "start": 15.5,
+   "end": 107.0,
+   "good": 192,
+   "good_min": 191,
+   "good_max": 194,
+   "centre": 201,
+   "tol": 4
+  },
+  "S1": {
+   "start": 107.0,
+   "end": 218.5,
+   "good": 247,
+   "good_min": 247,
+   "good_max": 248,
+   "centre": 248,
+   "tol": 2
+  },
+  "C2": {
+   "start": 218.5,
+   "end": 303.0,
+   "good": 183,
+   "good_min": 182,
+   "good_max": 183,
+   "centre": 187,
+   "tol": 2
+  },
+  "S2": {
+   "start": 303.0,
+   "end": 351.5,
+   "good": 108,
+   "good_min": 108,
+   "good_max": 108,
+   "centre": 108,
+   "tol": 2
+  },
+  "C3": {
+   "start": 351.5,
+   "end": 429.0,
+   "good": 168,
+   "good_min": 166,
+   "good_max": 169,
+   "centre": 172,
+   "tol": 2
+  },
+  "S3": {
+   "start": 429.0,
+   "end": 488.0,
+   "good": 130,
+   "good_min": 130,
+   "good_max": 131,
+   "centre": 131,
+   "tol": 2
+  },
+  "C4": {
+   "start": 488.0,
+   "end": 579.25,
+   "good": 190,
+   "good_min": 189,
+   "good_max": 191,
+   "centre": 200,
+   "tol": 5
+  },
+  "C5": {
+   "start": 579.25,
+   "end": 663.5,
+   "good": 184,
+   "good_min": 183,
+   "good_max": 184,
+   "centre": 187,
+   "tol": 2
+  },
+  "S4": {
+   "start": 663.5,
+   "end": 698.0,
+   "good": 76,
+   "good_min": 75,
+   "good_max": 76,
+   "centre": 77,
+   "tol": 2
+  },
+  "C67": {
+   "start": 698.0,
+   "end": 796.5,
+   "good": 214,
+   "good_min": 213,
+   "good_max": 214,
+   "centre": 216,
+   "tol": 2
+  },
+  "S5": {
+   "start": 796.5,
+   "end": 849.0,
+   "good": 117,
+   "good_min": 116,
+   "good_max": 117,
+   "centre": 117,
+   "tol": 2
+  },
+  "C8": {
+   "start": 849.0,
+   "end": 943.5,
+   "good": 195,
+   "good_min": 193,
+   "good_max": 196,
+   "centre": 206,
+   "tol": 5
+  },
+  "S6": {
+   "start": 943.5,
+   "end": 959.0,
+   "good": 36,
+   "good_min": 35,
+   "good_max": 36,
+   "centre": 36,
+   "tol": 2
+  }
+ },
+ "lap_good": 41.65,
+ "lap_centre": 42.6,
+ "pad": 30.0
+}

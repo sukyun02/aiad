@@ -1,0 +1,10 @@
+seed 5 epoch 30: loss_sum 23.2111 mean 0.3934 acc 0.8316
+seed 5 epoch 40: loss_sum 18.5616 mean 0.3146 acc 0.8775
+seed 5 epoch 50: loss_sum 15.4263 mean 0.2615 acc 0.9076
+seed 5 epoch 60: loss_sum 13.2346 mean 0.2243 acc 0.9203
+seed 5 epoch 80: loss_sum 8.1344 mean 0.1379 acc 0.9548
+seed 5 epoch 100: loss_sum 3.9394 mean 0.0668 acc 0.9765
+seed 5 epoch 150: loss_sum 1.6084 mean 0.0273 acc 0.9938
+seed 5 epoch 200: loss_sum 0.9415 mean 0.0160 acc 0.9967
+seed 5 epoch 250: loss_sum 0.6936 mean 0.0118 acc 0.9951
+seed 5 epoch 300: loss_sum 0.2451 mean 0.0042 acc 0.9985

@@ -1,0 +1,11 @@
+mixA s2_mixA 100 - 0
+E3 s2_E3 100 - 0
+E2 s2_E2 100 - 0
+A4 s2_A4 200 100 0
+C6 s2_scriptC 100 - 0
+E5 s2_E5 100 - 0
+A2 s2_A2 400 100,200 0
+A8b s2_scriptA 100 - 4
+E2E5 s2_E2E5 100 - 0
+A16 s2_A16 100 - 0
+A8e200 s2_scriptA 200 150 8

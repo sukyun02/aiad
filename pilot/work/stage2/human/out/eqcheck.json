@@ -1,0 +1,122 @@
+[
+ {
+  "name": "A_lap1",
+  "ref_lap": 41.72,
+  "new_lap": 41.72,
+  "ref_counts": [
+   0,
+   1390,
+   0,
+   0,
+   0,
+   539,
+   157,
+   0,
+   0
+  ],
+  "new_counts": [
+   0,
+   1390,
+   0,
+   0,
+   0,
+   539,
+   157,
+   0,
+   0
+  ],
+  "all_common_json_fields_equal": true,
+  "differing_fields": [],
+  "trace_shape": [
+   [
+    2086,
+    6
+   ],
+   [
+    2086,
+    6
+   ]
+  ],
+  "trace_rows_bit_identical": true
+ },
+ {
+  "name": "A_lap7",
+  "ref_lap": 41.58,
+  "new_lap": 41.58,
+  "ref_counts": [
+   0,
+   1399,
+   0,
+   0,
+   0,
+   522,
+   158,
+   0,
+   0
+  ],
+  "new_counts": [
+   0,
+   1399,
+   0,
+   0,
+   0,
+   522,
+   158,
+   0,
+   0
+  ],
+  "all_common_json_fields_equal": true,
+  "differing_fields": [],
+  "trace_shape": [
+   [
+    2079,
+    6
+   ],
+   [
+    2079,
+    6
+   ]
+  ],
+  "trace_rows_bit_identical": true
+ },
+ {
+  "name": "C_lap1",
+  "ref_lap": 42.0,
+  "new_lap": 42.0,
+  "ref_counts": [
+   4,
+   1331,
+   0,
+   0,
+   0,
+   518,
+   247,
+   0,
+   0
+  ],
+  "new_counts": [
+   4,
+   1331,
+   0,
+   0,
+   0,
+   518,
+   247,
+   0,
+   0
+  ],
+  "all_common_json_fields_equal": true,
+  "differing_fields": [],
+  "trace_shape": [
+   [
+    2100,
+    6
+   ],
+   [
+    2100,
+    6
+   ]
+  ],
+  "trace_rows_bit_identical": true
+ }
+]

@@ -1,0 +1,25 @@
+pygame 2.5.8 | K_RETURN 13 | K_KP_ENTER 1073741912 | equal: False
+kor font match: /usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc
+desktop (1920, 1080) -> window (1000, 900) | compact panel (4th column hidden): False
+desktop (1920, 1200) -> window (1000, 900) | compact panel (4th column hidden): False
+desktop (2560, 1600) -> window (1000, 900) | compact panel (4th column hidden): False
+desktop (1536, 864) -> window (1000, 744) | compact panel (4th column hidden): True
+desktop (1280, 800) -> window (1000, 680) | compact panel (4th column hidden): True
+
+actual max inside offset per corner in the scriptA laps (trace col 1, +-15 window):
+  A_lap1 E 4.0 lap 41.72 centre 67.60 | C1 4.67 C2 3.61 C3 2.27 C4 4.63 C5 2.69 C6 1.42 C7 2.98 C8 4.64
+  A_lap2 E 4.0 lap 41.78 centre 70.92 | C1 4.40 C2 4.36 C3 2.51 C4 4.64 C5 3.44 C6 3.56 C7 4.14 C8 4.56
+  A_lap3 E 3.5 lap 41.70 centre 63.89 | C1 4.33 C2 4.09 C3 2.86 C4 4.32 C5 3.39 C6 1.64 C7 3.58 C8 4.34
+  A_lap4 E 4.5 lap 41.62 centre 65.85 | C1 5.04 C2 3.96 C3 2.49 C4 5.14 C5 2.98 C6 1.52 C7 3.20 C8 5.14
+  A_lap5 E 4.0 lap 41.68 centre 64.02 | C1 4.57 C2 4.46 C3 3.40 C4 4.58 C5 4.19 C6 3.08 C7 4.31 C8 4.54
+  A_lap6 E 3.5 lap 41.60 centre 58.29 | C1 4.57 C2 4.31 C3 3.86 C4 4.51 C5 3.94 C6 3.48 C7 3.93 C8 4.54
+  A_lap7 E 4.5 lap 41.58 centre 66.43 | C1 5.27 C2 4.71 C3 2.73 C4 5.40 C5 3.44 C6 2.45 C7 4.35 C8 5.33
+  A_lap8 E 4.0 lap 41.58 centre 61.57 | C1 4.79 C2 4.61 C3 3.28 C4 4.79 C5 3.86 C6 1.78 C7 4.00 C8 4.84
+  range over the 8 laps: {'C1': [4.33, 5.27], 'C2': [3.61, 4.71], 'C3': [2.27, 3.86], 'C4': [4.32, 5.4], 'C5': [2.69, 4.19], 'C6': [1.42, 3.56], 'C7': [2.98, 4.35], 'C8': [4.34, 5.33]}
+  share of frames with |offset| > 1.0: 0.35-0.51
+  share of frames with |offset| > 2.0: 0.18-0.39
+  share of frames with |offset| > 3.0: 0.09-0.24
+
+gas released for 50 frames from top speed: speed after k frames: {0: 22.5, 1: 22.14, 2: 21.84, 5: 20.93, 10: 19.41, 20: 16.37, 25: 14.85, 30: 13.33, 40: 10.29, 50: 7.26}
+  mean loss per frame over frames 2..50: 0.304
+  gas released and never pressed again (corners run): first gas-off frame 113 speed 22.5 -> standstill at frame 188 = 75 frames; distance covered 21.7

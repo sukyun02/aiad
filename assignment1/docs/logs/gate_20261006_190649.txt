@@ -1,0 +1,10 @@
+probe      clean status       lap progress center maxoff offroad
+cuda       yes   finished   43.14   100.00  76.37   3.98       0
+cpu        yes   finished   43.14   100.00  76.37   3.98       0
+hud_zero   yes   finished   43.18   100.00  73.11   4.29       0
+noise2_s0  yes   finished   43.02   100.00  73.68   3.36       0
+noise2_s1  no    finished   43.06    97.34  73.70   8.27      56
+noise2_s2  yes   finished   43.00   100.00  75.16   3.98       0
+noise2_s3  no    finished   42.88    98.20  72.51   7.16      37
+noise2_s4  yes   finished   43.04   100.00  75.49   4.03       0
+nominal (cuda, cpu clean and identical): yes | perturbed clean 4/6, not finished 0 | worst max_offset 8.27 | gate FAIL

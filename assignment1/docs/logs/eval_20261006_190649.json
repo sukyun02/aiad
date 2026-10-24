@@ -1,0 +1,1 @@
+{"status": "finished", "lap_time": 43.14, "progress": 100.0, "center": 76.37, "frames": 2157, "path_len": 953.8, "mean_offset": 0.635, "max_offset": 3.98, "mean_speed": 22.49, "steer_frac": 0.2146, "switches": 176, "offroad_frames": 0, "action_counts": [25, 1669, 0, 0, 0, 317, 146, 0, 0]}

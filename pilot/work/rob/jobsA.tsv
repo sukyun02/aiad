@@ -1,0 +1,270 @@
+cnnA-e50-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	
+cnnA-e50-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	
+cnnA-e50-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	
+cnnA-e50-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	
+cnnA_crop-e50-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	
+cnnA_crop-e50-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	
+cnnA_crop-e50-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	
+cnnA_crop-e50-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	
+cnnA-e100-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	
+cnnA-e100-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	
+cnnA-e100-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	
+cnnA-e100-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	
+cnnA_crop-e100-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	
+cnnA_crop-e100-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	
+cnnA_crop-e100-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	
+cnnA_crop-e100-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	
+cnnA-e25-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	
+cnnA-e25-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	
+cnnA-e25-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	
+cnnA-e25-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	
+cnnA_crop-e25-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	
+cnnA_crop-e25-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	
+cnnA_crop-e25-s2__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	
+cnnA_crop-e25-s3__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	
+baseline-e0-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	
+base4096-e100-s0__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	
+base4096-e100-s1__cuda	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	
+cnnA-e50-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu
+cnnA-e50-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu
+cnnA-e50-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu
+cnnA-e50-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu
+cnnA_crop-e50-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu
+cnnA_crop-e50-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu
+cnnA_crop-e50-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu
+cnnA_crop-e50-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu
+cnnA-e100-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu
+cnnA-e100-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu
+cnnA-e100-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu
+cnnA-e100-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu
+cnnA_crop-e100-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu
+cnnA_crop-e100-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu
+cnnA_crop-e100-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu
+cnnA_crop-e100-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu
+cnnA-e25-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu
+cnnA-e25-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu
+cnnA-e25-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu
+cnnA-e25-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu
+cnnA_crop-e25-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu
+cnnA_crop-e25-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu
+cnnA_crop-e25-s2__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu
+cnnA_crop-e25-s3__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu
+baseline-e0-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu
+base4096-e100-s0__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu
+base4096-e100-s1__cpu	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu
+cnnA-e50-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e50-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e50-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e50-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e50-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e50-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e50-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e50-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e100-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e100-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e100-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e100-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e100-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e100-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e100-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e100-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e25-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e25-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e25-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e25-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e25-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e25-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e25-s2__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA_crop-e25-s3__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 2 --noise-seed 0
+baseline-e0-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --noise 2 --noise-seed 0
+base4096-e100-s0__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --noise 2 --noise-seed 0
+base4096-e100-s1__n2s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --noise 2 --noise-seed 0
+cnnA-e50-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --hud zero
+cnnA-e50-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --hud zero
+cnnA-e50-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --hud zero
+cnnA-e50-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --hud zero
+cnnA_crop-e50-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --hud zero
+cnnA_crop-e50-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --hud zero
+cnnA_crop-e50-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --hud zero
+cnnA_crop-e50-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --hud zero
+cnnA-e100-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --hud zero
+cnnA-e100-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --hud zero
+cnnA-e100-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --hud zero
+cnnA-e100-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --hud zero
+cnnA_crop-e100-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --hud zero
+cnnA_crop-e100-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --hud zero
+cnnA_crop-e100-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --hud zero
+cnnA_crop-e100-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --hud zero
+cnnA-e25-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --hud zero
+cnnA-e25-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --hud zero
+cnnA-e25-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --hud zero
+cnnA-e25-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --hud zero
+cnnA_crop-e25-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --hud zero
+cnnA_crop-e25-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --hud zero
+cnnA_crop-e25-s2__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --hud zero
+cnnA_crop-e25-s3__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --hud zero
+baseline-e0-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --hud zero
+base4096-e100-s0__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --hud zero
+base4096-e100-s1__hudzero	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --hud zero
+cnnA-e50-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e50-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e50-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e50-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e50-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e50-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e50-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e50-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e100-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e100-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e100-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e100-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e100-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e100-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e100-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e100-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e25-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e25-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e25-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e25-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e25-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e25-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e25-s2__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA_crop-e25-s3__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 1 --noise-seed 0
+baseline-e0-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --noise 1 --noise-seed 0
+base4096-e100-s0__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --noise 1 --noise-seed 0
+base4096-e100-s1__n1s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --noise 1 --noise-seed 0
+cnnA-e50-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e50-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e50-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e50-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e50-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e50-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e50-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e50-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e100-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e100-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e100-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e100-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e100-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e100-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e100-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e100-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e25-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e25-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e25-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e25-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e25-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e25-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e25-s2__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA_crop-e25-s3__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --noise 4 --noise-seed 0
+baseline-e0-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --noise 4 --noise-seed 0
+base4096-e100-s0__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --noise 4 --noise-seed 0
+base4096-e100-s1__n4s0	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --noise 4 --noise-seed 0
+cnnA-e50-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --hud shift
+cnnA-e50-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --hud shift
+cnnA-e50-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --hud shift
+cnnA-e50-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --hud shift
+cnnA_crop-e50-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --hud shift
+cnnA_crop-e50-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --hud shift
+cnnA_crop-e50-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --hud shift
+cnnA_crop-e50-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --hud shift
+cnnA-e100-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --hud shift
+cnnA-e100-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --hud shift
+cnnA-e100-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --hud shift
+cnnA-e100-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --hud shift
+cnnA_crop-e100-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --hud shift
+cnnA_crop-e100-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --hud shift
+cnnA_crop-e100-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --hud shift
+cnnA_crop-e100-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --hud shift
+cnnA-e25-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --hud shift
+cnnA-e25-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --hud shift
+cnnA-e25-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --hud shift
+cnnA-e25-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --hud shift
+cnnA_crop-e25-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --hud shift
+cnnA_crop-e25-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --hud shift
+cnnA_crop-e25-s2__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --hud shift
+cnnA_crop-e25-s3__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --hud shift
+baseline-e0-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --hud shift
+base4096-e100-s0__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --hud shift
+base4096-e100-s1__hudshift	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --hud shift
+cnnA-e50-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	k	--device cpu --hud dim
+cnnA-e50-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	k	--device cpu --hud dim
+cnnA-e50-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	k	--device cpu --hud dim
+cnnA-e50-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	k	--device cpu --hud dim
+cnnA_crop-e50-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	k	--device cpu --hud dim
+cnnA_crop-e50-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	k	--device cpu --hud dim
+cnnA_crop-e50-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	k	--device cpu --hud dim
+cnnA_crop-e50-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	k	--device cpu --hud dim
+cnnA-e100-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	k	--device cpu --hud dim
+cnnA-e100-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	k	--device cpu --hud dim
+cnnA-e100-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	k	--device cpu --hud dim
+cnnA-e100-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	k	--device cpu --hud dim
+cnnA_crop-e100-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	k	--device cpu --hud dim
+cnnA_crop-e100-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	k	--device cpu --hud dim
+cnnA_crop-e100-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	k	--device cpu --hud dim
+cnnA_crop-e100-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	k	--device cpu --hud dim
+cnnA-e25-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	k	--device cpu --hud dim
+cnnA-e25-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	k	--device cpu --hud dim
+cnnA-e25-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	k	--device cpu --hud dim
+cnnA-e25-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	k	--device cpu --hud dim
+cnnA_crop-e25-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	k	--device cpu --hud dim
+cnnA_crop-e25-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	k	--device cpu --hud dim
+cnnA_crop-e25-s2__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	k	--device cpu --hud dim
+cnnA_crop-e25-s3__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	k	--device cpu --hud dim
+baseline-e0-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	k	--device cpu --hud dim
+base4096-e100-s0__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	k	--device cpu --hud dim
+base4096-e100-s1__huddim	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	k	--device cpu --hud dim
+cnnA-e50-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	r	--device cpu --threads 4
+cnnA-e50-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	r	--device cpu --threads 4
+cnnA-e50-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	r	--device cpu --threads 4
+cnnA-e50-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	r	--device cpu --threads 4
+cnnA_crop-e50-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	r	--device cpu --threads 4
+cnnA_crop-e50-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	r	--device cpu --threads 4
+cnnA_crop-e50-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	r	--device cpu --threads 4
+cnnA_crop-e50-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	r	--device cpu --threads 4
+cnnA-e100-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	r	--device cpu --threads 4
+cnnA-e100-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	r	--device cpu --threads 4
+cnnA-e100-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	r	--device cpu --threads 4
+cnnA-e100-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	r	--device cpu --threads 4
+cnnA_crop-e100-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	r	--device cpu --threads 4
+cnnA_crop-e100-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	r	--device cpu --threads 4
+cnnA_crop-e100-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	r	--device cpu --threads 4
+cnnA_crop-e100-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	r	--device cpu --threads 4
+cnnA-e25-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	r	--device cpu --threads 4
+cnnA-e25-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	r	--device cpu --threads 4
+cnnA-e25-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	r	--device cpu --threads 4
+cnnA-e25-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	r	--device cpu --threads 4
+cnnA_crop-e25-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	r	--device cpu --threads 4
+cnnA_crop-e25-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	r	--device cpu --threads 4
+cnnA_crop-e25-s2__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	r	--device cpu --threads 4
+cnnA_crop-e25-s3__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	r	--device cpu --threads 4
+baseline-e0-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	r	--device cpu --threads 4
+base4096-e100-s0__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	r	--device cpu --threads 4
+base4096-e100-s1__thr4	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	r	--device cpu --threads 4
+cnnA-e50-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e50-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e50-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e50-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e50-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e50-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e50-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e50-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e50.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e100-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e100-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e100-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e100-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e100-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e100-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e100-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e100-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e25-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s0_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e25-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s1_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e25-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s2_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA-e25-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA/runs/b256_e100/s3_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e25-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s0_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e25-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s1_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e25-s2__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s2_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+cnnA_crop-e25-s3__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/cnnA_crop/runs/b256_e100/s3_e25.pth	r	--device cpu --logit-noise 0.001 --seed 0
+baseline-e0-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/blobs/baseline.pth	r	--device cpu --logit-noise 0.001 --seed 0
+base4096-e100-s0__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s0.pth	r	--device cpu --logit-noise 0.001 --seed 0
+base4096-e100-s1__ln3	/tmp/claude-1000/-home-sukyun02-workspace-aiad/f6671148-763f-4d67-b271-9509c8ff34a3/scratchpad/cands/base/runs/b4096_e100/s1.pth	r	--device cpu --logit-noise 0.001 --seed 0

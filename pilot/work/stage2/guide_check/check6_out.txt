@@ -1,0 +1,56 @@
+segment j: start along, length, heading, turn at its end node (+ = left)
+  j 198 along  693.0 len 3.50 heading  +360.42 turn at along  696.5:  -0.42
+  j 199 along  696.5 len 3.50 heading  +360.00 turn at along  700.0:  -0.33
+  j 200 along  700.0 len 3.50 heading  +359.67 turn at along  703.5:  -0.27
+  j 201 along  703.5 len 3.50 heading  +359.41 turn at along  707.0:  -0.22
+  j 202 along  707.0 len 3.50 heading  +359.19 turn at along  710.5:  -0.19
+  j 203 along  710.5 len 3.50 heading  +359.00 turn at along  714.0:  -0.16
+  j 204 along  714.0 len 3.50 heading  +358.84 turn at along  717.5:  -0.14
+  j 205 along  717.5 len 3.50 heading  +358.69 turn at along  721.0:  -0.13
+  j 206 along  721.0 len 3.50 heading  +358.56 turn at along  724.5:  -0.12
+  j 207 along  724.5 len 3.50 heading  +358.44 turn at along  728.0:  -0.12
+  j 208 along  728.0 len 3.50 heading  +358.32 turn at along  731.5:  -0.11
+  j 209 along  731.5 len 3.50 heading  +358.21 turn at along  735.0:  -0.11
+  j 210 along  735.0 len 3.50 heading  +358.10 turn at along  738.5: +14.17
+  j 211 along  738.5 len 3.50 heading  +372.27 turn at along  742.0: +15.77
+  j 212 along  742.0 len 3.50 heading  +388.04 turn at along  745.5: +16.75
+  j 213 along  745.5 len 3.50 heading  +404.79 turn at along  749.0: -17.76
+  j 214 along  749.0 len 3.50 heading  +387.03 turn at along  752.5: -17.76
+  j 215 along  752.5 len 3.50 heading  +369.27 turn at along  756.0: -17.76
+  j 216 along  756.0 len 3.50 heading  +351.51 turn at along  759.5:  -5.22
+  j 217 along  759.5 len 3.50 heading  +346.28 turn at along  763.0:  -1.30
+  j 218 along  763.0 len 3.50 heading  +344.99 turn at along  766.5:  -0.35
+  j 219 along  766.5 len 3.50 heading  +344.64 turn at along  770.0:  -0.10
+  j 220 along  770.0 len 3.50 heading  +344.54 turn at along  773.5:  -0.03
+  j 221 along  773.5 len 3.50 heading  +344.51 turn at along  777.0:  +0.00
+  j 222 along  777.0 len 3.50 heading  +344.51 turn at along  780.5:  +0.00
+  j 223 along  780.5 len 3.50 heading  +344.51 turn at along  784.0:  +0.00
+  j 224 along  784.0 len 3.50 heading  +344.51 turn at along  787.5:  +0.00
+  j 225 along  787.5 len 3.50 heading  +344.51 turn at along  791.0:  +0.00
+  j 226 along  791.0 len 3.50 heading  +344.51 turn at along  794.5:  +0.00
+  j 227 along  794.5 len 3.50 heading  +344.51 turn at along  798.0:  +0.00
+  j 228 along  798.0 len 3.50 heading  +344.51 turn at along  801.5:  +0.00
+C1: sum of node turns in [45.5, 77.0) = +75.7 deg (closed interval +75.7), largest single node turn 17.8
+C2: sum of node turns in [248.5, 273.0) = +42.3 deg (closed interval +42.1), largest single node turn 17.8
+C3: sum of node turns in [381.5, 399.0) = +18.6 deg (closed interval +20.6), largest single node turn 5.9
+C4: sum of node turns in [518.0, 549.5) = +76.7 deg (closed interval +79.4), largest single node turn 17.8
+C5: sum of node turns in [609.0, 633.5) = +29.6 deg (closed interval +32.3), largest single node turn 9.4
+C6: sum of node turns in [728.0, 738.5) = -0.3 deg (closed interval +13.8), largest single node turn 0.1
+C7: sum of node turns in [749.0, 766.5) = -59.8 deg (closed interval -60.1), largest single node turn 17.8
+C8: sum of node turns in [879.0, 913.5) = +96.4 deg (closed interval +97.4), largest single node turn 17.8
+C6 wide: sum of node turns in [715, 747) = +46.0 deg (closed interval +46.0), largest single node turn 16.8
+C7 wide: sum of node turns in [747, 785) = -60.3 deg (closed interval -60.3), largest single node turn 17.8
+C6+C7: sum of node turns in [715, 785) = -14.3 deg (closed interval -14.3), largest single node turn 17.8
+K2: sum of node turns in [655, 712) = -20.1 deg (closed interval -20.1), largest single node turn 7.8
+runs of consecutive nodes turning the same way by more than 1.5 deg each:
+  along   56.0-  70.0:  +74.4 deg over 5 nodes
+  along  203.0- 210.0:   -8.0 deg over 3 nodes
+  along  259.0- 273.0:  +42.8 deg over 5 nodes
+  along  357.0- 409.5:  +44.5 deg over 16 nodes
+  along  437.5- 441.0:   +7.8 deg over 2 nodes
+  along  528.5- 553.0:  +81.2 deg over 8 nodes
+  along  616.0- 644.0:  +37.8 deg over 9 nodes
+  along  668.5- 679.0:  -18.2 deg over 4 nodes
+  along  738.5- 745.5:  +46.7 deg over 3 nodes
+  along  749.0- 759.5:  -58.5 deg over 4 nodes
+  along  889.0- 910.0:  +96.4 deg over 7 nodes

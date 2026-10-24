@@ -1,0 +1,52 @@
+[
+ {
+  "lap": "lap1",
+  "frames": 2093,
+  "finished": true,
+  "lap_time": 41.86,
+  "progress": 100.0,
+  "center": 60.89,
+  "path_len": 936.2,
+  "start_hold_frames": 0,
+  "max_abs_offset": 5.25,
+  "obs_mismatch_frames": 0,
+  "steer_frac": 0.224,
+  "brake_frames": 0,
+  "coast_frames": 0,
+  "inside_max": {
+   "C1": 5.25,
+   "C2": 4.04,
+   "C3": 3.06,
+   "C4": 4.81,
+   "C5": 3.21,
+   "C6": 1.37,
+   "C7": 2.01,
+   "C8": 4.7
+  }
+ },
+ {
+  "lap": "lap2",
+  "frames": 2092,
+  "finished": true,
+  "lap_time": 41.84,
+  "progress": 100.0,
+  "center": 59.08,
+  "path_len": 935.7,
+  "start_hold_frames": 0,
+  "max_abs_offset": 5.21,
+  "obs_mismatch_frames": 0,
+  "steer_frac": 0.233,
+  "brake_frames": 0,
+  "coast_frames": 0,
+  "inside_max": {
+   "C1": 5.21,
+   "C2": 3.84,
+   "C3": 2.94,
+   "C4": 4.95,
+   "C5": 3.61,
+   "C6": 1.23,
+   "C7": 2.64,
+   "C8": 4.96
+  }
+ }
+]

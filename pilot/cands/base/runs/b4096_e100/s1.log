@@ -1,0 +1,2 @@
+seed 1 epoch 100: loss_sum 2.2643 mean 0.5661 acc 0.7668
+RESULT base/b4096_e100 s1 e100 loss_sum 2.264 acc 0.767 | cuda: 43.96s prog 100.0 ctr 53.1 path 977 steer 0.29 maxoff 5.9 | cpu: 43.96s | hud_zero: 44.60s | hud_shift: 45.00s

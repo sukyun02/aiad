@@ -1,0 +1,12 @@
+--line lines/Q_lap01.npz --E 4 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap01 --out out/Q_lap01.json --trace out/Q_lap01.npz
+--line lines/Q_lap02.npz --E 4 --W 14 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap02 --out out/Q_lap02.json --trace out/Q_lap02.npz
+--line lines/Q_lap03.npz --E 3.5 --W 28 --k0 0.02 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap03 --out out/Q_lap03.json --trace out/Q_lap03.npz
+--line lines/Q_lap04.npz --E 4.5 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap04 --out out/Q_lap04.json --trace out/Q_lap04.npz
+--line lines/Q_lap05.npz --E 4 --W 21 --k0 0.02 --lookahead 8 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap05 --out out/Q_lap05.json --trace out/Q_lap05.npz
+--line lines/Q_lap06.npz --E 3.5 --W 21 --k0 0.01 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap06 --out out/Q_lap06.json --trace out/Q_lap06.npz
+--line lines/Q_lap07.npz --E 4.5 --W 21 --k0 0.03 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap07 --out out/Q_lap07.json --trace out/Q_lap07.npz
+--line lines/Q_lap08.npz --E 4 --W 28 --k0 0.02 --lookahead 9 --gain 1.1 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap08 --out out/Q_lap08.json --trace out/Q_lap08.npz
+--line lines/Q_lap09.npz --E 4 --W 21 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap09 --out out/Q_lap09.json --trace out/Q_lap09.npz
+--line lines/Q_lap10.npz --E 4 --W 14 --k0 0.02 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap10 --out out/Q_lap10.json --trace out/Q_lap10.npz
+--line lines/Q_lap11.npz --E 3.5 --W 14 --k0 0.03 --lookahead 8 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap11 --out out/Q_lap11.json --trace out/Q_lap11.npz
+--line lines/Q_lap12.npz --E 4.5 --W 14 --k0 0.02 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/Q12/lap12 --out out/Q_lap12.json --trace out/Q_lap12.npz

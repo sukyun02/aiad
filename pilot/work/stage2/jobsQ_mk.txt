@@ -1,0 +1,12 @@
+lines/Q_lap01.npz --E 4 --W 28 --k0 0.03 --off C2,C4,C5,C67
+lines/Q_lap02.npz --E 4 --W 14 --k0 0.03 --off C1,C5,C67,C8
+lines/Q_lap03.npz --E 3.5 --W 28 --k0 0.02 --off C1,C2,C4,C5
+lines/Q_lap04.npz --E 4.5 --W 28 --k0 0.03 --off C1,C2,C3,C67
+lines/Q_lap05.npz --E 4 --W 21 --k0 0.02 --off C1,C2,C3,C8
+lines/Q_lap06.npz --E 3.5 --W 21 --k0 0.01 --off C4,C5,C67,C8
+lines/Q_lap07.npz --E 4.5 --W 21 --k0 0.03 --off C2,C3,C5,C8
+lines/Q_lap08.npz --E 4 --W 28 --k0 0.02 --off C1,C3,C4,C8
+lines/Q_lap09.npz --E 4 --W 21 --k0 0.03 --off C3,C4,C67,C8
+lines/Q_lap10.npz --E 4 --W 14 --k0 0.02 --off C2,C4,C5,C8
+lines/Q_lap11.npz --E 3.5 --W 14 --k0 0.03 --off C1,C2,C3,C67
+lines/Q_lap12.npz --E 4.5 --W 14 --k0 0.02 --off C1,C3,C4,C8

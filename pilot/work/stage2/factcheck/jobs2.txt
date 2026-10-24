@@ -1,0 +1,3 @@
+driver_fc.py --E 5 --W 14 --k0 0.03 --lookahead 9 --gain 1.0 --hold 0 --tap-noise 0.012 --noise-seed 2 --save-dir /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/data/offroad_lap --out out/s3_source.json --trace out/s3_source.npz
+harness.py S1
+harness.py S2

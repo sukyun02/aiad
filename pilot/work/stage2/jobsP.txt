@@ -1,0 +1,10 @@
+--line lines/P_lap1.npz --E 4 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap1 --out out/P_lap1.json --trace out/P_lap1.npz
+--line lines/P_lap2.npz --E 4 --W 14 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap2 --out out/P_lap2.json --trace out/P_lap2.npz
+--line lines/P_lap3.npz --E 3.5 --W 28 --k0 0.02 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap3 --out out/P_lap3.json --trace out/P_lap3.npz
+--line lines/P_lap4.npz --E 4.5 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap4 --out out/P_lap4.json --trace out/P_lap4.npz
+--line lines/P_lap5.npz --E 4 --W 21 --k0 0.02 --lookahead 8 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap5 --out out/P_lap5.json --trace out/P_lap5.npz
+--line lines/P_lap6.npz --E 3.5 --W 21 --k0 0.01 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap6 --out out/P_lap6.json --trace out/P_lap6.npz
+--line lines/P_lap7.npz --E 4.5 --W 21 --k0 0.03 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap7 --out out/P_lap7.json --trace out/P_lap7.npz
+--line lines/P_lap8.npz --E 4 --W 28 --k0 0.02 --lookahead 9 --gain 1.1 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap8 --out out/P_lap8.json --trace out/P_lap8.npz
+--line lines/P_lap9.npz --E 4 --W 21 --k0 0.03 --lookahead 9 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap9 --out out/P_lap9.json --trace out/P_lap9.npz
+--line lines/P_lap10.npz --E 4 --W 14 --k0 0.02 --lookahead 10 --gain 1.0 --save-dir /home/sukyun02/workspace/aiad/pilot/data_s2/P10/lap10 --out out/P_lap10.json --trace out/P_lap10.npz

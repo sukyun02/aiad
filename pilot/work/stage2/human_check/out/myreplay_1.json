@@ -1,0 +1,556 @@
+[
+ {
+  "name": "N1",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20261006_222106_951401",
+  "frames_saved": 2182,
+  "frames_used": 2182,
+  "hold": 55,
+  "finished": true,
+  "lap_time": 43.64,
+  "progress": 100.0,
+  "center": 40.12,
+  "offroad_frames": 0,
+  "offroad_episodes": [],
+  "max_abs_offset": 5.71,
+  "mean_abs_offset": 2.66,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2127,
+  "corners": {
+   "C1": {
+    "frames": 130,
+    "inside_presses": 2,
+    "inside_frames": 24,
+    "inside_longest": 13,
+    "counter_frames": 0,
+    "inside_max_offset": 4.35,
+    "outside_max_offset": 2.12
+   },
+   "C2": {
+    "frames": 120,
+    "inside_presses": 2,
+    "inside_frames": 20,
+    "inside_longest": 15,
+    "counter_frames": 8,
+    "inside_max_offset": 2.77,
+    "outside_max_offset": 0.53
+   },
+   "C3": {
+    "frames": 110,
+    "inside_presses": 3,
+    "inside_frames": 25,
+    "inside_longest": 10,
+    "counter_frames": 0,
+    "inside_max_offset": 2.43,
+    "outside_max_offset": 4.34
+   },
+   "C4": {
+    "frames": 131,
+    "inside_presses": 1,
+    "inside_frames": 17,
+    "inside_longest": 17,
+    "counter_frames": 0,
+    "inside_max_offset": 3.96,
+    "outside_max_offset": 2.76
+   },
+   "C5": {
+    "frames": 124,
+    "inside_presses": 3,
+    "inside_frames": 16,
+    "inside_longest": 7,
+    "counter_frames": 0,
+    "inside_max_offset": 0.46,
+    "outside_max_offset": 4.94
+   },
+   "C6": {
+    "frames": 86,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 4.95,
+    "outside_max_offset": -0.44
+   },
+   "C7": {
+    "frames": 103,
+    "inside_presses": 1,
+    "inside_frames": 9,
+    "inside_longest": 9,
+    "counter_frames": 0,
+    "inside_max_offset": -0.41,
+    "outside_max_offset": 4.95
+   },
+   "C8": {
+    "frames": 132,
+    "inside_presses": 1,
+    "inside_frames": 30,
+    "inside_longest": 30,
+    "counter_frames": 0,
+    "inside_max_offset": 5.71,
+    "outside_max_offset": -0.61
+   }
+  }
+ },
+ {
+  "name": "N3",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20261006_222315_036798",
+  "frames_saved": 2187,
+  "frames_used": 2187,
+  "hold": 70,
+  "finished": true,
+  "lap_time": 43.74,
+  "progress": 96.3,
+  "center": 36.56,
+  "offroad_frames": 37,
+  "offroad_episodes": [
+   {
+    "start_along": 54.9,
+    "frames": 22,
+    "peak_offset": 8.09
+   },
+   {
+    "start_along": 537.7,
+    "frames": 2,
+    "peak_offset": 6.66
+   },
+   {
+    "start_along": 747.6,
+    "frames": 13,
+    "peak_offset": -7.34
+   }
+  ],
+  "max_abs_offset": 8.09,
+  "mean_abs_offset": 2.98,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2117,
+  "corners": {
+   "C1": {
+    "frames": 123,
+    "inside_presses": 1,
+    "inside_frames": 17,
+    "inside_longest": 17,
+    "counter_frames": 0,
+    "inside_max_offset": 8.09,
+    "outside_max_offset": -0.19
+   },
+   "C2": {
+    "frames": 119,
+    "inside_presses": 1,
+    "inside_frames": 15,
+    "inside_longest": 15,
+    "counter_frames": 0,
+    "inside_max_offset": 6.12,
+    "outside_max_offset": 3.29
+   },
+   "C3": {
+    "frames": 110,
+    "inside_presses": 1,
+    "inside_frames": 14,
+    "inside_longest": 14,
+    "counter_frames": 0,
+    "inside_max_offset": -0.11,
+    "outside_max_offset": 5.16
+   },
+   "C4": {
+    "frames": 121,
+    "inside_presses": 1,
+    "inside_frames": 19,
+    "inside_longest": 19,
+    "counter_frames": 0,
+    "inside_max_offset": 6.66,
+    "outside_max_offset": -0.53
+   },
+   "C5": {
+    "frames": 125,
+    "inside_presses": 2,
+    "inside_frames": 17,
+    "inside_longest": 15,
+    "counter_frames": 26,
+    "inside_max_offset": 6.22,
+    "outside_max_offset": 4.72
+   },
+   "C6": {
+    "frames": 89,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": -1.53,
+    "outside_max_offset": 7.18
+   },
+   "C7": {
+    "frames": 100,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 7.34,
+    "outside_max_offset": 0.56
+   },
+   "C8": {
+    "frames": 132,
+    "inside_presses": 1,
+    "inside_frames": 30,
+    "inside_longest": 30,
+    "counter_frames": 5,
+    "inside_max_offset": 3.68,
+    "outside_max_offset": -2.66
+   }
+  }
+ },
+ {
+  "name": "N5",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20261006_222455_449375",
+  "frames_saved": 2148,
+  "frames_used": 2148,
+  "hold": 33,
+  "finished": true,
+  "lap_time": 42.96,
+  "progress": 90.75,
+  "center": 34.0,
+  "offroad_frames": 155,
+  "offroad_episodes": [
+   {
+    "start_along": 97.4,
+    "frames": 63,
+    "peak_offset": -7.99
+   },
+   {
+    "start_along": 536.7,
+    "frames": 43,
+    "peak_offset": 9.06
+   },
+   {
+    "start_along": 745.5,
+    "frames": 36,
+    "peak_offset": -9.67
+   },
+   {
+    "start_along": 893.5,
+    "frames": 13,
+    "peak_offset": 7.36
+   }
+  ],
+  "max_abs_offset": 9.67,
+  "mean_abs_offset": 3.48,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2115,
+  "corners": {
+   "C1": {
+    "frames": 127,
+    "inside_presses": 13,
+    "inside_frames": 46,
+    "inside_longest": 6,
+    "counter_frames": 0,
+    "inside_max_offset": 6.17,
+    "outside_max_offset": 5.57
+   },
+   "C2": {
+    "frames": 118,
+    "inside_presses": 11,
+    "inside_frames": 36,
+    "inside_longest": 4,
+    "counter_frames": 0,
+    "inside_max_offset": 5.68,
+    "outside_max_offset": 3.19
+   },
+   "C3": {
+    "frames": 108,
+    "inside_presses": 10,
+    "inside_frames": 35,
+    "inside_longest": 5,
+    "counter_frames": 0,
+    "inside_max_offset": 1.87,
+    "outside_max_offset": 4.29
+   },
+   "C4": {
+    "frames": 128,
+    "inside_presses": 5,
+    "inside_frames": 36,
+    "inside_longest": 22,
+    "counter_frames": 12,
+    "inside_max_offset": 9.06,
+    "outside_max_offset": 4.87
+   },
+   "C5": {
+    "frames": 122,
+    "inside_presses": 2,
+    "inside_frames": 19,
+    "inside_longest": 15,
+    "counter_frames": 10,
+    "inside_max_offset": 5.71,
+    "outside_max_offset": 4.33
+   },
+   "C6": {
+    "frames": 90,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": -3.53,
+    "outside_max_offset": 9.53
+   },
+   "C7": {
+    "frames": 98,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 9.67,
+    "outside_max_offset": -2.7
+   },
+   "C8": {
+    "frames": 130,
+    "inside_presses": 3,
+    "inside_frames": 34,
+    "inside_longest": 20,
+    "counter_frames": 0,
+    "inside_max_offset": 7.36,
+    "outside_max_offset": 2.55
+   }
+  }
+ },
+ {
+  "name": "N7",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20261006_222834_863196",
+  "frames_saved": 2111,
+  "frames_used": 2111,
+  "hold": 56,
+  "finished": true,
+  "lap_time": 42.22,
+  "progress": 71.87,
+  "center": 30.84,
+  "offroad_frames": 440,
+  "offroad_episodes": [
+   {
+    "start_along": 46.0,
+    "frames": 66,
+    "peak_offset": 14.29
+   },
+   {
+    "start_along": 211.4,
+    "frames": 187,
+    "peak_offset": 21.51
+   },
+   {
+    "start_along": 517.5,
+    "frames": 60,
+    "peak_offset": 14.57
+   },
+   {
+    "start_along": 615.2,
+    "frames": 30,
+    "peak_offset": 7.62
+   },
+   {
+    "start_along": 678.7,
+    "frames": 22,
+    "peak_offset": -6.75
+   },
+   {
+    "start_along": 745.5,
+    "frames": 34,
+    "peak_offset": -9.52
+   },
+   {
+    "start_along": 878.1,
+    "frames": 41,
+    "peak_offset": 13.51
+   }
+  ],
+  "max_abs_offset": 21.51,
+  "mean_abs_offset": 4.69,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2055,
+  "corners": {
+   "C1": {
+    "frames": 110,
+    "inside_presses": 1,
+    "inside_frames": 15,
+    "inside_longest": 15,
+    "counter_frames": 0,
+    "inside_max_offset": 14.29,
+    "outside_max_offset": -0.19
+   },
+   "C2": {
+    "frames": 91,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 21.51,
+    "outside_max_offset": -13.85
+   },
+   "C3": {
+    "frames": 111,
+    "inside_presses": 1,
+    "inside_frames": 15,
+    "inside_longest": 15,
+    "counter_frames": 0,
+    "inside_max_offset": 4.33,
+    "outside_max_offset": 4.25
+   },
+   "C4": {
+    "frames": 115,
+    "inside_presses": 1,
+    "inside_frames": 10,
+    "inside_longest": 10,
+    "counter_frames": 0,
+    "inside_max_offset": 14.57,
+    "outside_max_offset": 4.8
+   },
+   "C5": {
+    "frames": 117,
+    "inside_presses": 1,
+    "inside_frames": 3,
+    "inside_longest": 3,
+    "counter_frames": 8,
+    "inside_max_offset": 7.62,
+    "outside_max_offset": 2.95
+   },
+   "C6": {
+    "frames": 90,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": -3.43,
+    "outside_max_offset": 9.3
+   },
+   "C7": {
+    "frames": 98,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 9.52,
+    "outside_max_offset": -2.34
+   },
+   "C8": {
+    "frames": 119,
+    "inside_presses": 3,
+    "inside_frames": 21,
+    "inside_longest": 11,
+    "counter_frames": 0,
+    "inside_max_offset": 13.51,
+    "outside_max_offset": 5.98
+   }
+  }
+ },
+ {
+  "name": "N9",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20261006_223042_178023",
+  "frames_saved": 2065,
+  "frames_used": 2065,
+  "hold": 38,
+  "finished": true,
+  "lap_time": 41.300000000000004,
+  "progress": 66.89,
+  "center": 20.79,
+  "offroad_frames": 566,
+  "offroad_episodes": [
+   {
+    "start_along": 12.9,
+    "frames": 163,
+    "peak_offset": 29.11
+   },
+   {
+    "start_along": 252.1,
+    "frames": 26,
+    "peak_offset": 8.25
+   },
+   {
+    "start_along": 409.9,
+    "frames": 20,
+    "peak_offset": -7.68
+   },
+   {
+    "start_along": 445.8,
+    "frames": 208,
+    "peak_offset": 27.02
+   },
+   {
+    "start_along": 642.4,
+    "frames": 149,
+    "peak_offset": -11.74
+   }
+  ],
+  "max_abs_offset": 29.11,
+  "mean_abs_offset": 6.57,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2027,
+  "corners": {
+   "C1": {
+    "frames": 53,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 29.11,
+    "outside_max_offset": -21.1
+   },
+   "C2": {
+    "frames": 116,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 8.25,
+    "outside_max_offset": 2.76
+   },
+   "C3": {
+    "frames": 108,
+    "inside_presses": 1,
+    "inside_frames": 16,
+    "inside_longest": 16,
+    "counter_frames": 0,
+    "inside_max_offset": 6.11,
+    "outside_max_offset": 7.66
+   },
+   "C4": {
+    "frames": 65,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": 27.02,
+    "outside_max_offset": -11.38
+   },
+   "C5": {
+    "frames": 125,
+    "inside_presses": 1,
+    "inside_frames": 11,
+    "inside_longest": 11,
+    "counter_frames": 0,
+    "inside_max_offset": 3.99,
+    "outside_max_offset": 7.81
+   },
+   "C6": {
+    "frames": 89,
+    "inside_presses": 0,
+    "inside_frames": 0,
+    "inside_longest": 0,
+    "counter_frames": 0,
+    "inside_max_offset": -1.51,
+    "outside_max_offset": 6.46
+   },
+   "C7": {
+    "frames": 103,
+    "inside_presses": 2,
+    "inside_frames": 9,
+    "inside_longest": 8,
+    "counter_frames": 0,
+    "inside_max_offset": 5.86,
+    "outside_max_offset": 2.44
+   },
+   "C8": {
+    "frames": 133,
+    "inside_presses": 1,
+    "inside_frames": 32,
+    "inside_longest": 32,
+    "counter_frames": 5,
+    "inside_max_offset": 4.47,
+    "outside_max_offset": -1.56
+   }
+  }
+ }
+]

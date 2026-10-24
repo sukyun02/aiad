@@ -1,0 +1,15 @@
+# 실험 기록(코드·노트·결과)만 올리고 데이터·가중치·캐시는 뺀다
+/*
+!/.gitignore
+!/kit/
+!/work/
+!/results/
+!/specs/
+!/cands/
+*.npz
+*.npy
+*.pth
+*.png
+*.pdf
+*.tmp
+__pycache__/

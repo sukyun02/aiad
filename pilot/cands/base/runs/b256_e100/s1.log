@@ -1,0 +1,6 @@
+seed 1 epoch 25: loss_sum 31.2925 mean 0.5304 acc 0.7749
+seed 1 epoch 50: loss_sum 28.2252 mean 0.4784 acc 0.795
+seed 1 epoch 100: loss_sum 23.5823 mean 0.3997 acc 0.8396
+RESULT base/b256_e100 s1 e25 loss_sum 31.292 acc 0.775 | cuda: aborted prog 17.3 ctr 10.5 path 219 steer 0.04 maxoff 12.9
+RESULT base/b256_e100 s1 e50 loss_sum 28.225 acc 0.795 | cuda: aborted prog 19.3 ctr 10.2 path 234 steer 0.04 maxoff 15.0
+RESULT base/b256_e100 s1 e100 loss_sum 23.582 acc 0.840 | cuda: aborted prog 32.9 ctr 15.6 path 553 steer 0.04 maxoff 23.6

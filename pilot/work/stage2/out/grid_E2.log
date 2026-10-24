@@ -1,0 +1,5 @@
+s2_cnnA/E2 s0 e100 loss_sum 12.994 acc 0.924 | cuda: 42.12s prog 100.0 ctr 75.9 path 942 steer 0.29 maxoff 3.1 | hud_zero: 42.08s | noise2: 42.08s
+s2_cnnA/E2 s1 e100 loss_sum 13.142 acc 0.921 | cuda: 42.14s prog 100.0 ctr 75.3 path 943 steer 0.30 maxoff 3.2 | hud_zero: 42.14s | noise2: 42.16s
+s2_cnnA/E2 s2 e100 loss_sum 14.936 acc 0.905 | cuda: 41.98s prog 100.0 ctr 72.1 path 939 steer 0.31 maxoff 3.6 | hud_zero: 41.96s | noise2: 41.96s
+s2_cnnA/E2 s3 e100 loss_sum 15.386 acc 0.909 | cuda: 42.10s prog 100.0 ctr 74.2 path 942 steer 0.29 maxoff 3.2 | hud_zero: 42.06s | noise2: 42.14s
+results file: /home/sukyun02/workspace/aiad/pilot/results/s2_cnnA.jsonl

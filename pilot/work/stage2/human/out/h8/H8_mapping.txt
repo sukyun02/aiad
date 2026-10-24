@@ -1,0 +1,8 @@
+lap1 b1
+lap2 b13
+lap3 b9
+lap4 b5
+lap5 b3
+lap6 b10
+lap7 b14
+lap8 b6

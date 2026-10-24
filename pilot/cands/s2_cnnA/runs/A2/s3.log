@@ -1,0 +1,6 @@
+seed 3 epoch 100: loss_sum 6.0874 mean 0.3581 acc 0.8583
+seed 3 epoch 200: loss_sum 2.8974 mean 0.1704 acc 0.9429
+seed 3 epoch 400: loss_sum 0.6867 mean 0.0404 acc 0.9906
+RESULT s2_cnnA/A2 s3 e100 loss_sum 6.087 acc 0.858 | cuda: aborted prog 15.4 ctr 7.8 path 260 steer 0.20 maxoff 80.6 | hud_zero: aborted@80 | noise2: aborted@15
+RESULT s2_cnnA/A2 s3 e200 loss_sum 2.897 acc 0.943 | cuda: 40.38s prog 82.4 ctr 43.4 path 903 steer 0.25 maxoff 36.1 | hud_zero: 41.96s | noise2: aborted@80
+RESULT s2_cnnA/A2 s3 e400 loss_sum 0.687 acc 0.991 | cuda: aborted prog 72.1 ctr 40.7 path 794 steer 0.28 maxoff 56.1 | hud_zero: 41.92s | noise2: 41.68s

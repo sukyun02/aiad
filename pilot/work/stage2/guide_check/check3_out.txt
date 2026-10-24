@@ -1,0 +1,195 @@
+===== 1. key timelines relative to the apex, 0.2 s bins (10 frames), from action_*.npy of data_s2/scriptA
+--- C1: inside key = LEFT
+  -1.8..-1.6s  inside med 0.00 [0.00-0.10] mean 0.03 | outside med 0.00 [0.00-0.10] mean 0.04 | along med 20.5 | inside offset med +0.12
+  -1.6..-1.4s  inside med 0.25 [0.00-0.50] mean 0.23 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 25.0 | inside offset med +0.15
+  -1.4..-1.2s  inside med 0.50 [0.00-0.60] mean 0.43 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 29.5 | inside offset med +0.24
+  -1.2..-1.0s  inside med 0.50 [0.10-0.60] mean 0.44 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 33.9 | inside offset med +0.59
+  -1.0..-0.8s  inside med 0.45 [0.00-0.70] mean 0.35 | outside med 0.00 [0.00-0.40] mean 0.12 | along med 38.4 | inside offset med +1.20
+  -0.8..-0.6s  inside med 0.10 [0.00-0.40] mean 0.18 | outside med 0.20 [0.00-0.60] mean 0.25 | along med 42.8 | inside offset med +2.04
+  -0.6..-0.4s  inside med 0.05 [0.00-0.20] mean 0.06 | outside med 0.30 [0.00-0.60] mean 0.30 | along med 47.2 | inside offset med +3.02
+  -0.4..-0.2s  inside med 0.55 [0.30-0.80] mean 0.55 | outside med 0.00 [0.00-0.10] mean 0.03 | along med 51.6 | inside offset med +3.66
+  -0.2..+0.0s  inside med 0.85 [0.70-1.00] mean 0.85 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 57.2 | inside offset med +4.34
+  +0.0..+0.2s  inside med 0.40 [0.00-0.90] mean 0.39 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 64.8 | inside offset med +4.53
+  +0.2..+0.4s  inside med 0.00 [0.00-0.20] mean 0.05 | outside med 0.00 [0.00-0.30] mean 0.07 | along med 70.8 | inside offset med +4.04
+  +0.4..+0.6s  inside med 0.00 [0.00-0.50] mean 0.07 | outside med 0.45 [0.00-0.70] mean 0.38 | along med 75.4 | inside offset med +3.15
+  +0.6..+0.8s  inside med 0.00 [0.00-0.50] mean 0.14 | outside med 0.25 [0.00-0.30] mean 0.19 | along med 79.9 | inside offset med +2.43
+  +0.8..+1.0s  inside med 0.40 [0.10-0.50] mean 0.36 | outside med 0.00 [0.00-0.10] mean 0.01 | along med 84.3 | inside offset med +1.66
+  +1.0..+1.2s  inside med 0.50 [0.40-0.60] mean 0.50 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 88.8 | inside offset med +0.96
+  +1.2..+1.4s  inside med 0.50 [0.40-0.50] mean 0.49 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 93.2 | inside offset med +0.41
+  +1.4..+1.6s  inside med 0.50 [0.10-0.50] mean 0.43 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 97.7 | inside offset med +0.12
+  +1.6..+1.8s  inside med 0.40 [0.00-0.50] mean 0.31 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 102.2 | inside offset med -0.02
+--- C4: inside key = LEFT
+  -1.8..-1.6s  inside med 0.15 [0.00-0.60] mean 0.21 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 492.8 | inside offset med -0.14
+  -1.6..-1.4s  inside med 0.40 [0.00-0.50] mean 0.31 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 497.3 | inside offset med -0.11
+  -1.4..-1.2s  inside med 0.50 [0.00-0.60] mean 0.46 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 501.8 | inside offset med +0.00
+  -1.2..-1.0s  inside med 0.50 [0.40-0.60] mean 0.51 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 506.3 | inside offset med +0.42
+  -1.0..-0.8s  inside med 0.50 [0.10-0.60] mean 0.39 | outside med 0.00 [0.00-0.30] mean 0.06 | along med 510.7 | inside offset med +1.20
+  -0.8..-0.6s  inside med 0.10 [0.00-0.50] mean 0.14 | outside med 0.25 [0.00-0.60] mean 0.27 | along med 515.1 | inside offset med +2.08
+  -0.6..-0.4s  inside med 0.00 [0.00-0.20] mean 0.04 | outside med 0.35 [0.10-0.60] mean 0.38 | along med 519.6 | inside offset med +2.94
+  -0.4..-0.2s  inside med 0.60 [0.30-0.70] mean 0.55 | outside med 0.05 [0.00-0.20] mean 0.06 | along med 524.0 | inside offset med +3.65
+  -0.2..+0.0s  inside med 0.80 [0.70-0.90] mean 0.83 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 529.5 | inside offset med +4.47
+  +0.0..+0.2s  inside med 0.30 [0.10-0.60] mean 0.34 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 536.8 | inside offset med +4.49
+  +0.2..+0.4s  inside med 0.25 [0.00-0.40] mean 0.24 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 543.0 | inside offset med +4.13
+  +0.4..+0.6s  inside med 0.30 [0.00-0.60] mean 0.29 | outside med 0.00 [0.00-0.60] mean 0.14 | along med 547.9 | inside offset med +3.63
+  +0.6..+0.8s  inside med 0.25 [0.00-0.50] mean 0.25 | outside med 0.15 [0.00-0.40] mean 0.17 | along med 552.6 | inside offset med +3.25
+  +0.8..+1.0s  inside med 0.45 [0.00-0.50] mean 0.35 | outside med 0.00 [0.00-0.20] mean 0.05 | along med 557.1 | inside offset med +2.42
+  +1.0..+1.2s  inside med 0.50 [0.20-0.50] mean 0.46 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 561.6 | inside offset med +1.63
+  +1.2..+1.4s  inside med 0.50 [0.40-0.50] mean 0.47 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 566.1 | inside offset med +1.03
+  +1.4..+1.6s  inside med 0.50 [0.40-0.50] mean 0.49 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 570.6 | inside offset med +0.63
+  +1.6..+1.8s  inside med 0.50 [0.20-0.50] mean 0.46 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 575.1 | inside offset med +0.37
+--- C8: inside key = LEFT
+  -1.8..-1.6s  inside med 0.00 [0.00-0.20] mean 0.04 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 854.2 | inside offset med +0.11
+  -1.6..-1.4s  inside med 0.35 [0.00-0.50] mean 0.26 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 858.7 | inside offset med +0.13
+  -1.4..-1.2s  inside med 0.50 [0.00-0.60] mean 0.43 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 863.2 | inside offset med +0.21
+  -1.2..-1.0s  inside med 0.50 [0.30-0.60] mean 0.47 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 867.7 | inside offset med +0.57
+  -1.0..-0.8s  inside med 0.50 [0.00-0.60] mean 0.34 | outside med 0.00 [0.00-0.40] mean 0.14 | along med 872.1 | inside offset med +1.20
+  -0.8..-0.6s  inside med 0.05 [0.00-0.30] mean 0.11 | outside med 0.20 [0.00-0.50] mean 0.26 | along med 876.5 | inside offset med +2.08
+  -0.6..-0.4s  inside med 0.00 [0.00-0.20] mean 0.06 | outside med 0.30 [0.00-0.60] mean 0.31 | along med 880.9 | inside offset med +3.05
+  -0.4..-0.2s  inside med 0.55 [0.30-0.80] mean 0.56 | outside med 0.00 [0.00-0.20] mean 0.05 | along med 885.3 | inside offset med +3.67
+  -0.2..+0.0s  inside med 0.90 [0.80-1.00] mean 0.90 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 891.6 | inside offset med +4.38
+  +0.0..+0.2s  inside med 0.75 [0.30-1.00] mean 0.75 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 899.3 | inside offset med +4.50
+  +0.2..+0.4s  inside med 0.20 [0.00-0.70] mean 0.24 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 905.9 | inside offset med +4.00
+  +0.4..+0.6s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.20 [0.00-0.50] mean 0.25 | along med 910.7 | inside offset med +3.44
+  +0.6..+0.8s  inside med 0.00 [0.00-0.50] mean 0.09 | outside med 0.50 [0.00-0.80] mean 0.45 | along med 915.2 | inside offset med +3.09
+  +0.8..+1.0s  inside med 0.00 [0.00-0.60] mean 0.15 | outside med 0.10 [0.00-0.30] mean 0.11 | along med 919.6 | inside offset med +2.31
+  +1.0..+1.2s  inside med 0.50 [0.40-0.60] mean 0.49 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 924.1 | inside offset med +1.48
+  +1.2..+1.4s  inside med 0.50 [0.40-0.50] mean 0.47 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 928.5 | inside offset med +0.81
+  +1.4..+1.6s  inside med 0.50 [0.40-0.50] mean 0.46 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 933.0 | inside offset med +0.35
+  +1.6..+1.8s  inside med 0.50 [0.10-0.50] mean 0.44 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 937.5 | inside offset med +0.10
+--- C6: inside key = LEFT
+  -1.8..-1.6s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.50 [0.40-0.50] mean 0.47 | along med 699.8 | inside offset med -0.47
+  -1.6..-1.4s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.30 [0.00-0.50] mean 0.26 | along med 704.3 | inside offset med -0.30
+  -1.4..-1.2s  inside med 0.10 [0.00-0.40] mean 0.15 | outside med 0.10 [0.00-0.40] mean 0.14 | along med 708.8 | inside offset med -0.12
+  -1.2..-1.0s  inside med 0.45 [0.00-0.50] mean 0.39 | outside med 0.00 [0.00-0.10] mean 0.01 | along med 713.3 | inside offset med +0.08
+  -1.0..-0.8s  inside med 0.20 [0.00-0.50] mean 0.25 | outside med 0.00 [0.00-0.10] mean 0.01 | along med 717.8 | inside offset med +0.42
+  -0.8..-0.6s  inside med 0.05 [0.00-0.60] mean 0.19 | outside med 0.35 [0.00-0.60] mean 0.29 | along med 722.3 | inside offset med +0.85
+  -0.6..-0.4s  inside med 0.00 [0.00-0.40] mean 0.05 | outside med 0.50 [0.00-0.50] mean 0.39 | along med 726.8 | inside offset med +1.39
+  -0.4..-0.2s  inside med 0.00 [0.00-0.20] mean 0.05 | outside med 0.20 [0.00-0.60] mean 0.25 | along med 731.2 | inside offset med +1.79
+  -0.2..+0.0s  inside med 0.35 [0.00-0.60] mean 0.31 | outside med 0.05 [0.00-0.70] mean 0.25 | along med 735.6 | inside offset med +1.98
+  +0.0..+0.2s  inside med 0.40 [0.00-0.50] mean 0.33 | outside med 0.00 [0.00-0.40] mean 0.08 | along med 740.8 | inside offset med +1.80
+  +0.2..+0.4s  inside med 0.10 [0.00-0.60] mean 0.16 | outside med 0.15 [0.00-0.40] mean 0.15 | along med 745.4 | inside offset med +0.24
+  +0.4..+0.6s  inside med 0.00 [0.00-0.40] mean 0.06 | outside med 0.55 [0.00-0.70] mean 0.46 | along med 749.4 | inside offset med -2.00
+  +0.6..+0.8s  inside med 0.00 [0.00-0.50] mean 0.07 | outside med 0.40 [0.10-0.70] mean 0.40 | along med 755.3 | inside offset med -3.70
+  +0.8..+1.0s  inside med 0.05 [0.00-0.50] mean 0.15 | outside med 0.25 [0.00-0.40] mean 0.23 | along med 760.8 | inside offset med -3.60
+  +1.0..+1.2s  inside med 0.15 [0.00-0.50] mean 0.21 | outside med 0.00 [0.00-0.60] mean 0.11 | along med 765.4 | inside offset med -2.80
+  +1.2..+1.4s  inside med 0.20 [0.00-0.50] mean 0.21 | outside med 0.00 [0.00-0.60] mean 0.15 | along med 769.8 | inside offset med -2.04
+  +1.4..+1.6s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.25 [0.00-0.60] mean 0.26 | along med 774.3 | inside offset med -1.40
+  +1.6..+1.8s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.50 [0.30-0.60] mean 0.49 | along med 778.7 | inside offset med -0.77
+--- C7: inside key = RIGHT
+  -1.8..-1.6s  inside med 0.00 [0.00-0.00] mean 0.00 | outside med 0.30 [0.10-0.60] mean 0.36 | along med 715.9 | inside offset med -0.25
+  -1.6..-1.4s  inside med 0.15 [0.00-0.40] mean 0.16 | outside med 0.10 [0.00-0.60] mean 0.20 | along med 720.4 | inside offset med -0.71
+  -1.4..-1.2s  inside med 0.50 [0.00-0.50] mean 0.34 | outside med 0.00 [0.00-0.50] mean 0.09 | along med 724.8 | inside offset med -1.18
+  -1.2..-1.0s  inside med 0.40 [0.00-0.60] mean 0.38 | outside med 0.00 [0.00-0.30] mean 0.04 | along med 729.3 | inside offset med -1.55
+  -1.0..-0.8s  inside med 0.20 [0.00-0.60] mean 0.24 | outside med 0.15 [0.00-0.50] mean 0.20 | along med 733.7 | inside offset med -1.89
+  -0.8..-0.6s  inside med 0.00 [0.00-0.50] mean 0.12 | outside med 0.45 [0.00-0.60] mean 0.34 | along med 738.5 | inside offset med -2.01
+  -0.6..-0.4s  inside med 0.00 [0.00-0.30] mean 0.05 | outside med 0.25 [0.00-0.50] mean 0.24 | along med 743.7 | inside offset med -1.14
+  -0.4..-0.2s  inside med 0.55 [0.00-0.60] mean 0.38 | outside med 0.00 [0.00-0.50] mean 0.11 | along med 747.6 | inside offset med +1.13
+  -0.2..+0.0s  inside med 0.50 [0.30-0.60] mean 0.49 | outside med 0.00 [0.00-0.30] mean 0.04 | along med 752.5 | inside offset med +3.30
+  +0.0..+0.2s  inside med 0.40 [0.00-0.40] mean 0.28 | outside med 0.00 [0.00-0.40] mean 0.12 | along med 758.8 | inside offset med +3.84
+  +0.2..+0.4s  inside med 0.10 [0.00-0.40] mean 0.15 | outside med 0.10 [0.00-0.50] mean 0.19 | along med 763.5 | inside offset med +3.17
+  +0.4..+0.6s  inside med 0.00 [0.00-0.60] mean 0.11 | outside med 0.25 [0.00-0.50] mean 0.24 | along med 768.0 | inside offset med +2.41
+  +0.6..+0.8s  inside med 0.20 [0.00-0.60] mean 0.24 | outside med 0.00 [0.00-0.20] mean 0.06 | along med 772.5 | inside offset med +1.56
+  +0.8..+1.0s  inside med 0.50 [0.10-0.50] mean 0.39 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 776.9 | inside offset med +0.97
+  +1.0..+1.2s  inside med 0.50 [0.40-0.60] mean 0.50 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 781.4 | inside offset med +0.51
+  +1.2..+1.4s  inside med 0.45 [0.10-0.50] mean 0.41 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 785.9 | inside offset med +0.20
+  +1.4..+1.6s  inside med 0.50 [0.10-0.50] mean 0.40 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 790.4 | inside offset med +0.03
+  +1.6..+1.8s  inside med 0.15 [0.00-0.50] mean 0.19 | outside med 0.00 [0.00-0.00] mean 0.00 | along med 794.9 | inside offset med -0.06
+===== 2. first keys per A lap
+C1 approach cluster start (gap>10 frames breaks): t 1.35 [1.24-1.76] along 25.64 [23.17-34.87] rel apex -1.48 [-1.62--1.04]
+C1 approach cluster start (gap>15 frames breaks): t 1.35 [1.24-1.76] along 25.64 [23.17-34.87] rel apex -1.48 [-1.62--1.04]
+C1 approach cluster start (gap>25 frames breaks): t 1.35 [1.24-1.76] along 25.64 [23.17-34.87] rel apex -1.48 [-1.62--1.04]
+C3 approach cluster start (gap>10 frames breaks): t 14.21 [14.14-14.80] along 322.57 [320.83-335.00] rel apex -2.92 [-3.00--2.48]
+C3 approach cluster start (gap>15 frames breaks): t 14.21 [11.22-14.80] along 322.57 [252.95-335.00] rel apex -2.92 [-5.86--2.48]
+C3 approach cluster start (gap>25 frames breaks): t 10.28 [10.08-14.80] along 232.15 [227.65-335.00] rel apex -6.82 [-7.00--2.48]
+C4 approach cluster start (gap>10 frames breaks): t 21.72 [21.42-22.32] along 494.02 [487.73-505.87] rel apex -1.61 [-1.98--1.20]
+C4 approach cluster start (gap>15 frames breaks): t 21.72 [21.36-22.32] along 494.02 [485.38-505.87] rel apex -1.61 [-2.00--1.20]
+C4 approach cluster start (gap>25 frames breaks): t 10.30 [10.08-22.32] along 232.26 [227.65-505.87] rel apex -13.08 [-13.32--1.20]
+C8 approach cluster start (gap>10 frames breaks): t 37.45 [37.28-37.98] along 858.01 [855.42-867.37] rel apex -1.52 [-1.66--1.14]
+C8 approach cluster start (gap>15 frames breaks): t 37.45 [37.28-37.98] along 858.01 [855.42-867.37] rel apex -1.52 [-1.66--1.14]
+C8 approach cluster start (gap>25 frames breaks): t 37.45 [37.28-37.98] along 858.01 [855.42-867.37] rel apex -1.52 [-1.66--1.14]
+first steering key of any kind / first LEFT key, per A lap (frame, along):
+  lap1: any key frame 53 along 19.1 | first LEFT frame 65 t 1.30 along 24.5
+  lap2: any key frame 53 along 19.1 | first LEFT frame 88 t 1.76 along 34.9
+  lap3: any key frame 53 along 19.1 | first LEFT frame 63 t 1.26 along 23.6
+  lap4: any key frame 53 along 19.1 | first LEFT frame 64 t 1.28 along 24.1
+  lap5: any key frame 41 along 13.7 | first LEFT frame 76 t 1.52 along 29.5
+  lap6: any key frame 70 along 26.8 | first LEFT frame 70 t 1.40 along 26.8
+  lap7: any key frame 76 along 29.5 | first LEFT frame 76 t 1.52 along 29.5
+  lap8: any key frame 51 along 18.2 | first LEFT frame 62 t 1.24 along 23.2
+===== 3. start
+A lap1 speed at frames 5,10,15,20,25,30,50: [6.13, 10.51, 14.89, 19.27, 22.18, 22.46, 22.5]
+A lap1 along at frames 25,50,75,100: [6.5, 17.8, 29.0, 40.2]
+A frames to along>=30: [78, 78, 78, 78, 78, 78, 78, 78] E0: 78
+human frames to along>=30: [110, 102, 104, 99, 97, 90, 96] hold [32, 24, 26, 21, 19, 12, 18] lap [43.44, 43.24, 43.02, 43.06, 43.0, 42.72, 42.86]
+===== 4. segment table (frames/50)
+  start     -1-  30  E0 1.56  A med 1.56 [1.56-1.56] gain +0.00  human med 1.98 [1.80-2.20] hum-E0 +0.42
+  C1        30-  95  E0 2.84  A med 2.65 [2.64-2.68] gain +0.19  human med 2.82 [2.78-2.88] hum-E0 -0.02
+  s12       95- 190  E0 4.22  A med 4.22 [4.22-4.24] gain +0.00  human med 4.24 [4.22-4.24] hum-E0 +0.02
+  K1       190- 236  E0 2.04  A med 2.04 [2.04-2.04] gain +0.00  human med 2.04 [2.02-2.06] hum-E0 +0.00
+  C2       236- 295  E0 2.60  A med 2.52 [2.50-2.54] gain +0.08  human med 2.62 [2.58-2.64] hum-E0 +0.02
+  s23      295- 340  E0 2.00  A med 2.00 [2.00-2.02] gain +0.00  human med 2.00 [2.00-2.02] hum-E0 +0.00
+  C3       340- 460  E0 5.32  A med 5.25 [5.18-5.26] gain +0.07  human med 5.34 [5.32-5.36] hum-E0 +0.02
+  s34      460- 500  E0 1.78  A med 1.78 [1.76-1.78] gain +0.00  human med 1.78 [1.78-1.80] hum-E0 +0.00
+  C4       500- 580  E0 3.52  A med 3.31 [3.28-3.34] gain +0.21  human med 3.44 [3.36-3.62] hum-E0 -0.08
+  s45      580- 595  E0 0.66  A med 0.66 [0.66-0.68] gain +0.00  human med 0.66 [0.66-0.68] hum-E0 +0.00
+  C5       595- 658  E0 2.80  A med 2.74 [2.70-2.74] gain +0.06  human med 2.80 [2.78-2.88] hum-E0 +0.00
+  K2       658- 715  E0 2.52  A med 2.52 [2.50-2.52] gain +0.00  human med 2.52 [2.50-2.56] hum-E0 +0.00
+  C6       715- 747  E0 1.40  A med 1.41 [1.40-1.42] gain -0.01  human med 1.42 [1.38-1.44] hum-E0 +0.02
+  C7       747- 785  E0 1.66  A med 1.59 [1.58-1.60] gain +0.07  human med 1.64 [1.58-1.70] hum-E0 -0.02
+  s78      785- 862  E0 3.42  A med 3.42 [3.42-3.44] gain +0.00  human med 3.42 [3.42-3.52] hum-E0 +0.00
+  C8       862- 933  E0 3.10  A med 2.86 [2.82-2.88] gain +0.24  human med 3.12 [2.92-3.18] hum-E0 +0.02
+  finish   933- 960  E0 1.16  A med 1.16 [1.14-1.16] gain +0.00  human med 1.16 [1.16-1.16] hum-E0 +0.00
+  sum of segment medians: E0 42.60  A 41.69  human 43.00
+  per-lap totals: A [41.72, 41.78, 41.7, 41.62, 41.68, 41.6, 41.58, 41.58] median 41.65 mean 41.657 | human [43.44, 43.24, 43.02, 43.06, 43.0, 42.72, 42.86] median 43.02
+  human minus hold:  [42.8, 42.76, 42.5, 42.64, 42.62, 42.48, 42.5]
+===== 5. human laps per corner (inside-key presses that start inside the section)
+  C1: inside presses med 4.0 [2-9] longest med 12.0 [7-16] | outside presses med 1.0 [0-2] | max inside [0.49, 0.41, 1.75, 2.07, 4.15, 1.61, 2.32]
+  C2: inside presses med 4.0 [4-8] longest med 8.0 [6-11] | outside presses med 1.0 [0-3] | max inside [1.81, 2.24, 1.14, -0.08, 0.85, 2.83, 0.08]
+  C3: inside presses med 17.0 [9-19] longest med 6.0 [5-10] | outside presses med 1.0 [0-5] | max inside [0.91, 0.64, 0.52, 0.93, 1.17, -0.23, 0.65]
+  C4: inside presses med 7.0 [3-9] longest med 15.0 [12-17] | outside presses med 2.0 [0-3] | max inside [1.01, 0.7, 4.81, 4.12, 2.43, 4.29, 2.03]
+  C5: inside presses med 7.0 [3-9] longest med 7.0 [6-13] | outside presses med 1.0 [0-2] | max inside [0.63, 0.71, 1.34, 2.71, 0.26, 0.5, 1.32]
+  C6: inside presses med 3.0 [1-6] longest med 7.0 [4-10] | outside presses med 0.0 [0-1] | max inside [1.18, 1.67, 1.0, 0.56, 0.8, 1.93, 1.38]
+  C7: inside presses med 3.0 [2-5] longest med 9.0 [6-15] | outside presses med 1.0 [0-3] | max inside [1.03, 1.2, 1.19, 1.94, 2.62, 4.16, 3.0]
+  C8: inside presses med 8.0 [4-8] longest med 16.0 [11-20] | outside presses med 1.0 [0-3] | max inside [1.05, 1.18, 1.11, 1.99, 1.11, 3.32, 3.95]
+===== 6. whole-lap key press statistics
+  A: presses per lap [553, 486, 575, 570, 513, 542, 563, 567] median 558.0 mean 546.1 | length median 1 p10 1 p90 2 max 20 | share 1f 83% 2f 15% <=2f 98%
+  human: presses per lap [55, 60, 87, 107, 129, 134, 144] median 107.0 mean 102.3 | length median 5 p10 3 p90 7 max 20 | share 1f 0% 2f 5% <=2f 5%
+===== 7. K2 / K1: largest RIGHT offset of set A
+  K1: right offset 1.13 [0.84-2.44] at along 207.05 [206.40-210.23]
+  K2: right offset 2.04 [1.52-3.66] at along 673.74 [671.83-675.93]
+===== 8. C6/C7 steering magnitude of set A (|controller steering|) in 715-785, and per section any direction
+  715-747: A max |steer| 0.12 [0.06-0.18]  E0 0.21
+  747-785: A max |steer| 0.12 [0.06-0.15]  E0 0.21
+  715-785: A max |steer| 0.12 [0.06-0.18]  E0 0.21
+  longest press of any key in 715-785 per A lap: [4, 4, 4, 3, 4, 3, 2, 4]  (same key): [4, 4, 4, 3, 4, 3, 2, 4]
+===== 9. set H5 (guide/hold/H5_lap*.npz): key-state run lengths and literal sequences
+  H5 lap1: lap_time 41.82 progress 100.0 center 66.84 max_abs_offset 4.67 frames 2091 | key states 165 shortest inner state 5 (count <5: 0) | presses 82 | params E 4.0 W 28.0 k0 0.03 look 9.0 gain 1.0
+  H5 lap2: lap_time 42.04 progress 100.0 center 68.34 max_abs_offset 4.47 frames 2102 | key states 201 shortest inner state 5 (count <5: 0) | presses 100 | params E 4.0 W 14.0 k0 0.03 look 9.0 gain 1.0
+  H5 lap3: lap_time 41.980000000000004 progress 100.0 center 62.37 max_abs_offset 4.71 frames 2099 | key states 187 shortest inner state 5 (count <5: 0) | presses 93 | params E 3.5 W 28.0 k0 0.02 look 9.0 gain 1.0
+  H5 lap4: lap_time 41.9 progress 100.0 center 64.84 max_abs_offset 4.81 frames 2095 | key states 170 shortest inner state 5 (count <5: 0) | presses 85 | params E 4.5 W 28.0 k0 0.03 look 9.0 gain 1.0
+  H5 lap5: lap_time 41.92 progress 100.0 center 61.55 max_abs_offset 4.61 frames 2096 | key states 191 shortest inner state 5 (count <5: 0) | presses 95 | params E 4.0 W 21.0 k0 0.02 look 8.0 gain 1.0
+  H5 lap6: lap_time 42.0 progress 100.0 center 56.22 max_abs_offset 5.8 frames 2100 | key states 198 shortest inner state 5 (count <5: 0) | presses 99 | params E 3.5 W 21.0 k0 0.01 look 10.0 gain 1.0
+  H5 lap7: lap_time 41.92 progress 100.0 center 64.05 max_abs_offset 4.8 frames 2096 | key states 157 shortest inner state 5 (count <5: 0) | presses 78 | params E 4.5 W 21.0 k0 0.03 look 10.0 gain 1.0
+  H5 lap8: lap_time 41.7 progress 100.0 center 59.7 max_abs_offset 4.51 frames 2085 | key states 191 shortest inner state 5 (count <5: 0) | presses 95 | params E 4.0 W 28.0 k0 0.02 look 9.0 gain 1.1
+  H5 lap1 C1: apex frame 135 t 2.70 along 57.0 inside 4.35 | states from apex-1.8s to apex+1.8s (* = contains apex): -27 L5 -14 L5 -15 R5 -9 L6 -5* L16 -22 R5 -18 L5 -23
+  H5 lap1 C4: apex frame 1167 t 23.34 along 527.8 inside 4.48 | states from apex-1.8s to apex+1.8s (* = contains apex): -10 R5 -5 L5 -5 L5 -18 L5 -9 R5 -9 L6 -5* L16 -48 L5 -19
+  H5 lap1 C8: apex frame 1958 t 39.16 along 895.1 inside 4.67 | states from apex-1.8s to apex+1.8s (* = contains apex): -25 L5 -11 L5 -8 R5 -15 L25* -10 R9 -5 R5 -12 L5 -7 L5 -23
+  hold scan files:
+    E0_N5.json: lap_time 42.92 progress 100.0 center 89.44 max_abs_offset 2.36 status finished E 0.0 min_hold 5
+    E3_N4.json: lap_time 42.02 progress 100.0 center 70.96 max_abs_offset 3.51 status finished E 3.0 min_hold 4
+    E3_N5.json: lap_time 42.02 progress 100.0 center 70.24 max_abs_offset 3.55 status finished E 3.0 min_hold 5
+    E5_N5.json: lap_time 41.78 progress 100.0 center 63.32 max_abs_offset 5.24 status finished E 5.0 min_hold 5
+    H5_lap1.json: lap_time 41.82 progress 100.0 center 66.84 max_abs_offset 4.67 status finished E 4.0 min_hold 5
+    H5_lap2.json: lap_time 42.04 progress 100.0 center 68.34 max_abs_offset 4.47 status finished E 4.0 min_hold 5
+    H5_lap3.json: lap_time 41.980000000000004 progress 100.0 center 62.37 max_abs_offset 4.71 status finished E 3.5 min_hold 5
+    H5_lap4.json: lap_time 41.9 progress 100.0 center 64.84 max_abs_offset 4.81 status finished E 4.5 min_hold 5
+    H5_lap5.json: lap_time 41.92 progress 100.0 center 61.55 max_abs_offset 4.61 status finished E 4.0 min_hold 5
+    H5_lap6.json: lap_time 42.0 progress 100.0 center 56.22 max_abs_offset 5.8 status finished E 3.5 min_hold 5
+    H5_lap7.json: lap_time 41.92 progress 100.0 center 64.05 max_abs_offset 4.8 status finished E 4.5 min_hold 5
+    H5_lap8.json: lap_time 41.7 progress 100.0 center 59.7 max_abs_offset 4.51 status finished E 4.0 min_hold 5
+    N0.json: lap_time 41.72 progress 100.0 center 67.6 max_abs_offset 4.67 status finished E 4.0 min_hold 0
+    N3.json: lap_time 41.800000000000004 progress 100.0 center 68.36 max_abs_offset 4.59 status finished E 4.0 min_hold 3
+    N4.json: lap_time 41.82 progress 100.0 center 67.35 max_abs_offset 4.41 status finished E 4.0 min_hold 4
+    N5.json: lap_time 41.82 progress 100.0 center 66.84 max_abs_offset 4.67 status finished E 4.0 min_hold 5
+    N6.json: lap_time 42.0 progress 100.0 center 64.83 max_abs_offset 4.67 status finished E 4.0 min_hold 6
+    N8.json: lap_time 41.9 progress 99.48 center 62.39 max_abs_offset 6.92 status finished E 4.0 min_hold 8

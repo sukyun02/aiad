@@ -1,0 +1,4 @@
+[추론] 장치: CUDA (NVIDIA GeForce RTX 5070 Ti Laptop GPU) | PyTorch 2.10.0+cu128
+설정: model_path=/home/sukyun02/workspace/aiad/pilot/cands/cnnA/runs/b256_e100/s0.pth | display=False | score=False | max_speed=22.5 | throttle=0.375 | steering_limit=0.45 | steering_rate=1.5
+주행 종료: 출발점 복귀 완료
+주행 결과: 진행률 100.00/100 | 중앙선 유지 76.53/100 | 랩타임 43.16s

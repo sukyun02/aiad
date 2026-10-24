@@ -1,0 +1,3 @@
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --min-press 1 --react 0 --out out/eq_A_lap1.json --trace out/eq_A_lap1.npz
+driver_h.py --E 4.5 --W 21 --k0 0.03 --lookahead 10 --gain 1.0 --min-press 1 --react 0 --out out/eq_A_lap7.json --trace out/eq_A_lap7.npz
+driver_h.py --E 3 --W 28 --k0 0.02 --lookahead 8 --gain 1.0 --hold 4 --tap-noise 0.012 --noise-seed 1 --min-press 1 --react 0 --out out/eq_C_lap1.json --trace out/eq_C_lap1.npz

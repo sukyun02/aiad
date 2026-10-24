@@ -1,0 +1,6 @@
+seed 2 epoch 25: loss_sum 25.8897 mean 0.4388 acc 0.8057
+seed 2 epoch 50: loss_sum 13.1488 mean 0.2229 acc 0.9268
+seed 2 epoch 100: loss_sum 2.7235 mean 0.0462 acc 0.9847
+RESULT cnnA/b256_e100 s2 e25 loss_sum 25.890 acc 0.806 | cuda: 46.28s prog 92.8 ctr 34.7 path 1026 steer 0.14 maxoff 17.3 | hud_zero: 43.44s
+RESULT cnnA/b256_e100 s2 e50 loss_sum 13.149 acc 0.927 | cuda: 43.14s prog 100.0 ctr 70.3 path 954 steer 0.18 maxoff 4.3 | hud_zero: 43.14s
+RESULT cnnA/b256_e100 s2 e100 loss_sum 2.724 acc 0.985 | cuda: 43.20s prog 100.0 ctr 77.3 path 956 steer 0.20 maxoff 3.0 | hud_zero: 43.24s

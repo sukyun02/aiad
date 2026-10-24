@@ -1,0 +1,10 @@
+창 클릭 → Enter 시작 | 방향키 운전 | 복귀 후 Tab 저장 | Space 폐기/다시 시작 | Esc 종료
+[H] replaying a lap that leaves the road for a moment and still finishes: ENTER ->
+주행 결과: 진행률 98.30/100 | 중앙선 유지 64.28/100 | 랩타임 41.90s
+[H] recording stopped: gui_status=finished recorded_frames=2095 metrics.frames=2095 elapsed=41.90 finished=True aborted=False lap_time=41.9 progress=98.30 centre=64.28 off_road_frames=0
+[H] TAB on a finished lap with progress < 100 ->
+2095쌍 저장: /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/harness_data/S3/20261006_220642_221503
+[H] after TAB: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+종료: 저장하지 않은 0프레임은 폐기합니다.
+[H] record_demonstrations returned
+[H] result written to /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/out/harness_S3.json

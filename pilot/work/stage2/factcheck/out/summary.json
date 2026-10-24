@@ -1,0 +1,819 @@
+{
+ "claim6": {
+  "c6_A_base": {
+   "status": "finished",
+   "lap_time": 41.72,
+   "delta": 0.0,
+   "coast_frames": 0,
+   "min_speed_after25": 22.18,
+   "progress": 100.0,
+   "center": 67.6,
+   "classes": [
+    0,
+    1390,
+    0,
+    0,
+    0,
+    539,
+    157,
+    0,
+    0
+   ]
+  },
+  "c6_A_once10_s150": {
+   "status": "finished",
+   "lap_time": 41.74,
+   "delta": 0.02,
+   "coast_frames": 10,
+   "min_speed_after25": 19.41,
+   "progress": 100.0,
+   "center": 67.55,
+   "classes": [
+    10,
+    1378,
+    0,
+    0,
+    0,
+    538,
+    161,
+    0,
+    0
+   ]
+  },
+  "c6_A_once25_s150": {
+   "status": "finished",
+   "lap_time": 41.84,
+   "delta": 0.12,
+   "coast_frames": 25,
+   "min_speed_after25": 14.85,
+   "progress": 100.0,
+   "center": 67.58,
+   "classes": [
+    25,
+    1365,
+    0,
+    0,
+    0,
+    543,
+    159,
+    0,
+    0
+   ]
+  },
+  "c6_A_once50_s150": {
+   "status": "finished",
+   "lap_time": 42.160000000000004,
+   "delta": 0.44,
+   "coast_frames": 50,
+   "min_speed_after25": 7.26,
+   "progress": 100.0,
+   "center": 67.71,
+   "classes": [
+    50,
+    1361,
+    0,
+    0,
+    0,
+    538,
+    159,
+    0,
+    0
+   ]
+  },
+  "c6_A_once10_s450": {
+   "status": "finished",
+   "lap_time": 41.74,
+   "delta": 0.02,
+   "coast_frames": 10,
+   "min_speed_after25": 19.4,
+   "progress": 100.0,
+   "center": 67.6,
+   "classes": [
+    5,
+    1379,
+    0,
+    5,
+    0,
+    537,
+    161,
+    0,
+    0
+   ]
+  },
+  "c6_A_once25_s450": {
+   "status": "finished",
+   "lap_time": 41.84,
+   "delta": 0.12,
+   "coast_frames": 25,
+   "min_speed_after25": 14.83,
+   "progress": 100.0,
+   "center": 67.62,
+   "classes": [
+    16,
+    1379,
+    0,
+    9,
+    0,
+    530,
+    158,
+    0,
+    0
+   ]
+  },
+  "c6_A_once50_s450": {
+   "status": "finished",
+   "lap_time": 42.18,
+   "delta": 0.46,
+   "coast_frames": 50,
+   "min_speed_after25": 7.23,
+   "progress": 100.0,
+   "center": 67.57,
+   "classes": [
+    35,
+    1368,
+    0,
+    15,
+    0,
+    533,
+    158,
+    0,
+    0
+   ]
+  },
+  "c6_A_entry5": {
+   "status": "finished",
+   "lap_time": 41.78,
+   "delta": 0.06,
+   "coast_frames": 40,
+   "min_speed_after25": 20.87,
+   "progress": 100.0,
+   "center": 67.61,
+   "classes": [
+    21,
+    1371,
+    0,
+    6,
+    13,
+    532,
+    146,
+    0,
+    0
+   ]
+  },
+  "c6_A_entry10": {
+   "status": "finished",
+   "lap_time": 41.9,
+   "delta": 0.18,
+   "coast_frames": 80,
+   "min_speed_after25": 19.31,
+   "progress": 100.0,
+   "center": 67.63,
+   "classes": [
+    49,
+    1352,
+    0,
+    15,
+    16,
+    524,
+    139,
+    0,
+    0
+   ]
+  },
+  "c6_A_entry25": {
+   "status": "finished",
+   "lap_time": 42.72,
+   "delta": 1.0,
+   "coast_frames": 200,
+   "min_speed_after25": 14.76,
+   "progress": 100.0,
+   "center": 67.75,
+   "classes": [
+    101,
+    1315,
+    0,
+    73,
+    26,
+    485,
+    136,
+    0,
+    0
+   ]
+  },
+  "c6_A_steer": {
+   "status": "finished",
+   "lap_time": 44.52,
+   "delta": 2.8,
+   "coast_frames": 779,
+   "min_speed_after25": 14.08,
+   "progress": 100.0,
+   "center": 68.14,
+   "classes": [
+    0,
+    1447,
+    0,
+    624,
+    155,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "c6_A_corners": {
+   "status": "timeout",
+   "lap_time": null,
+   "delta": null,
+   "coast_frames": 7387,
+   "min_speed_after25": 0.0,
+   "progress": 7.05,
+   "center": 4.41,
+   "classes": [
+    3693,
+    90,
+    0,
+    3691,
+    3,
+    21,
+    2,
+    0,
+    0
+   ]
+  },
+  "c6x_A_entry15": {
+   "status": "finished",
+   "lap_time": 42.14,
+   "delta": 0.42,
+   "coast_frames": 120,
+   "min_speed_after25": 17.8,
+   "progress": 100.0,
+   "center": 67.79,
+   "classes": [
+    68,
+    1333,
+    0,
+    31,
+    21,
+    517,
+    137,
+    0,
+    0
+   ]
+  },
+  "c6x_A_entry40": {
+   "status": "finished",
+   "lap_time": 44.1,
+   "delta": 2.38,
+   "coast_frames": 320,
+   "min_speed_after25": 9.89,
+   "progress": 100.0,
+   "center": 68.19,
+   "classes": [
+    154,
+    1302,
+    0,
+    135,
+    31,
+    463,
+    120,
+    0,
+    0
+   ]
+  },
+  "c6_E0_base": {
+   "status": "finished",
+   "lap_time": 42.6,
+   "delta": 0.0,
+   "coast_frames": 0,
+   "min_speed_after25": 22.18,
+   "progress": 100.0,
+   "center": 91.93,
+   "classes": [
+    0,
+    1645,
+    0,
+    0,
+    0,
+    368,
+    117,
+    0,
+    0
+   ]
+  },
+  "c6_E0_once10_s150": {
+   "status": "finished",
+   "lap_time": 42.62,
+   "delta": 0.02,
+   "coast_frames": 10,
+   "min_speed_after25": 19.41,
+   "progress": 100.0,
+   "center": 92.27,
+   "classes": [
+    10,
+    1638,
+    0,
+    0,
+    0,
+    367,
+    116,
+    0,
+    0
+   ]
+  },
+  "c6_E0_steer": {
+   "status": "finished",
+   "lap_time": 44.660000000000004,
+   "delta": 2.06,
+   "coast_frames": 536,
+   "min_speed_after25": 17.65,
+   "progress": 100.0,
+   "center": 92.22,
+   "classes": [
+    0,
+    1697,
+    0,
+    409,
+    127,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "claim6_lift_profile": {
+  "speed": {
+   "-1": 22.5,
+   "0": 22.5,
+   "5": 20.93,
+   "10": 19.41,
+   "15": 21.64,
+   "20": 22.3,
+   "30": 22.49,
+   "40": 22.5,
+   "60": 22.5
+  },
+  "frames_to_recover_22p2": 9
+ },
+ "claim8": {
+  "c8_E0_hold0": {
+   "hold": 0,
+   "lap_time": 42.6,
+   "delta": 0.0,
+   "expected": 0.0,
+   "frames": 2130,
+   "center": 91.93,
+   "path_len": 953.1
+  },
+  "c8_E0_hold12": {
+   "hold": 12,
+   "lap_time": 42.84,
+   "delta": 0.24,
+   "expected": 0.24,
+   "frames": 2142,
+   "center": 92.28,
+   "path_len": 953.1
+  },
+  "c8_E0_hold20": {
+   "hold": 20,
+   "lap_time": 43.0,
+   "delta": 0.4,
+   "expected": 0.4,
+   "frames": 2150,
+   "center": 92.27,
+   "path_len": 953.1
+  },
+  "c8_E0_hold32": {
+   "hold": 32,
+   "lap_time": 43.24,
+   "delta": 0.64,
+   "expected": 0.64,
+   "frames": 2162,
+   "center": 92.25,
+   "path_len": 953.1
+  },
+  "c8_A_hold0": {
+   "hold": 0,
+   "lap_time": 41.72,
+   "delta": 0.0,
+   "expected": 0.0,
+   "frames": 2086,
+   "center": 67.6,
+   "path_len": 933.3
+  },
+  "c8_A_hold20": {
+   "hold": 20,
+   "lap_time": 42.1,
+   "delta": 0.38,
+   "expected": 0.4,
+   "frames": 2105,
+   "center": 67.77,
+   "path_len": 932.8
+  }
+ },
+ "claim9": {
+  "runs": {
+   "c9_const2.0": {
+    "target": 2.0,
+    "status": "finished",
+    "lap_time": 42.06,
+    "progress": 100.0,
+    "center": 39.02,
+    "path_len": 940.9,
+    "mean_signed_offset_after100": 2.05,
+    "min_offset_after100": 0.8,
+    "max_offset": 3.04,
+    "formula_centre_for_exact_constant": 39.21
+   },
+   "c9_const2.5": {
+    "target": 2.5,
+    "status": "finished",
+    "lap_time": 41.94,
+    "progress": 100.0,
+    "center": 32.28,
+    "path_len": 938.2,
+    "mean_signed_offset_after100": 2.55,
+    "min_offset_after100": 1.22,
+    "max_offset": 3.47,
+    "formula_centre_for_exact_constant": 32.21
+   },
+   "c9_const2.7": {
+    "target": 2.7,
+    "status": "finished",
+    "lap_time": 41.88,
+    "progress": 100.0,
+    "center": 30.17,
+    "path_len": 936.8,
+    "mean_signed_offset_after100": 2.75,
+    "min_offset_after100": 1.49,
+    "max_offset": 3.67,
+    "formula_centre_for_exact_constant": 30.03
+   },
+   "c9_const3.0": {
+    "target": 3.0,
+    "status": "finished",
+    "lap_time": 41.800000000000004,
+    "progress": 100.0,
+    "center": 27.54,
+    "path_len": 935.0,
+    "mean_signed_offset_after100": 3.05,
+    "min_offset_after100": 1.75,
+    "max_offset": 3.95,
+    "formula_centre_for_exact_constant": 27.32
+   },
+   "c9_const3.5": {
+    "target": 3.5,
+    "status": "finished",
+    "lap_time": 41.7,
+    "progress": 100.0,
+    "center": 24.42,
+    "path_len": 932.7,
+    "mean_signed_offset_after100": 3.55,
+    "min_offset_after100": 2.23,
+    "max_offset": 4.27,
+    "formula_centre_for_exact_constant": 24.07
+   }
+  },
+  "analytic_offset_for_30": 2.703,
+  "simulated_target_for_30": 2.72,
+  "simulated_mean_offset_for_30": 2.77
+ },
+ "claim12": {
+  "runs": {
+   "c12_E6.0_W21_k0.02": {
+    "status": "finished",
+    "lap_time": 41.42,
+    "progress": 100.0,
+    "center": 58.34,
+    "offroad_frames": 0,
+    "offroad_where": [],
+    "max_abs_offset_while_on_road": 6.417,
+    "min_abs_offset_while_off_road": null,
+    "inside_max": {
+     "C1": 6.14,
+     "C2": 6.42,
+     "C3": 4.93,
+     "C4": 6.16,
+     "C5": 6.05,
+     "C6": 4.39,
+     "C7": 6.06,
+     "C8": 6.33
+    }
+   },
+   "c12_E6.0_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.42,
+    "progress": 100.0,
+    "center": 61.43,
+    "offroad_frames": 0,
+    "offroad_where": [],
+    "max_abs_offset_while_on_road": 6.29,
+    "min_abs_offset_while_off_road": null,
+    "inside_max": {
+     "C1": 6.29,
+     "C2": 5.01,
+     "C3": 3.22,
+     "C4": 6.27,
+     "C5": 3.83,
+     "C6": 1.78,
+     "C7": 3.94,
+     "C8": 6.29
+    }
+   },
+   "c12_E6.25_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.38,
+    "progress": 100.0,
+    "center": 60.89,
+    "offroad_frames": 0,
+    "offroad_where": [],
+    "max_abs_offset_while_on_road": 6.522,
+    "min_abs_offset_while_off_road": null,
+    "inside_max": {
+     "C1": 6.52,
+     "C2": 5.2,
+     "C3": 3.33,
+     "C4": 6.5,
+     "C5": 4.01,
+     "C6": 1.8,
+     "C7": 4.1,
+     "C8": 6.48
+    }
+   },
+   "c12_E6.5_W21_k0.02": {
+    "status": "finished",
+    "lap_time": 41.4,
+    "progress": 96.84,
+    "center": 56.92,
+    "offroad_frames": 26,
+    "offroad_where": [
+     "C1:6",
+     "C2:12",
+     "C4:5",
+     "C8:3"
+    ],
+    "max_abs_offset_while_on_road": 6.634,
+    "min_abs_offset_while_off_road": 6.587,
+    "inside_max": {
+     "C1": 6.77,
+     "C2": 6.9,
+     "C3": 5.33,
+     "C4": 6.66,
+     "C5": 6.58,
+     "C6": 4.71,
+     "C7": 6.52,
+     "C8": 6.63
+    }
+   },
+   "c12_E6.5_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.36,
+    "progress": 97.55,
+    "center": 59.88,
+    "offroad_frames": 17,
+    "offroad_where": [
+     "C1:7",
+     "C4:5",
+     "C8:5"
+    ],
+    "max_abs_offset_while_on_road": 6.582,
+    "min_abs_offset_while_off_road": 6.595,
+    "inside_max": {
+     "C1": 6.74,
+     "C2": 5.35,
+     "C3": 3.45,
+     "C4": 6.73,
+     "C5": 4.12,
+     "C6": 1.84,
+     "C7": 4.21,
+     "C8": 6.71
+    }
+   },
+   "c12_E6.75_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.34,
+    "progress": 97.29,
+    "center": 59.27,
+    "offroad_frames": 22,
+    "offroad_where": [
+     "C1:9",
+     "C4:7",
+     "C8:6"
+    ],
+    "max_abs_offset_while_on_road": 6.604,
+    "min_abs_offset_while_off_road": 6.622,
+    "inside_max": {
+     "C1": 7.01,
+     "C2": 5.56,
+     "C3": 3.59,
+     "C4": 6.79,
+     "C5": 4.28,
+     "C6": 1.92,
+     "C7": 4.34,
+     "C8": 6.82
+    }
+   },
+   "c12_E7.0_W21_k0.02": {
+    "status": "finished",
+    "lap_time": 41.32,
+    "progress": 92.65,
+    "center": 55.06,
+    "offroad_frames": 86,
+    "offroad_where": [
+     "C1:12",
+     "C2:19",
+     "C4:11",
+     "C5:19",
+     "C7:13",
+     "C8:12"
+    ],
+    "max_abs_offset_while_on_road": 6.627,
+    "min_abs_offset_while_off_road": 6.651,
+    "inside_max": {
+     "C1": 7.26,
+     "C2": 7.36,
+     "C3": 5.7,
+     "C4": 7.13,
+     "C5": 7.08,
+     "C6": 5.07,
+     "C7": 7.02,
+     "C8": 7.13
+    }
+   },
+   "c12_E7.0_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.28,
+    "progress": 95.7,
+    "center": 58.46,
+    "offroad_frames": 38,
+    "offroad_where": [
+     "C1:13",
+     "C4:14",
+     "C8:11"
+    ],
+    "max_abs_offset_while_on_road": 6.621,
+    "min_abs_offset_while_off_road": 6.645,
+    "inside_max": {
+     "C1": 7.25,
+     "C2": 5.72,
+     "C3": 3.71,
+     "C4": 7.28,
+     "C5": 4.44,
+     "C6": 1.95,
+     "C7": 4.43,
+     "C8": 7.18
+    }
+   },
+   "c12_E7.5_W28_k0.03": {
+    "status": "finished",
+    "lap_time": 41.22,
+    "progress": 94.82,
+    "center": 57.21,
+    "offroad_frames": 51,
+    "offroad_where": [
+     "C1:16",
+     "C4:17",
+     "C8:18"
+    ],
+    "max_abs_offset_while_on_road": 6.649,
+    "min_abs_offset_while_off_road": 6.64,
+    "inside_max": {
+     "C1": 7.49,
+     "C2": 6.07,
+     "C3": 3.93,
+     "C4": 7.51,
+     "C5": 4.7,
+     "C6": 2.11,
+     "C7": 4.7,
+     "C8": 7.54
+    }
+   },
+   "c12_const5.5": {
+    "status": "finished",
+    "lap_time": 41.34,
+    "progress": 100.0,
+    "center": 20.63,
+    "offroad_frames": 0,
+    "offroad_where": [],
+    "max_abs_offset_while_on_road": 6.166,
+    "min_abs_offset_while_off_road": null,
+    "inside_max": {
+     "C1": 5.95,
+     "C2": 6.17,
+     "C3": 5.84,
+     "C4": 6.05,
+     "C5": 5.9,
+     "C6": 6.0,
+     "C7": -4.55,
+     "C8": 6.09
+    }
+   },
+   "c12_const6.0": {
+    "status": "finished",
+    "lap_time": 41.24,
+    "progress": 99.36,
+    "center": 20.4,
+    "offroad_frames": 3,
+    "offroad_where": [
+     "C2:1",
+     "C6:2",
+     "C7:2"
+    ],
+    "max_abs_offset_while_on_road": 6.601,
+    "min_abs_offset_while_off_road": 6.589,
+    "inside_max": {
+     "C1": 6.57,
+     "C2": 6.6,
+     "C3": 6.3,
+     "C4": 6.37,
+     "C5": 6.37,
+     "C6": 6.64,
+     "C7": -4.91,
+     "C8": 6.45
+    }
+   },
+   "c12_const6.3": {
+    "status": "finished",
+    "lap_time": 41.160000000000004,
+    "progress": 95.27,
+    "center": 19.57,
+    "offroad_frames": 45,
+    "offroad_where": [
+     "C1:5",
+     "C2:12",
+     "C4:6",
+     "C5:7",
+     "C6:8",
+     "C7:8",
+     "C8:7"
+    ],
+    "max_abs_offset_while_on_road": 6.657,
+    "min_abs_offset_while_off_road": 6.634,
+    "inside_max": {
+     "C1": 6.74,
+     "C2": 6.9,
+     "C3": 6.6,
+     "C4": 6.78,
+     "C5": 6.7,
+     "C6": 6.79,
+     "C7": -4.42,
+     "C8": 6.85
+    }
+   },
+   "c12_const6.6": {
+    "status": "finished",
+    "lap_time": 42.88,
+    "progress": 50.6,
+    "center": 10.63,
+    "offroad_frames": 1048,
+    "offroad_where": [
+     "C1:75",
+     "C2:72",
+     "C3:89",
+     "C4:11",
+     "C5:60",
+     "C6:63",
+     "C7:36",
+     "C8:11"
+    ],
+    "max_abs_offset_while_on_road": 6.667,
+    "min_abs_offset_while_off_road": 6.607,
+    "inside_max": {
+     "C1": 7.0,
+     "C2": 7.22,
+     "C3": 6.9,
+     "C4": 7.01,
+     "C5": 6.95,
+     "C6": 7.11,
+     "C7": -4.74,
+     "C8": 6.96
+    }
+   },
+   "s3_source": {
+    "status": "finished",
+    "lap_time": 41.9,
+    "progress": 98.3,
+    "center": 64.28,
+    "offroad_frames": 26,
+    "offroad_where": [
+     "C6:3",
+     "C7:26"
+    ],
+    "max_abs_offset_while_on_road": 6.391,
+    "min_abs_offset_while_off_road": 6.652,
+    "inside_max": {
+     "C1": 5.46,
+     "C2": 4.9,
+     "C3": 3.78,
+     "C4": 5.61,
+     "C5": 4.29,
+     "C6": 6.28,
+     "C7": 8.89,
+     "C8": 5.4
+    }
+   }
+  },
+  "largest_onroad_offset": 6.667,
+  "smallest_offroad_offset": 6.587
+ }
+}

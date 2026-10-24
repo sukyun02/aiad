@@ -1,0 +1,1 @@
+{"saved": [{"target": "/home/sukyun02/workspace/aiad/pilot/cands/s2_cnnA/runs/Q12/s2.pth", "stats": {"epoch": 100, "train_loss_sum": 14.91359, "train_loss_mean": 0.15064, "train_acc": 0.947, "pred_steer_rate": 0.2486, "data_steer_rate": 0.2726}}], "params": 194537, "seconds": 283.2, "network_sha": "78e73e73d5d0"}

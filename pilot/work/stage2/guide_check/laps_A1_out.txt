@@ -1,0 +1,2 @@
+lap                      lap_time   prog centre   path hold maxoff replay | inside max at    C1    C2    C3    C4    C5    C6    C7    C8
+lap1                        41.72 100.00  67.60  933.3    0   4.67     ok |  4.67  3.61  2.27  4.63  2.69  1.42  2.98  4.64

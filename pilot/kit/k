@@ -1,0 +1,19 @@
+#!/bin/sh
+# Pilot kit launcher: runs kit.py with the repo's venv python.
+# Everything except the stdlib-only subcommands runs inside a memory-capped systemd scope (aiad-pilot.slice), so a
+# runaway experiment is killed there by the kernel instead of taking the desktop, VS Code and Claude down with it.
+# Stop everything the kit started:  systemctl --user stop aiad-pilot.slice
+KIT=$(dirname "$(readlink -f "$0")")
+PY=/home/sukyun02/workspace/aiad/assignment1/.venv/bin/python
+case "${1:-}" in
+    new|summary|-h|--help|"") exec "$PY" "$KIT/kit.py" "$@" ;;
+esac
+if [ -z "${KIT_NO_CGROUP:-}" ] && ! grep -q 'aiad-pilot\.slice' /proc/self/cgroup 2>/dev/null; then
+    if systemctl --user set-property --runtime aiad-pilot.slice \
+            "MemoryMax=${KIT_MEMORY_MAX:-18G}" "MemorySwapMax=${KIT_SWAP_MAX:-2G}" 2>/dev/null; then
+        exec systemd-run --user --scope --quiet --collect --slice=aiad-pilot.slice -p OOMPolicy=continue \
+            "$PY" "$KIT/kit.py" "$@"
+    fi
+    echo "kit: no memory-capped scope available (systemd user session missing?); running without it" >&2
+fi
+exec "$PY" "$KIT/kit.py" "$@"

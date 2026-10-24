@@ -1,0 +1,30 @@
+{
+ "note": "red/white kerb strips drawn by CarRacing: 1.33 wide, OUTSIDE the road edge (not road tiles -> off-road for the car centre), on the inside of the bend; along-track intervals of the centre line",
+ "kerbs": [
+  {
+   "start": 52.5,
+   "end": 70.0,
+   "side": "left"
+  },
+  {
+   "start": 255.5,
+   "end": 269.5,
+   "side": "left"
+  },
+  {
+   "start": 525.0,
+   "end": 549.5,
+   "side": "left"
+  },
+  {
+   "start": 612.5,
+   "end": 630.0,
+   "side": "left"
+  },
+  {
+   "start": 889.0,
+   "end": 910.0,
+   "side": "left"
+  }
+ ]
+}

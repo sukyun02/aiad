@@ -1,0 +1,32 @@
+=== run 4: training (5.3) ===
+Mem:            30Gi       4.0Gi        22Gi       473Mi       4.7Gi        26Gi
+train exit=0
+설정: data_dir=/home/sukyun02/workspace/aiad/assignment1/data/collected | start_model=scratch | model_path=/home/sukyun02/workspace/aiad/assignment1/models/20261006_191515.pth | epochs=100 | batch_size=256 | 
+새 모델로 처음부터 학습합니다.
+전체 학습 대상: 관측 파일 15067개 (각 파일과 같은 번호의 행동 파일 사용)
+모델 저장 완료: /home/sukyun02/workspace/aiad/assignment1/models/20261006_191515.pth
+제출할 구조 파일: /home/sukyun02/workspace/aiad/assignment1/models/20261006_191515.network.py
+Epoch     1	[Train]	loss: 58.107941 	ETA: +218.0
+Epoch    30	[Train]	loss: 21.137061 	ETA: +134.0
+Epoch    50	[Train]	loss: 14.742951 	ETA: +95.40
+Epoch   100	[Train]	loss: 5.800344 	ETA: +0.0000
+=== run 4: kit drive (5.4) models/20261006_191515 ===
+{'status': 'finished', 'lap_time': 43.28, 'progress': 100.0, 'center': 66.8, 'max_offset': 3.26, 'offroad_frames': 0}
+5.4 verdict: PASS
+=== run 4: official evaluation code (5.4) ===
+주행 종료: 출발점 복귀 완료
+주행 결과: 진행률 100.00/100 | 중앙선 유지 66.80/100 | 랩타임 43.28s
+=== run 4: gate (5.5) ===
+probe      clean status       lap progress center maxoff offroad
+cuda       yes   finished   43.28   100.00  66.80   3.26       0
+cpu        yes   finished   43.28   100.00  66.80   3.26       0
+hud_zero   no    finished   43.42    95.09  60.67   8.00     104
+noise2_s0  yes   finished   43.38   100.00  64.83   6.27       0
+noise2_s1  yes   finished   43.20   100.00  73.87   3.16       0
+noise2_s2  yes   finished   43.18   100.00  67.70   5.12       0
+noise2_s3  yes   finished   43.32   100.00  70.83   5.91       0
+noise2_s4  yes   finished   43.34   100.00  70.56   2.48       0
+nominal (cuda, cpu clean and identical): yes | perturbed clean 5/6, not finished 0 | worst max_offset 8.00 | gate PASS
+=== run 4 done: models/20261006_191515 ===
+
+[exited with code 0]

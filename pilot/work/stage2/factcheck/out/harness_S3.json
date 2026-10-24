@@ -1,0 +1,175 @@
+{
+ "scenario": "S3",
+ "source_lap": {
+  "folder": "/home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/data/offroad_lap",
+  "frames": 2095
+ },
+ "lap": {
+  "status": "finished",
+  "lap_time": 41.9,
+  "progress": 98.29978984905148,
+  "centre": 64.27807645545137,
+  "recorded_frames": 2095,
+  "off_road_spans_first_offroad_frame__first_onroad_frame": [
+   [
+    1653,
+    1679
+   ]
+  ],
+  "off_road_frames_total": 26,
+  "scored_distance": 942.694984665751,
+  "length": 959.0000000135781,
+  "unscored_distance": 16.305015347827066
+ },
+ "sessions_after_tab": [
+  "20261006_220642_221503"
+ ],
+ "torch_is_stub": true,
+ "loop_iterations": 2101,
+ "panel_value_changes_first20__metricsframe_progress_centre_time": [
+  [
+   0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   50,
+   1.8527,
+   1.8009,
+   1.0
+  ],
+  [
+   100,
+   4.1944,
+   3.976,
+   2.0
+  ],
+  [
+   150,
+   7.0646,
+   5.171,
+   3.0
+  ],
+  [
+   200,
+   9.3736,
+   6.4263,
+   4.0
+  ],
+  [
+   250,
+   11.7189,
+   8.6301,
+   5.0
+  ],
+  [
+   300,
+   14.065,
+   10.8805,
+   6.0
+  ],
+  [
+   350,
+   16.4111,
+   13.0932,
+   7.0
+  ],
+  [
+   400,
+   18.7559,
+   15.2676,
+   8.0
+  ],
+  [
+   450,
+   21.071,
+   16.8851,
+   9.0
+  ],
+  [
+   500,
+   23.4387,
+   18.2508,
+   10.0
+  ],
+  [
+   550,
+   25.7607,
+   19.8727,
+   11.0
+  ],
+  [
+   600,
+   28.3239,
+   20.6072,
+   12.0
+  ],
+  [
+   650,
+   30.6609,
+   22.3221,
+   13.0
+  ],
+  [
+   700,
+   33.0069,
+   24.5715,
+   14.0
+  ],
+  [
+   750,
+   35.353,
+   26.7669,
+   15.0
+  ],
+  [
+   800,
+   37.7086,
+   28.4206,
+   16.0
+  ],
+  [
+   850,
+   40.1053,
+   29.29,
+   17.0
+  ],
+  [
+   900,
+   42.5619,
+   29.9636,
+   18.0
+  ],
+  [
+   950,
+   44.9229,
+   31.2601,
+   19.0
+  ]
+ ],
+ "saved_sessions": [
+  {
+   "name": "20261006_220642_221503",
+   "name_matches_YYYYMMDD_HHMMSS_micro": true,
+   "observations": 2095,
+   "actions": 2095,
+   "first": "observation_00000.npy",
+   "last": "observation_02094.npy",
+   "obs_shape": [
+    96,
+    96,
+    3
+   ],
+   "obs_dtype": "uint8",
+   "act_dtype": "float32",
+   "first_action": [
+    0.0,
+    0.5,
+    0.0
+   ],
+   "actions_identical_to_source": 2095,
+   "observations_identical_to_source": 2095
+  }
+ ]
+}

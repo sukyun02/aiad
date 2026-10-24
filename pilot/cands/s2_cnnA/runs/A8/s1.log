@@ -1,0 +1,4 @@
+seed 1 epoch 50: loss_sum 21.2017 mean 0.3212 acc 0.866
+seed 1 epoch 100: loss_sum 13.4020 mean 0.2031 acc 0.9246
+RESULT s2_cnnA/A8 s1 e50 loss_sum 21.202 acc 0.866 | cuda: 41.78s prog 100.0 ctr 61.1 path 935 steer 0.32 maxoff 5.2 | hud_zero: 41.72s | noise2: 41.76s
+RESULT s2_cnnA/A8 s1 e100 loss_sum 13.402 acc 0.925 | cuda: 41.70s prog 100.0 ctr 65.4 path 933 steer 0.33 maxoff 4.9 | hud_zero: 41.76s | noise2: 41.72s

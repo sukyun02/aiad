@@ -1,0 +1,115 @@
+[학습] 장치: CUDA (NVIDIA GeForce RTX 5070 Ti Laptop GPU) | PyTorch 2.10.0+cu128
+설정: data_dir=/home/sukyun02/workspace/aiad/assignment1/data/collected | start_model=scratch | model_path=/home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.pth | epochs=100 | batch_size=256 | learning_rate=0.001
+새 모델로 처음부터 학습합니다.
+학습 데이터 기준 폴더: /home/sukyun02/workspace/aiad/assignment1/data/collected
+하위 폴더를 포함하여 다음 폴더의 데이터를 사용합니다:
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_223710_800132 (관측 파일 2172개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_223755_475813 (관측 파일 2162개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_223842_371887 (관측 파일 2151개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_223934_463535 (관측 파일 2153개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_224019_106700 (관측 파일 2150개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_224103_364888 (관측 파일 2136개)
+  - /home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_224147_693729 (관측 파일 2143개)
+전체 학습 대상: 관측 파일 15067개 (각 파일과 같은 번호의 행동 파일 사용)
+Epoch     1	[Train]	loss: 57.295861 	ETA: +214.023832s
+Epoch     2	[Train]	loss: 41.388353 	ETA: +201.085070s
+Epoch     3	[Train]	loss: 34.420803 	ETA: +194.720216s
+Epoch     4	[Train]	loss: 32.706610 	ETA: +191.129946s
+Epoch     5	[Train]	loss: 32.016440 	ETA: +188.103327s
+Epoch     6	[Train]	loss: 32.112137 	ETA: +185.888470s
+Epoch     7	[Train]	loss: 31.830039 	ETA: +184.186251s
+Epoch     8	[Train]	loss: 31.534531 	ETA: +181.499151s
+Epoch     9	[Train]	loss: 31.157640 	ETA: +178.810176s
+Epoch    10	[Train]	loss: 31.287634 	ETA: +176.181071s
+Epoch    11	[Train]	loss: 30.874285 	ETA: +173.651374s
+Epoch    12	[Train]	loss: 30.445042 	ETA: +171.793703s
+Epoch    13	[Train]	loss: 30.294859 	ETA: +169.354484s
+Epoch    14	[Train]	loss: 30.253465 	ETA: +167.135324s
+Epoch    15	[Train]	loss: 29.749385 	ETA: +164.996446s
+Epoch    16	[Train]	loss: 29.333192 	ETA: +162.780399s
+Epoch    17	[Train]	loss: 28.947271 	ETA: +160.724944s
+Epoch    18	[Train]	loss: 28.689142 	ETA: +158.884387s
+Epoch    19	[Train]	loss: 28.274053 	ETA: +156.750261s
+Epoch    20	[Train]	loss: 27.949251 	ETA: +154.732636s
+Epoch    21	[Train]	loss: 27.523412 	ETA: +152.716513s
+Epoch    22	[Train]	loss: 27.385949 	ETA: +150.732986s
+Epoch    23	[Train]	loss: 26.811304 	ETA: +148.725984s
+Epoch    24	[Train]	loss: 26.365922 	ETA: +146.899743s
+Epoch    25	[Train]	loss: 26.017255 	ETA: +144.969599s
+Epoch    26	[Train]	loss: 25.662248 	ETA: +142.980965s
+Epoch    27	[Train]	loss: 25.174481 	ETA: +140.957947s
+Epoch    28	[Train]	loss: 24.809323 	ETA: +139.003503s
+Epoch    29	[Train]	loss: 24.410249 	ETA: +137.018862s
+Epoch    30	[Train]	loss: 24.136791 	ETA: +135.143277s
+Epoch    31	[Train]	loss: 23.557612 	ETA: +133.160434s
+Epoch    32	[Train]	loss: 23.231255 	ETA: +131.186636s
+Epoch    33	[Train]	loss: 22.825908 	ETA: +129.202867s
+Epoch    34	[Train]	loss: 22.383228 	ETA: +127.228853s
+Epoch    35	[Train]	loss: 21.991111 	ETA: +125.292088s
+Epoch    36	[Train]	loss: 21.561730 	ETA: +123.418534s
+Epoch    37	[Train]	loss: 21.204686 	ETA: +121.430071s
+Epoch    38	[Train]	loss: 20.866855 	ETA: +119.487782s
+Epoch    39	[Train]	loss: 20.434658 	ETA: +117.509354s
+Epoch    40	[Train]	loss: 20.090906 	ETA: +115.542969s
+Epoch    41	[Train]	loss: 19.796061 	ETA: +113.617334s
+Epoch    42	[Train]	loss: 19.406460 	ETA: +111.727019s
+Epoch    43	[Train]	loss: 18.966701 	ETA: +109.763878s
+Epoch    44	[Train]	loss: 18.788914 	ETA: +107.815789s
+Epoch    45	[Train]	loss: 18.599158 	ETA: +105.865247s
+Epoch    46	[Train]	loss: 18.090014 	ETA: +103.940041s
+Epoch    47	[Train]	loss: 17.733292 	ETA: +101.982218s
+Epoch    48	[Train]	loss: 17.381577 	ETA: +100.085095s
+Epoch    49	[Train]	loss: 17.265778 	ETA: +98.155548s
+Epoch    50	[Train]	loss: 16.937797 	ETA: +96.204808s
+Epoch    51	[Train]	loss: 16.241089 	ETA: +94.257541s
+Epoch    52	[Train]	loss: 16.027874 	ETA: +92.308841s
+Epoch    53	[Train]	loss: 15.682180 	ETA: +90.365887s
+Epoch    54	[Train]	loss: 15.243714 	ETA: +88.502306s
+Epoch    55	[Train]	loss: 14.920628 	ETA: +86.561187s
+Epoch    56	[Train]	loss: 14.625419 	ETA: +84.628076s
+Epoch    57	[Train]	loss: 14.239840 	ETA: +82.700198s
+Epoch    58	[Train]	loss: 14.030605 	ETA: +80.771239s
+Epoch    59	[Train]	loss: 13.601062 	ETA: +78.863694s
+Epoch    60	[Train]	loss: 13.282209 	ETA: +76.983373s
+Epoch    61	[Train]	loss: 12.955924 	ETA: +75.067090s
+Epoch    62	[Train]	loss: 12.394579 	ETA: +73.156637s
+Epoch    63	[Train]	loss: 12.260405 	ETA: +71.240228s
+Epoch    64	[Train]	loss: 11.871883 	ETA: +69.319195s
+Epoch    65	[Train]	loss: 11.576787 	ETA: +67.401623s
+Epoch    66	[Train]	loss: 11.227204 	ETA: +65.503556s
+Epoch    67	[Train]	loss: 11.020529 	ETA: +63.588979s
+Epoch    68	[Train]	loss: 10.839234 	ETA: +61.659743s
+Epoch    69	[Train]	loss: 10.429288 	ETA: +59.734114s
+Epoch    70	[Train]	loss: 10.058920 	ETA: +57.808383s
+Epoch    71	[Train]	loss: 9.675695 	ETA: +55.881141s
+Epoch    72	[Train]	loss: 9.503009 	ETA: +53.980841s
+Epoch    73	[Train]	loss: 8.994812 	ETA: +52.059615s
+Epoch    74	[Train]	loss: 8.870231 	ETA: +50.135654s
+Epoch    75	[Train]	loss: 8.542698 	ETA: +48.208892s
+Epoch    76	[Train]	loss: 8.536257 	ETA: +46.282260s
+Epoch    77	[Train]	loss: 8.349004 	ETA: +44.357475s
+Epoch    78	[Train]	loss: 7.970674 	ETA: +42.444356s
+Epoch    79	[Train]	loss: 7.730182 	ETA: +40.512113s
+Epoch    80	[Train]	loss: 7.401525 	ETA: +38.589071s
+Epoch    81	[Train]	loss: 7.361263 	ETA: +36.658309s
+Epoch    82	[Train]	loss: 6.956860 	ETA: +34.732765s
+Epoch    83	[Train]	loss: 6.780175 	ETA: +32.802979s
+Epoch    84	[Train]	loss: 6.740770 	ETA: +30.880080s
+Epoch    85	[Train]	loss: 6.498290 	ETA: +28.954201s
+Epoch    86	[Train]	loss: 6.403620 	ETA: +27.019707s
+Epoch    87	[Train]	loss: 6.278442 	ETA: +25.089127s
+Epoch    88	[Train]	loss: 6.000044 	ETA: +23.157836s
+Epoch    89	[Train]	loss: 5.878829 	ETA: +21.228265s
+Epoch    90	[Train]	loss: 5.662220 	ETA: +19.305949s
+Epoch    91	[Train]	loss: 5.655483 	ETA: +17.374933s
+Epoch    92	[Train]	loss: 5.303927 	ETA: +15.443890s
+Epoch    93	[Train]	loss: 5.145351 	ETA: +13.514976s
+Epoch    94	[Train]	loss: 4.968324 	ETA: +11.584586s
+Epoch    95	[Train]	loss: 4.852938 	ETA: +9.654184s
+Epoch    96	[Train]	loss: 4.705334 	ETA: +7.726404s
+Epoch    97	[Train]	loss: 4.514001 	ETA: +5.794739s
+Epoch    98	[Train]	loss: 4.653258 	ETA: +3.863574s
+Epoch    99	[Train]	loss: 4.467463 	ETA: +1.931663s
+Epoch   100	[Train]	loss: 4.386221 	ETA: +0.000000s
+모델 저장 완료: /home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.pth
+제출할 구조 파일: /home/sukyun02/workspace/aiad/assignment1/models/20261006_190301.network.py

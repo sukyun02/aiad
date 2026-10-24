@@ -1,0 +1,2 @@
+seed 0 epoch 100: loss_sum 14.5423 mean 0.2908 acc 0.8857
+RESULT s2_cnnA/C6 s0 e100 loss_sum 14.542 acc 0.886 | cuda: 41.82s prog 100.0 ctr 62.8 path 934 steer 0.28 maxoff 5.8 | hud_zero: 41.78s | noise2: aborted@80

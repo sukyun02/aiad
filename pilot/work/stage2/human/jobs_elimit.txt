@@ -1,0 +1,6 @@
+driver_h.py --E 5.5 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/elimit/x_m6_r6_E5.5_la15.json --trace out/elimit/x_m6_r6_E5.5_la15.npz
+driver_h.py --E 6.0 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/elimit/x_m6_r6_E6.0_la15.json --trace out/elimit/x_m6_r6_E6.0_la15.npz
+driver_h.py --E 6.5 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/elimit/x_m6_r6_E6.5_la15.json --trace out/elimit/x_m6_r6_E6.5_la15.npz
+driver_h.py --E 7.0 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/elimit/x_m6_r6_E7.0_la15.json --trace out/elimit/x_m6_r6_E7.0_la15.npz
+driver_h.py --E 6.0 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 8 --react 6 --react-steer current --decide commit --out out/elimit/x_m8_r6_E6.0_la15.json --trace out/elimit/x_m8_r6_E6.0_la15.npz
+driver_h.py --E 6.0 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --min-press 4 --react 3 --react-steer current --decide commit --out out/elimit/x_m4_r3_E6.0_la9.json --trace out/elimit/x_m4_r3_E6.0_la9.npz

@@ -1,0 +1,170 @@
+{
+ "TRACK_WIDTH": 6.666666666666667,
+ "BORDER": 1.3333333333333333,
+ "track_length": 959.000000013578,
+ "tiles": 273,
+ "start_position": [
+  218.2906494140625,
+  -51.780967712402344
+ ],
+ "start_along_error": [
+  958.9999992000504,
+  0.00045133180837323995
+ ],
+ "start_on_road": true,
+ "whole_lap": {
+  "left_min": 6.586734712123871,
+  "left_max": 6.953517973423004,
+  "right_min": 6.586734712123871,
+  "right_max": 6.919329524040222,
+  "left_metric_min": 6.586731312280558,
+  "right_metric_min": 6.586734712123876
+ },
+ "corners": {
+  "C1": {
+   "side": "L",
+   "turn_deg": 75.7,
+   "inside_edge_along_normal_min": 6.587,
+   "inside_edge_along_normal_max": 6.954,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.587
+  },
+  "C2": {
+   "side": "L",
+   "turn_deg": 42.3,
+   "inside_edge_along_normal_min": 6.596,
+   "inside_edge_along_normal_max": 6.953,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.594
+  },
+  "C3": {
+   "side": "L",
+   "turn_deg": 18.6,
+   "inside_edge_along_normal_min": 6.658,
+   "inside_edge_along_normal_max": 6.694,
+   "inside_edge_metric_min": 6.658,
+   "inside_edge_metric_max": 6.666,
+   "outside_edge_metric_min": 6.658
+  },
+  "C4": {
+   "side": "L",
+   "turn_deg": 79.4,
+   "inside_edge_along_normal_min": 6.587,
+   "inside_edge_along_normal_max": 6.954,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.587
+  },
+  "C5": {
+   "side": "L",
+   "turn_deg": 32.2,
+   "inside_edge_along_normal_min": 6.646,
+   "inside_edge_along_normal_max": 6.739,
+   "inside_edge_metric_min": 6.645,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.645
+  },
+  "C6": {
+   "side": "L",
+   "turn_deg": 13.9,
+   "inside_edge_along_normal_min": 6.587,
+   "inside_edge_along_normal_max": 6.893,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.587
+  },
+  "C7": {
+   "side": "R",
+   "turn_deg": -42.4,
+   "inside_edge_along_normal_min": 6.587,
+   "inside_edge_along_normal_max": 6.919,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.587
+  },
+  "C8": {
+   "side": "L",
+   "turn_deg": 97.4,
+   "inside_edge_along_normal_min": 6.587,
+   "inside_edge_along_normal_max": 6.954,
+   "inside_edge_metric_min": 6.587,
+   "inside_edge_metric_max": 6.667,
+   "outside_edge_metric_min": 6.587
+  }
+ },
+ "kerb_polygons": 27,
+ "kerbs": {
+  "C1": {
+   "count": 5,
+   "along": [
+    53.5,
+    68.5
+   ],
+   "lateral_centre": [
+    7.25,
+    7.29
+   ],
+   "where": "inside"
+  },
+  "C2": {
+   "count": 4,
+   "along": [
+    256.5,
+    268.0
+   ],
+   "lateral_centre": [
+    7.26,
+    7.33
+   ],
+   "where": "inside"
+  },
+  "C3": {
+   "count": 0
+  },
+  "C4": {
+   "count": 7,
+   "along": [
+    526.0,
+    548.0
+   ],
+   "lateral_centre": [
+    7.25,
+    7.33
+   ],
+   "where": "inside"
+  },
+  "C5": {
+   "count": 5,
+   "along": [
+    614.0,
+    628.5
+   ],
+   "lateral_centre": [
+    7.31,
+    7.33
+   ],
+   "where": "inside"
+  },
+  "C6": {
+   "count": 0
+  },
+  "C7": {
+   "count": 0
+  },
+  "C8": {
+   "count": 6,
+   "along": [
+    890.5,
+    908.5
+   ],
+   "lateral_centre": [
+    7.25,
+    7.33
+   ],
+   "where": "inside"
+  }
+ },
+ "kerbs_outside_corner_windows": []
+}

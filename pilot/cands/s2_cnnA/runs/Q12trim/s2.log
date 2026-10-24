@@ -1,0 +1,2 @@
+seed 2 epoch 100: loss_sum 12.4615 mean 0.1978 acc 0.9278
+RESULT s2_cnnA/Q12trim s2 e100 loss_sum 12.462 acc 0.928 | cuda: 41.76s prog 100.0 ctr 68.0 path 934 steer 0.30 maxoff 5.1 | hud_zero: 41.78s | noise2: 41.70s

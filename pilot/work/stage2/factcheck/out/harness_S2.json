@@ -1,0 +1,106 @@
+{
+ "scenario": "S2",
+ "abort": {
+  "status": "aborted",
+  "first_off_road_frame": 165,
+  "frames_at_stop": 399,
+  "off_road_frames": 250,
+  "off_road_seconds": 5.0,
+  "progress": 5.250208862666221,
+  "lap_time": null,
+  "samples_frame_offroadframes_progress": [
+   [
+    166,
+    17,
+    5.25
+   ],
+   [
+    215,
+    66,
+    5.25
+   ],
+   [
+    265,
+    116,
+    5.25
+   ],
+   [
+    365,
+    216,
+    5.25
+   ]
+  ]
+ },
+ "after_abort_tab_enter": {
+  "status": "aborted",
+  "frames_before": 399,
+  "frames_after": 399,
+  "sessions": []
+ },
+ "after_space_status": "ready",
+ "torch_is_stub": true,
+ "loop_iterations": 418,
+ "panel_value_changes_first20__metricsframe_progress_centre_time": [
+  [
+   0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   50,
+   0.9145,
+   0.9019,
+   1.0
+  ],
+  [
+   100,
+   3.2604,
+   3.1093,
+   2.0
+  ],
+  [
+   150,
+   5.2502,
+   4.5512,
+   3.0
+  ],
+  [
+   200,
+   5.2502,
+   4.5512,
+   4.0
+  ],
+  [
+   250,
+   5.2502,
+   4.5512,
+   5.0
+  ],
+  [
+   300,
+   5.2502,
+   4.5512,
+   6.0
+  ],
+  [
+   350,
+   5.2502,
+   4.5512,
+   7.0
+  ],
+  [
+   399,
+   5.2502,
+   4.5512,
+   7.98
+  ],
+  [
+   0,
+   0.0,
+   0.0,
+   0.0
+  ]
+ ],
+ "saved_sessions": []
+}

@@ -1,0 +1,49 @@
+track nodes 273 length 959.0 TRACK_WIDTH 6.666666666666667 BORDER 1.3333333333333333 ZOOM*SCALE 16.200000000000003 WINDOW 1000 800 FPS 50
+t after reset 0.02 -> zoom after reset 0.9120000000000001
+kerb blocks 27
+kerb: 5 blocks, along 52.5-70.2 (centre-line extent 17.7), side {'left'}, real length along the road edge 9.1 units = 127 px in the 1000x900 window, width 1.33, block centres on road: [False, False, False, False, False], 0.15 inside the edge on road: [True, True, True, True, True], first block colour white
+kerb: 4 blocks, along 255.5-269.3 (centre-line extent 13.8), side {'left'}, real length along the road edge 9.4 units = 131 px in the 1000x900 window, width 1.33, block centres on road: [False, False, False, False], 0.15 inside the edge on road: [True, True, True, True], first block colour white
+kerb: 7 blocks, along 525.0-549.3 (centre-line extent 24.3), side {'left'}, real length along the road edge 15.4 units = 215 px in the 1000x900 window, width 1.33, block centres on road: [False, False, False, False, False, False, False], 0.15 inside the edge on road: [True, True, True, True, True, True, True], first block colour red
+kerb: 5 blocks, along 612.5-629.8 (centre-line extent 17.3), side {'left'}, real length along the road edge 14.3 units = 198 px in the 1000x900 window, width 1.33, block centres on road: [False, False, False, False, False], 0.15 inside the edge on road: [True, True, True, True, True], first block colour white
+kerb: 6 blocks, along 890.0-909.9 (centre-line extent 19.8), side {'left'}, real length along the road edge 11.0 units = 153 px in the 1000x900 window, width 1.33, block centres on road: [False, False, False, False, False, False], 0.15 inside the edge on road: [True, True, True, True, True, True], first block colour red
+heading change C1: +75.8 deg (+ = left)
+heading change K1: -13.1 deg (+ = left)
+heading change C2: +43.0 deg (+ = left)
+heading change C3 window 350-450: +62.0 deg (+ = left)
+heading change C3 381.5-399: +18.6 deg (+ = left)
+heading change C3 340-460: +62.7 deg (+ = left)
+heading change C4: +83.2 deg (+ = left)
+heading change C5: +34.6 deg (+ = left)
+heading change K2 660-690: -19.3 deg (+ = left)
+heading change K2 650-712: -17.7 deg (+ = left)
+heading change C6 728-738.5: +13.8 deg (+ = left)
+heading change C6 715-747: +46.0 deg (+ = left)
+heading change C7 749-766.5: -60.1 deg (+ = left)
+heading change C8: +98.0 deg (+ = left)
+node spacing: median 3.5 min 3.5 max 7.0
+on-road limit measured along the local normal towards the inside (step 0.02):
+  C1: inside limit min 6.58 median 6.62 max 6.94
+  C2: inside limit min 6.58 median 6.64 max 6.94
+  C4: inside limit min 6.58 median 6.64 max 6.94
+  C5: inside limit min 6.64 median 6.64 max 6.72
+  C7: inside limit min 6.58 median 6.66 max 6.90
+  C8: inside limit min 6.58 median 6.64 max 6.94
+lap-1 apex world positions (x, y) and offsets from my replay:
+  C1: frame 139 along 60.3 offset +4.67 pos (220.4, 5.7) on_road True
+  C2: frame 579 along 261.9 offset +3.61 pos (43.2, 91.5) on_road True
+  C3: frame 856 along 388.7 offset +2.27 pos (-77.5, 68.9) on_road True
+  C4: frame 1173 along 534.6 offset +4.63 pos (-132.9, -58.2) on_road True
+  C5: frame 1361 along 623.2 offset +2.69 pos (-58.8, -95.2) on_road True
+  C6: frame 1615 along 738.7 offset +1.42 pos (54.5, -84.1) on_road True
+  C7: frame 1651 along 756.7 offset -2.98 pos (70.5, -81.6) on_road True
+  C8: frame 1949 along 893.5 offset +4.64 pos (201.3, -108.6) on_road True
+  start pos [218.3, -51.8] heading of first centre segment (deg) 82.6
+  dist C1-C2: 196.9 units = 591 px on the map
+  dist C2-C3: 122.8 units = 368 px on the map
+  dist C3-C4: 138.7 units = 416 px on the map
+  dist C4-C5: 82.8 units = 248 px on the map
+  dist C5-C6: 113.9 units = 342 px on the map
+  dist C6-C7: 16.1 units = 48 px on the map
+  dist C7-C8: 133.6 units = 401 px on the map
+  dist C8-C1: 115.9 units = 348 px on the map
+  dist C1-C4: 359.0 units = 1077 px on the map

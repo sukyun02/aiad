@@ -1,0 +1,1 @@
+{"status": "aborted", "lap_time": null, "progress": 30.17, "center": 23.46, "frames": 918, "path_len": 401.9, "mean_offset": 8.222, "max_offset": 49.27, "mean_speed": 22.49, "steer_frac": 0.1786, "switches": 68, "offroad_frames": 250, "action_counts": [13, 741, 0, 0, 0, 115, 49, 0, 0]}

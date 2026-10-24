@@ -1,0 +1,2 @@
+seed 3 epoch 100: loss_sum 2.2979 mean 0.5745 acc 0.7653
+RESULT base/b4096_e100 s3 e100 loss_sum 2.298 acc 0.765 | cuda: aborted prog 9.2 ctr 6.3 path 132 steer 0.05 maxoff 14.9 | cpu: aborted@9 | hud_zero: aborted@10 | hud_shift: aborted@10

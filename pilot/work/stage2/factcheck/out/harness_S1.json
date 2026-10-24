@@ -1,0 +1,195 @@
+{
+ "scenario": "S1",
+ "source_lap": {
+  "folder": "/home/sukyun02/workspace/aiad/pilot/data_s2/scriptA/lap1",
+  "frames": 2086,
+  "first_action": [
+   0.0,
+   0.5,
+   0.0
+  ]
+ },
+ "frames_recorded_in_the_enter_iteration": 1,
+ "enter_during_recording_frames_before_after": [
+  600,
+  602
+ ],
+ "lap1": {
+  "recorded_frames": 2086,
+  "lap_time": 41.72,
+  "progress": 100.0,
+  "centre": 67.59816641857371,
+  "wall_seconds": 39.68,
+  "wall_fps": 52.6
+ },
+ "enter_after_finish": {
+  "frames_before": 2086,
+  "frames_after": 2086,
+  "key_polls_before": 2086,
+  "key_polls_after": 2086,
+  "status": "finished"
+ },
+ "after_first_tab_sessions": [
+  "20261006_220520_101333"
+ ],
+ "after_save_without_enter": {
+  "status": "ready",
+  "frames": 0,
+  "key_polls_added": 0
+ },
+ "lap2": {
+  "recorded_frames": 2086,
+  "lap_time": 41.72
+ },
+ "after_space_sessions": [
+  "20261006_220520_101333"
+ ],
+ "torch_is_stub": true,
+ "loop_iterations": 4282,
+ "panel_value_changes_first20__metricsframe_progress_centre_time": [
+  [
+   0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  [
+   50,
+   1.8527,
+   1.8009,
+   1.0
+  ],
+  [
+   100,
+   4.1891,
+   3.6817,
+   2.0
+  ],
+  [
+   150,
+   7.0895,
+   4.4211,
+   3.0
+  ],
+  [
+   200,
+   9.4413,
+   5.3318,
+   4.0
+  ],
+  [
+   250,
+   11.785,
+   7.5105,
+   5.0
+  ],
+  [
+   300,
+   14.1311,
+   9.6973,
+   6.0
+  ],
+  [
+   350,
+   16.4773,
+   11.8711,
+   7.0
+  ],
+  [
+   400,
+   18.8235,
+   14.0454,
+   8.0
+  ],
+  [
+   450,
+   21.1733,
+   16.0319,
+   9.0
+  ],
+  [
+   500,
+   23.5299,
+   17.7003,
+   10.0
+  ],
+  [
+   550,
+   25.8659,
+   19.5536,
+   11.0
+  ],
+  [
+   600,
+   28.4378,
+   20.3333,
+   12.0
+  ],
+  [
+   650,
+   30.7831,
+   21.8025,
+   13.0
+  ],
+  [
+   700,
+   33.1288,
+   24.0554,
+   14.0
+  ],
+  [
+   750,
+   35.4745,
+   26.29,
+   15.0
+  ],
+  [
+   800,
+   37.8307,
+   27.9698,
+   16.0
+  ],
+  [
+   850,
+   40.2276,
+   28.9728,
+   17.0
+  ],
+  [
+   900,
+   42.6481,
+   29.965,
+   18.0
+  ],
+  [
+   950,
+   45.0115,
+   31.3164,
+   19.0
+  ]
+ ],
+ "saved_sessions": [
+  {
+   "name": "20261006_220520_101333",
+   "name_matches_YYYYMMDD_HHMMSS_micro": true,
+   "observations": 2086,
+   "actions": 2086,
+   "first": "observation_00000.npy",
+   "last": "observation_02085.npy",
+   "obs_shape": [
+    96,
+    96,
+    3
+   ],
+   "obs_dtype": "uint8",
+   "act_dtype": "float32",
+   "first_action": [
+    0.0,
+    0.5,
+    0.0
+   ],
+   "actions_identical_to_source": 2086,
+   "observations_identical_to_source": 2086
+  }
+ ]
+}

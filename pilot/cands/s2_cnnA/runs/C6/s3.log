@@ -1,0 +1,2 @@
+seed 3 epoch 100: loss_sum 14.5234 mean 0.2905 acc 0.8949
+RESULT s2_cnnA/C6 s3 e100 loss_sum 14.523 acc 0.895 | cuda: 41.70s prog 100.0 ctr 61.6 path 931 steer 0.30 maxoff 5.7 | hud_zero: 41.84s | noise2: 41.90s

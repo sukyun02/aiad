@@ -1,0 +1,27 @@
+[
+ {
+  "lap": "lap1",
+  "frames": 2086,
+  "finished": true,
+  "lap_time": 41.72,
+  "progress": 100.0,
+  "center": 67.6,
+  "path_len": 933.3,
+  "start_hold_frames": 0,
+  "max_abs_offset": 4.67,
+  "obs_mismatch_frames": 0,
+  "steer_frac": 0.334,
+  "brake_frames": 0,
+  "coast_frames": 0,
+  "inside_max": {
+   "C1": 4.67,
+   "C2": 3.61,
+   "C3": 2.27,
+   "C4": 4.63,
+   "C5": 2.69,
+   "C6": 1.42,
+   "C7": 2.98,
+   "C8": 4.64
+  }
+ }
+]

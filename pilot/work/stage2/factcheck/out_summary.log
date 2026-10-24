@@ -1,0 +1,56 @@
+== claim 6: releasing the gas key (driver_fc.py)
+run                    status      lap  d_lap coast minspd   prog centre  classes[0..8]
+c6_A_base              finished  41.72  +0.00     0  22.18 100.00  67.60  [0, 1390, 0, 0, 0, 539, 157, 0, 0]
+c6_A_once10_s150       finished  41.74  +0.02    10  19.41 100.00  67.55  [10, 1378, 0, 0, 0, 538, 161, 0, 0]
+c6_A_once25_s150       finished  41.84  +0.12    25  14.85 100.00  67.58  [25, 1365, 0, 0, 0, 543, 159, 0, 0]
+c6_A_once50_s150       finished  42.16  +0.44    50   7.26 100.00  67.71  [50, 1361, 0, 0, 0, 538, 159, 0, 0]
+c6_A_once10_s450       finished  41.74  +0.02    10  19.40 100.00  67.60  [5, 1379, 0, 5, 0, 537, 161, 0, 0]
+c6_A_once25_s450       finished  41.84  +0.12    25  14.83 100.00  67.62  [16, 1379, 0, 9, 0, 530, 158, 0, 0]
+c6_A_once50_s450       finished  42.18  +0.46    50   7.23 100.00  67.57  [35, 1368, 0, 15, 0, 533, 158, 0, 0]
+c6_A_entry5            finished  41.78  +0.06    40  20.87 100.00  67.61  [21, 1371, 0, 6, 13, 532, 146, 0, 0]
+c6_A_entry10           finished  41.90  +0.18    80  19.31 100.00  67.63  [49, 1352, 0, 15, 16, 524, 139, 0, 0]
+c6_A_entry25           finished  42.72  +1.00   200  14.76 100.00  67.75  [101, 1315, 0, 73, 26, 485, 136, 0, 0]
+c6_A_steer             finished  44.52  +2.80   779  14.08 100.00  68.14  [0, 1447, 0, 624, 155, 0, 0, 0, 0]
+c6_A_corners           timeout       -   +nan  7387   0.00   7.05   4.41  [3693, 90, 0, 3691, 3, 21, 2, 0, 0]
+c6x_A_entry15          finished  42.14  +0.42   120  17.80 100.00  67.79  [68, 1333, 0, 31, 21, 517, 137, 0, 0]
+c6x_A_entry40          finished  44.10  +2.38   320   9.89 100.00  68.19  [154, 1302, 0, 135, 31, 463, 120, 0, 0]
+c6_E0_base             finished  42.60  +0.00     0  22.18 100.00  91.93  [0, 1645, 0, 0, 0, 368, 117, 0, 0]
+c6_E0_once10_s150      finished  42.62  +0.02    10  19.41 100.00  92.27  [10, 1638, 0, 0, 0, 367, 116, 0, 0]
+c6_E0_steer            finished  44.66  +2.06   536  17.65 100.00  92.22  [0, 1697, 0, 409, 127, 0, 0, 0, 0]
+  speed around a 10-frame lift (frame offset from the first gas-off frame -> speed): {'-1': 22.5, '0': 22.5, '5': 20.93, '10': 19.41, '15': 21.64, '20': 22.3, '30': 22.49, '40': 22.5, '60': 22.5}
+  frames after the lift ends until speed >= 22.2 again: 9
+
+== claim 8: start hold (original driver.py)
+  c8_E0_hold0      hold  0 lap 42.60  delta +0.00  hold/50 0.00  frames 2130  centre 91.93  path 953.1
+  c8_E0_hold12     hold 12 lap 42.84  delta +0.24  hold/50 0.24  frames 2142  centre 92.28  path 953.1
+  c8_E0_hold20     hold 20 lap 43.00  delta +0.40  hold/50 0.40  frames 2150  centre 92.27  path 953.1
+  c8_E0_hold32     hold 32 lap 43.24  delta +0.64  hold/50 0.64  frames 2162  centre 92.25  path 953.1
+  c8_A_hold0       hold  0 lap 41.72  delta +0.00  hold/50 0.00  frames 2086  centre 67.6  path 933.3
+  c8_A_hold20      hold 20 lap 42.10  delta +0.38  hold/50 0.40  frames 2105  centre 67.77  path 932.8
+
+== claim 9: constant offset to the left all around (original driver.py --line)
+  c9_const2.0    finished lap 42.06  prog 100.00  centre 39.02  (formula for an exact constant: 39.21)  path 940.9  actual offset after frame 100: mean 2.05 min 0.80 max 3.04
+  c9_const2.5    finished lap 41.94  prog 100.00  centre 32.28  (formula for an exact constant: 32.21)  path 938.2  actual offset after frame 100: mean 2.55 min 1.22 max 3.47
+  c9_const2.7    finished lap 41.88  prog 100.00  centre 30.17  (formula for an exact constant: 30.03)  path 936.8  actual offset after frame 100: mean 2.75 min 1.49 max 3.67
+  c9_const3.0    finished lap 41.80  prog 100.00  centre 27.54  (formula for an exact constant: 27.32)  path 935.0  actual offset after frame 100: mean 3.05 min 1.75 max 3.95
+  c9_const3.5    finished lap 41.70  prog 100.00  centre 24.42  (formula for an exact constant: 24.07)  path 932.7  actual offset after frame 100: mean 3.55 min 2.23 max 4.27
+  centre = 30 exactly: analytic constant offset 2.703; interpolated from the simulated laps: target 2.72 (actual mean offset 2.77)
+
+== claim 12: inside limit (driver_fc.py, trace column 7 = car centre on road before the step)
+  c12_E6.0_W21_k0.02     finished lap 41.42  prog 100.00  centre 58.34  off-road frames   0 [] other 0 | max |offset| on-road 6.417  min |offset| off-road None | inside max 6.14 6.42 4.93 6.16 6.05 4.39 6.06 6.33
+  c12_E6.0_W28_k0.03     finished lap 41.42  prog 100.00  centre 61.43  off-road frames   0 [] other 0 | max |offset| on-road 6.290  min |offset| off-road None | inside max 6.29 5.01 3.22 6.27 3.83 1.78 3.94 6.29
+  c12_E6.25_W28_k0.03    finished lap 41.38  prog 100.00  centre 60.89  off-road frames   0 [] other 0 | max |offset| on-road 6.522  min |offset| off-road None | inside max 6.52 5.20 3.33 6.50 4.01 1.80 4.10 6.48
+  c12_E6.5_W21_k0.02     finished lap 41.4  prog  96.84  centre 56.92  off-road frames  26 ['C1:6', 'C2:12', 'C4:5', 'C8:3'] other 0 | max |offset| on-road 6.634  min |offset| off-road 6.587 | inside max 6.77 6.90 5.33 6.66 6.58 4.71 6.52 6.63
+  c12_E6.5_W28_k0.03     finished lap 41.36  prog  97.55  centre 59.88  off-road frames  17 ['C1:7', 'C4:5', 'C8:5'] other 0 | max |offset| on-road 6.582  min |offset| off-road 6.595 | inside max 6.74 5.35 3.45 6.73 4.12 1.84 4.21 6.71
+  c12_E6.75_W28_k0.03    finished lap 41.34  prog  97.29  centre 59.27  off-road frames  22 ['C1:9', 'C4:7', 'C8:6'] other 0 | max |offset| on-road 6.604  min |offset| off-road 6.622 | inside max 7.01 5.56 3.59 6.79 4.28 1.92 4.34 6.82
+  c12_E7.0_W21_k0.02     finished lap 41.32  prog  92.65  centre 55.06  off-road frames  86 ['C1:12', 'C2:19', 'C4:11', 'C5:19', 'C7:13', 'C8:12'] other 0 | max |offset| on-road 6.627  min |offset| off-road 6.651 | inside max 7.26 7.36 5.70 7.13 7.08 5.07 7.02 7.13
+  c12_E7.0_W28_k0.03     finished lap 41.28  prog  95.70  centre 58.46  off-road frames  38 ['C1:13', 'C4:14', 'C8:11'] other 0 | max |offset| on-road 6.621  min |offset| off-road 6.645 | inside max 7.25 5.72 3.71 7.28 4.44 1.95 4.43 7.18
+  c12_E7.5_W28_k0.03     finished lap 41.22  prog  94.82  centre 57.21  off-road frames  51 ['C1:16', 'C4:17', 'C8:18'] other 0 | max |offset| on-road 6.649  min |offset| off-road 6.64 | inside max 7.49 6.07 3.93 7.51 4.70 2.11 4.70 7.54
+  c12_const5.5           finished lap 41.34  prog 100.00  centre 20.63  off-road frames   0 [] other 0 | max |offset| on-road 6.166  min |offset| off-road None | inside max 5.95 6.17 5.84 6.05 5.90 6.00 -4.55 6.09
+  c12_const6.0           finished lap 41.24  prog  99.36  centre 20.40  off-road frames   3 ['C2:1', 'C6:2', 'C7:2'] other -2 | max |offset| on-road 6.601  min |offset| off-road 6.589 | inside max 6.57 6.60 6.30 6.37 6.37 6.64 -4.91 6.45
+  c12_const6.3           finished lap 41.160000000000004  prog  95.27  centre 19.57  off-road frames  45 ['C1:5', 'C2:12', 'C4:6', 'C5:7', 'C6:8', 'C7:8', 'C8:7'] other -8 | max |offset| on-road 6.657  min |offset| off-road 6.634 | inside max 6.74 6.90 6.60 6.78 6.70 6.79 -4.42 6.85
+  c12_const6.6           finished lap 42.88  prog  50.60  centre 10.63  off-road frames 1048 ['C1:75', 'C2:72', 'C3:89', 'C4:11', 'C5:60', 'C6:63', 'C7:36', 'C8:11'] other 631 | max |offset| on-road 6.667  min |offset| off-road 6.607 | inside max 7.00 7.22 6.90 7.01 6.95 7.11 -4.74 6.96
+  s3_source              finished lap 41.9  prog  98.30  centre 64.28  off-road frames  26 ['C6:3', 'C7:26'] other -3 | max |offset| on-road 6.391  min |offset| off-road 6.652 | inside max 5.46 4.90 3.78 5.61 4.29 6.28 8.89 5.40
+  over all these laps: largest |offset| of an on-road frame 6.667; smallest |offset| of an off-road frame 6.587
+
+written /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/out/summary.json

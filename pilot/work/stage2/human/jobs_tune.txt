@@ -1,0 +1,8 @@
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 12 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/tune/tune_m6_r6_la12_g1.0.json --trace out/tune/tune_m6_r6_la12_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 15 --gain 1.0 --min-press 6 --react 6 --react-steer current --decide commit --out out/tune/tune_m6_r6_la15_g1.0.json --trace out/tune/tune_m6_r6_la15_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 12 --gain 0.7 --min-press 6 --react 6 --react-steer current --decide commit --out out/tune/tune_m6_r6_la12_g0.7.json --trace out/tune/tune_m6_r6_la12_g0.7.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 12 --gain 1.0 --min-press 4 --react 6 --react-steer current --decide commit --out out/tune/tune_m4_r6_la12_g1.0.json --trace out/tune/tune_m4_r6_la12_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --min-press 6 --react 3 --react-steer current --decide commit --out out/tune/tune_m6_r3_la9_g1.0.json --trace out/tune/tune_m6_r3_la9_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 11 --gain 1.0 --min-press 6 --react 3 --react-steer current --decide commit --out out/tune/tune_m6_r3_la11_g1.0.json --trace out/tune/tune_m6_r3_la11_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 9 --gain 1.0 --min-press 10 --react 0 --react-steer current --decide commit --out out/tune/tune_m10_r0_la9_g1.0.json --trace out/tune/tune_m10_r0_la9_g1.0.npz
+driver_h.py --E 4 --W 28 --k0 0.03 --lookahead 12 --gain 1.0 --min-press 10 --react 0 --react-steer current --decide commit --out out/tune/tune_m10_r0_la12_g1.0.json --trace out/tune/tune_m10_r0_la12_g1.0.npz

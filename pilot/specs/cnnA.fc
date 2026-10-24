@@ -1,0 +1,5 @@
+self.fc = torch.nn.Sequential(
+    torch.nn.Linear(64 * 4 * 4 + 7, 128),
+    torch.nn.ReLU(),
+    torch.nn.Linear(128, self.n_classes),
+)

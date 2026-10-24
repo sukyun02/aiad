@@ -1,0 +1,32 @@
+창 클릭 → Enter 시작 | 방향키 운전 | 복귀 후 Tab 저장 | Space 폐기/다시 시작 | Esc 종료
+[H] ready, before any key: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] TAB in the ready state ->
+한 바퀴 완료 후 저장할 수 있습니다.
+[H] after TAB in ready state: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] UP is already held (scripted), now ENTER ->
+[H] one loop iteration after ENTER: gui_status=recording recorded_frames=1 metrics.frames=1 elapsed=0.02 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] TAB during recording (frame 500) ->
+한 바퀴 완료 후 저장할 수 있습니다.
+[H] after TAB during recording: gui_status=recording recorded_frames=502 metrics.frames=502 elapsed=10.04 finished=False aborted=False lap_time=None progress=23.62 centre=17.78 off_road_frames=0
+[H] ENTER during recording (frame 600) ->
+[H] after ENTER during recording: gui_status=recording recorded_frames=602 metrics.frames=602 elapsed=12.04 finished=False aborted=False lap_time=None progress=28.54 centre=20.37 off_road_frames=0
+주행 결과: 진행률 100.00/100 | 중앙선 유지 67.60/100 | 랩타임 41.72s
+[H] lap 1 finished: gui_status=finished recorded_frames=2086 metrics.frames=2086 elapsed=41.72 finished=True aborted=False lap_time=41.72 progress=100.00 centre=67.60 off_road_frames=0
+[H] ENTER after the lap is finished ->
+[H] 20 iterations after ENTER on a finished lap (UP held): gui_status=finished recorded_frames=2086 metrics.frames=2086 elapsed=41.72 finished=True aborted=False lap_time=41.72 progress=100.00 centre=67.60 off_road_frames=0
+[H] TAB after the lap is finished ->
+2086쌍 저장: /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/harness_data/S1/20261006_220520_101333
+[H] after TAB on a finished lap: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] 20 iterations after the save, UP still held, no ENTER: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] second lap: ENTER, then SPACE once finished ->
+주행 결과: 진행률 100.00/100 | 중앙선 유지 67.60/100 | 랩타임 41.72s
+[H] lap 2 finished: gui_status=finished recorded_frames=2086 metrics.frames=2086 elapsed=41.72 finished=True aborted=False lap_time=41.72 progress=100.00 centre=67.60 off_road_frames=0
+2086프레임 폐기
+[H] after SPACE on a finished, unsaved lap: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] third start: ENTER with UP held, 30 frames, SPACE during recording, ENTER + 25 frames, then ESC ->
+30프레임 폐기
+[H] after SPACE during recording: gui_status=ready recorded_frames=0 metrics.frames=0 elapsed=0.00 finished=False aborted=False lap_time=None progress=0.00 centre=0.00 off_road_frames=0
+[H] before ESC: gui_status=recording recorded_frames=25 metrics.frames=25 elapsed=0.50 finished=False aborted=False lap_time=None progress=0.68 centre=0.67 off_road_frames=0
+종료: 저장하지 않은 25프레임은 폐기합니다.
+[H] record_demonstrations returned
+[H] result written to /home/sukyun02/workspace/aiad/pilot/work/stage2/factcheck/out/harness_S1.json

@@ -1,0 +1,366 @@
+[
+ {
+  "name": "H1",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_223710_800132",
+  "frames_saved": 2172,
+  "frames_used": 2172,
+  "hold": 32,
+  "finished": true,
+  "lap_time": 43.44,
+  "progress": 100.0,
+  "center": 81.36,
+  "offroad_frames": 0,
+  "offroad_episodes": [],
+  "max_abs_offset": 3.07,
+  "mean_abs_offset": 0.49,
+  "min_speed_after_hold_plus_150": 22.19,
+  "driving_frames": 2140,
+  "corners": {
+   "C1": {
+    "frames": 136,
+    "inside_presses": 3,
+    "inside_frames": 32,
+    "inside_longest": 16,
+    "counter_frames": 0,
+    "inside_max_offset": 0.49,
+    "outside_max_offset": 1.44
+   },
+   "C2": {
+    "frames": 120,
+    "inside_presses": 4,
+    "inside_frames": 26,
+    "inside_longest": 10,
+    "counter_frames": 0,
+    "inside_max_offset": 1.81,
+    "outside_max_offset": 0.62
+   },
+   "C3": {
+    "frames": 106,
+    "inside_presses": 6,
+    "inside_frames": 29,
+    "inside_longest": 7,
+    "counter_frames": 0,
+    "inside_max_offset": 0.91,
+    "outside_max_offset": 0.38
+   },
+   "C4": {
+    "frames": 136,
+    "inside_presses": 3,
+    "inside_frames": 31,
+    "inside_longest": 15,
+    "counter_frames": 0,
+    "inside_max_offset": 1.01,
+    "outside_max_offset": 0.28
+   },
+   "C5": {
+    "frames": 121,
+    "inside_presses": 6,
+    "inside_frames": 31,
+    "inside_longest": 7,
+    "counter_frames": 0,
+    "inside_max_offset": 0.63,
+    "outside_max_offset": 0.89
+   },
+   "C6": {
+    "frames": 88,
+    "inside_presses": 1,
+    "inside_frames": 10,
+    "inside_longest": 10,
+    "counter_frames": 8,
+    "inside_max_offset": 1.18,
+    "outside_max_offset": 1.03
+   },
+   "C7": {
+    "frames": 105,
+    "inside_presses": 3,
+    "inside_frames": 24,
+    "inside_longest": 9,
+    "counter_frames": 6,
+    "inside_max_offset": 1.03,
+    "outside_max_offset": 2.11
+   },
+   "C8": {
+    "frames": 144,
+    "inside_presses": 4,
+    "inside_frames": 39,
+    "inside_longest": 12,
+    "counter_frames": 1,
+    "inside_max_offset": 1.05,
+    "outside_max_offset": 3.07
+   }
+  }
+ },
+ {
+  "name": "H6",
+  "folder": "/home/sukyun02/workspace/aiad/assignment1/data/collected/20260923_224103_364888",
+  "frames_saved": 2136,
+  "frames_used": 2136,
+  "hold": 12,
+  "finished": true,
+  "lap_time": 42.72,
+  "progress": 100.0,
+  "center": 66.9,
+  "offroad_frames": 0,
+  "offroad_episodes": [],
+  "max_abs_offset": 4.29,
+  "mean_abs_offset": 1.04,
+  "min_speed_after_hold_plus_150": 22.18,
+  "driving_frames": 2124,
+  "corners": {
+   "C1": {
+    "frames": 134,
+    "inside_presses": 8,
+    "inside_frames": 37,
+    "inside_longest": 10,
+    "counter_frames": 10,
+    "inside_max_offset": 1.61,
+    "outside_max_offset": 0.07
+   },
+   "C2": {
+    "frames": 122,
+    "inside_presses": 6,
+    "inside_frames": 26,
+    "inside_longest": 6,
+    "counter_frames": 14,
+    "inside_max_offset": 2.83,
+    "outside_max_offset": 2.63
+   },
+   "C3": {
+    "frames": 107,
+    "inside_presses": 10,
+    "inside_frames": 39,
+    "inside_longest": 5,
+    "counter_frames": 0,
+    "inside_max_offset": -0.23,
+    "outside_max_offset": 0.71
+   },
+   "C4": {
+    "frames": 129,
+    "inside_presses": 7,
+    "inside_frames": 41,
+    "inside_longest": 15,
+    "counter_frames": 5,
+    "inside_max_offset": 4.29,
+    "outside_max_offset": 0.91
+   },
+   "C5": {
+    "frames": 121,
+    "inside_presses": 7,
+    "inside_frames": 32,
+    "inside_longest": 6,
+    "counter_frames": 1,
+    "inside_max_offset": 0.5,
+    "outside_max_offset": 0.65
+   },
+   "C6": {
+    "frames": 87,
+    "inside_presses": 4,
+    "inside_frames": 15,
+    "inside_longest": 5,
+    "counter_frames": 12,
+    "inside_max_offset": 1.93,
+    "outside_max_offset": 3.0
+   },
+   "C7": {
+    "frames": 100,
+    "inside_presses": 3,
+    "inside_frames": 18,
+    "inside_longest": 10,
+    "counter_frames": 24,
+    "inside_max_offset": 4.16,
+    "outside_max_offset": 1.49
+   },
+   "C8": {
+    "frames": 136,
+    "inside_presses": 8,
+    "inside_frames": 48,
+    "inside_longest": 16,
+    "counter_frames": 0,
+    "inside_max_offset": 3.32,
+    "outside_max_offset": 1.27
+   }
+  }
+ },
+ {
+  "name": "A_lap1",
+  "folder": "/home/sukyun02/workspace/aiad/pilot/data_s2/scriptA/lap1",
+  "frames_saved": 2086,
+  "frames_used": 2086,
+  "hold": 0,
+  "finished": true,
+  "lap_time": 41.72,
+  "progress": 100.0,
+  "center": 67.6,
+  "offroad_frames": 0,
+  "offroad_episodes": [],
+  "max_abs_offset": 4.67,
+  "mean_abs_offset": 1.06,
+  "min_speed_after_hold_plus_150": 22.19,
+  "driving_frames": 2086,
+  "corners": {
+   "C1": {
+    "frames": 125,
+    "inside_presses": 24,
+    "inside_frames": 41,
+    "inside_longest": 11,
+    "counter_frames": 10,
+    "inside_max_offset": 4.67,
+    "outside_max_offset": -0.37
+   },
+   "C2": {
+    "frames": 116,
+    "inside_presses": 42,
+    "inside_frames": 48,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 3.61,
+    "outside_max_offset": 0.06
+   },
+   "C3": {
+    "frames": 102,
+    "inside_presses": 39,
+    "inside_frames": 51,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 2.27,
+    "outside_max_offset": -1.29
+   },
+   "C4": {
+    "frames": 124,
+    "inside_presses": 36,
+    "inside_frames": 55,
+    "inside_longest": 10,
+    "counter_frames": 4,
+    "inside_max_offset": 4.63,
+    "outside_max_offset": -0.27
+   },
+   "C5": {
+    "frames": 118,
+    "inside_presses": 52,
+    "inside_frames": 59,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 2.69,
+    "outside_max_offset": -0.25
+   },
+   "C6": {
+    "frames": 87,
+    "inside_presses": 12,
+    "inside_frames": 16,
+    "inside_longest": 2,
+    "counter_frames": 19,
+    "inside_max_offset": 1.42,
+    "outside_max_offset": 2.67
+   },
+   "C7": {
+    "frames": 100,
+    "inside_presses": 19,
+    "inside_frames": 23,
+    "inside_longest": 4,
+    "counter_frames": 11,
+    "inside_max_offset": 2.98,
+    "outside_max_offset": 1.42
+   },
+   "C8": {
+    "frames": 128,
+    "inside_presses": 20,
+    "inside_frames": 47,
+    "inside_longest": 20,
+    "counter_frames": 16,
+    "inside_max_offset": 4.64,
+    "outside_max_offset": -0.4
+   }
+  }
+ },
+ {
+  "name": "A_lap7",
+  "folder": "/home/sukyun02/workspace/aiad/pilot/data_s2/scriptA/lap7",
+  "frames_saved": 2079,
+  "frames_used": 2079,
+  "hold": 0,
+  "finished": true,
+  "lap_time": 41.58,
+  "progress": 100.0,
+  "center": 66.43,
+  "offroad_frames": 0,
+  "offroad_episodes": [],
+  "max_abs_offset": 5.4,
+  "mean_abs_offset": 1.16,
+  "min_speed_after_hold_plus_150": 22.19,
+  "driving_frames": 2079,
+  "corners": {
+   "C1": {
+    "frames": 124,
+    "inside_presses": 29,
+    "inside_frames": 46,
+    "inside_longest": 12,
+    "counter_frames": 7,
+    "inside_max_offset": 5.27,
+    "outside_max_offset": -0.21
+   },
+   "C2": {
+    "frames": 116,
+    "inside_presses": 49,
+    "inside_frames": 58,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 4.71,
+    "outside_max_offset": 0.27
+   },
+   "C3": {
+    "frames": 102,
+    "inside_presses": 39,
+    "inside_frames": 51,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 2.73,
+    "outside_max_offset": -1.38
+   },
+   "C4": {
+    "frames": 123,
+    "inside_presses": 38,
+    "inside_frames": 52,
+    "inside_longest": 8,
+    "counter_frames": 7,
+    "inside_max_offset": 5.4,
+    "outside_max_offset": 0.07
+   },
+   "C5": {
+    "frames": 118,
+    "inside_presses": 47,
+    "inside_frames": 59,
+    "inside_longest": 2,
+    "counter_frames": 0,
+    "inside_max_offset": 3.44,
+    "outside_max_offset": -0.11
+   },
+   "C6": {
+    "frames": 88,
+    "inside_presses": 15,
+    "inside_frames": 16,
+    "inside_longest": 2,
+    "counter_frames": 20,
+    "inside_max_offset": 2.45,
+    "outside_max_offset": 3.96
+   },
+   "C7": {
+    "frames": 100,
+    "inside_presses": 26,
+    "inside_frames": 28,
+    "inside_longest": 2,
+    "counter_frames": 12,
+    "inside_max_offset": 4.35,
+    "outside_max_offset": 2.45
+   },
+   "C8": {
+    "frames": 127,
+    "inside_presses": 27,
+    "inside_frames": 49,
+    "inside_longest": 18,
+    "counter_frames": 8,
+    "inside_max_offset": 5.33,
+    "outside_max_offset": -0.19
+   }
+  }
+ }
+]

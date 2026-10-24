@@ -1,0 +1,4 @@
+Q12trim s2_Q12trim 100 - 0
+Q12 s2_Q12 100 - 0
+P10trim s2_P10trim 100 - 0
+P10 s2_P10 100 - 0

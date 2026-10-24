@@ -1,0 +1,26 @@
+{
+ "model": "/home/sukyun02/workspace/aiad/assignment1/models/20261006_233500.pth",
+ "device": "cuda",
+ "checkpoint_epoch": 100,
+ "status": "aborted",
+ "lap_time": null,
+ "progress": 11.76,
+ "center": 7.07,
+ "frames": 573,
+ "off_road_frames": 288,
+ "first_gas_frame": 14,
+ "class_counts": [
+  14,
+  512,
+  0,
+  0,
+  0,
+  47,
+  0,
+  0,
+  0
+ ],
+ "max_abs_offset": 20.8,
+ "mean_speed_after_100": 22.49,
+ "min_speed_after_100": 22.18
+}

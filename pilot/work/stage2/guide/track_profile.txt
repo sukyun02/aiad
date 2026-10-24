@@ -1,0 +1,203 @@
+== A_lap1 frames 2086
+   f   92-  194 along   36.6-  87.9  peak +4.67 at along   60.3 f139 t=2.78
+   f  542-  625 along  244.5- 284.0  peak +3.61 at along  261.9 f579 t=11.58
+   f  785-  976 along  355.9- 443.5  peak +2.27 at along  388.7 f856 t=17.12
+   f 1123- 1233 along  509.6- 564.8  peak +4.63 at along  534.6 f1173 t=23.46
+   f 1324- 1413 along  605.7- 647.1  peak +2.69 at along  623.2 f1361 t=27.22
+   f 1456- 1500 along  666.4- 686.7  peak -1.52 at along  672.1 f1468 t=29.36
+   f 1588- 1624 along  726.2- 743.0  peak +1.42 at along  738.7 f1615 t=32.30
+   f 1636- 1694 along  748.0- 776.3  peak -2.98 at along  756.7 f1651 t=33.02
+   f 1901- 2013 along  869.3- 926.6  peak +4.64 at along  893.5 f1949 t=38.98
+== A_lap2 frames 2089
+   f  108-  178 along   43.8-  80.0  peak +4.40 at along   60.4 f140 t=2.80
+   f  451-  472 along  202.7- 212.3  peak -1.13 at along  206.4 f459 t=9.18
+   f  552-  618 along  248.3- 280.1  peak +4.36 at along  263.1 f581 t=11.62
+   f  784-  920 along  354.8- 417.4  peak +2.51 at along  391.6 f864 t=17.28
+   f  934-  981 along  423.7- 445.1  peak +1.51 at along  437.3 f964 t=19.28
+   f 1141- 1223 along  517.0- 559.2  peak +4.64 at along  536.4 f1176 t=23.52
+   f 1330- 1420 along  607.2- 649.3  peak +3.44 at along  620.0 f1357 t=27.14
+   f 1455- 1503 along  664.9- 687.0  peak -2.16 at along  672.4 f1471 t=29.42
+   f 1593- 1632 along  727.4- 746.1  peak +3.56 at along  737.9 f1617 t=32.34
+   f 1638- 1684 along  747.9- 770.7  peak -4.14 at along  756.7 f1653 t=33.06
+   f 1921- 2002 along  877.2- 920.2  peak +4.56 at along  895.2 f1956 t=39.12
+== A_lap3 frames 2085
+   f   89-  197 along   35.3-  88.9  peak +4.33 at along   63.7 f144 t=2.88
+   f  451-  473 along  203.2- 213.2  peak -1.09 at along  206.8 f459 t=9.18
+   f  538-  630 along  242.4- 286.2  peak +4.09 at along  263.1 f580 t=11.60
+   f  778-  984 along  352.8- 447.6  peak +2.86 at along  388.9 f856 t=17.12
+   f 1117- 1239 along  507.4- 567.7  peak +4.32 at along  531.3 f1168 t=23.36
+   f 1315- 1417 along  601.8- 649.5  peak +3.39 at along  622.8 f1360 t=27.20
+   f 1451- 1509 along  664.6- 691.3  peak -1.84 at along  675.3 f1474 t=29.48
+   f 1577- 1623 along  721.8- 743.2  peak +1.64 at along  738.8 f1614 t=32.28
+   f 1633- 1697 along  747.2- 778.4  peak -3.58 at along  755.4 f1649 t=32.98
+   f 1897- 2012 along  868.3- 926.6  peak +4.34 at along  896.7 f1952 t=39.04
+== A_lap4 frames 2081
+   f   91-  195 along   36.2-  88.6  peak +5.04 at along   60.5 f139 t=2.78
+   f  540-  626 along  243.9- 284.9  peak +3.96 at along  261.8 f578 t=11.56
+   f  782-  978 along  355.0- 445.1  peak +2.49 at along  388.8 f855 t=17.10
+   f 1119- 1233 along  508.5- 566.0  peak +5.14 at along  531.2 f1167 t=23.34
+   f 1316- 1412 along  603.3- 648.0  peak +2.98 at along  622.9 f1358 t=27.16
+   f 1451- 1502 along  665.5- 688.9  peak -1.65 at along  671.9 f1465 t=29.30
+   f 1579- 1621 along  723.5- 743.0  peak +1.52 at along  738.7 f1612 t=32.24
+   f 1632- 1693 along  747.6- 777.3  peak -3.20 at along  756.8 f1648 t=32.96
+   f 1897- 2011 along  869.0- 927.6  peak +5.14 at along  891.7 f1945 t=38.90
+== A_lap5 frames 2084
+   f   97-  194 along   38.8-  87.5  peak +4.57 at along   58.7 f139 t=2.78
+   f  443-  489 along  199.5- 220.4  peak -1.43 at along  207.3 f460 t=9.20
+   f  542-  626 along  244.1- 284.5  peak +4.46 at along  263.2 f580 t=11.60
+   f  775-  989 along  351.4- 450.1  peak +3.40 at along  389.1 f856 t=17.12
+   f 1126- 1231 along  511.7- 564.5  peak +4.58 at along  531.1 f1167 t=23.34
+   f 1315- 1421 along  602.3- 652.0  peak +4.19 at along  623.3 f1359 t=27.18
+   f 1445- 1510 along  662.6- 692.4  peak -2.60 at along  675.1 f1472 t=29.44
+   f 1578- 1625 along  722.9- 744.8  peak +3.08 at along  736.7 f1609 t=32.18
+   f 1632- 1689 along  747.2- 775.5  peak -4.31 at along  756.9 f1648 t=32.96
+   f 1904- 2008 along  872.1- 925.3  peak +4.54 at along  891.5 f1945 t=38.90
+== A_lap6 frames 2080
+   f   91-  193 along   36.2-  87.2  peak +4.57 at along   63.8 f144 t=2.88
+   f  430-  511 along  193.8- 230.6  peak -2.44 at along  210.2 f466 t=9.32
+   f  536-  634 along  241.6- 288.3  peak +4.31 at along  261.9 f579 t=11.58
+   f  763-  998 along  346.2- 455.3  peak +3.86 at along  392.2 f861 t=17.22
+   f 1118- 1243 along  509.1- 571.0  peak +4.51 at along  531.3 f1165 t=23.30
+   f 1305- 1425 along  598.8- 655.0  peak +3.94 at along  620.0 f1350 t=27.00
+   f 1440- 1523 along  661.4- 699.5  peak -3.66 at along  675.9 f1471 t=29.42
+   f 1570- 1624 along  720.5- 745.8  peak +3.48 at along  737.4 f1608 t=32.16
+   f 1630- 1691 along  747.7- 777.5  peak -3.93 at along  756.6 f1645 t=32.90
+   f 1895- 2006 along  869.2- 926.0  peak +4.54 at along  896.9 f1948 t=38.96
+== A_lap7 frames 2079
+   f   98-  187 along   39.3-  85.1  peak +5.27 at along   63.9 f143 t=2.86
+   f  449-  474 along  202.9- 214.3  peak -1.13 at along  206.6 f457 t=9.14
+   f  542-  621 along  244.9- 282.9  peak +4.71 at along  263.1 f578 t=11.56
+   f  780-  979 along  354.4- 445.9  peak +2.73 at along  388.3 f854 t=17.08
+   f 1127- 1225 along  512.4- 562.7  peak +5.40 at along  536.5 f1171 t=23.42
+   f 1319- 1415 along  604.9- 649.8  peak +3.44 at along  622.7 f1357 t=27.14
+   f 1447- 1500 along  664.0- 688.4  peak -2.01 at along  671.8 f1464 t=29.28
+   f 1579- 1623 along  723.9- 744.5  peak +2.45 at along  738.2 f1611 t=32.22
+   f 1631- 1686 along  747.4- 774.7  peak -4.35 at along  755.2 f1646 t=32.92
+   f 1903- 1999 along  872.3- 923.1  peak +5.33 at along  896.8 f1948 t=38.96
+== A_lap8 frames 2079
+   f   87-  199 along   34.4-  90.2  peak +4.79 at along   62.1 f143 t=2.86
+   f  446-  488 along  201.3- 220.4  peak -1.26 at along  210.0 f465 t=9.30
+   f  535-  632 along  241.5- 287.8  peak +4.61 at along  261.8 f578 t=11.56
+   f  772-  987 along  350.7- 449.9  peak +3.28 at along  388.8 f854 t=17.08
+   f 1114- 1239 along  507.0- 569.3  peak +4.79 at along  536.3 f1170 t=23.40
+   f 1307- 1416 along  599.8- 650.8  peak +3.86 at along  622.7 f1356 t=27.12
+   f 1446- 1510 along  664.2- 693.5  peak -2.06 at along  675.3 f1470 t=29.40
+   f 1569- 1620 along  720.0- 743.6  peak +1.78 at along  738.0 f1609 t=32.18
+   f 1629- 1695 along  747.2- 779.4  peak -4.00 at along  756.7 f1645 t=32.90
+   f 1890- 2010 along  867.1- 928.3  peak +4.84 at along  896.8 f1947 t=38.94
+== E3_lap1 frames 2095
+   f   97-  188 along   38.9-  84.2  peak +3.86 at along   63.7 f145 t=2.90
+   f  551-  621 along  247.6- 280.8  peak +2.91 at along  262.9 f582 t=11.64
+   f  797-  909 along  360.0- 411.4  peak +1.80 at along  388.4 f859 t=17.18
+   f 1132- 1233 along  512.0- 562.2  peak +3.90 at along  534.7 f1178 t=23.56
+   f 1337- 1413 along  608.9- 644.3  peak +2.13 at along  623.1 f1367 t=27.34
+   f 1465- 1497 along  667.6- 682.3  peak -1.26 at along  672.3 f1475 t=29.50
+   f 1616- 1630 along  735.9- 742.8  peak +1.24 at along  738.9 f1622 t=32.44
+   f 1643- 1694 along  748.3- 773.1  peak -2.51 at along  755.5 f1657 t=33.14
+   f 1913- 2013 along  871.6- 922.5  peak +3.92 at along  895.2 f1961 t=39.22
+== E0 frames 2130
+   f  140-  152 along   58.5-  64.5  peak +1.15 at along   63.2 f149 t=2.98
+   f 1188- 1191 along  531.7- 533.4  peak +1.06 at along  531.7 f1188 t=23.76
+   f 1193- 1197 along  534.3- 536.4  peak +1.07 at along  535.2 f1195 t=23.90
+   f 1652- 1653 along  741.8- 742.5  peak +1.03 at along  741.8 f1652 t=33.04
+   f 1675- 1676 along  752.8- 753.3  peak -1.01 at along  752.8 f1675 t=33.50
+   f 1680- 1683 along  755.0- 756.7  peak -1.04 at along  756.3 f1682 t=33.64
+   f 1983- 2000 along  891.9- 900.5  peak +1.17 at along  895.8 f1991 t=39.82
+kappa nonzero vertices (heading change in deg) along the centre line:
+ count 157
+     0-  10: turn   +0.0 deg   target offset A1 -0.00
+    10-  20: turn   +0.0 deg   target offset A1 -0.00
+    20-  30: turn   +0.0 deg   target offset A1 +0.01
+    30-  40: turn   +0.0 deg   target offset A1 +0.60
+    40-  50: turn   +0.0 deg   target offset A1 +2.45
+    50-  60: turn  +35.5 deg   target offset A1 +3.96
+    60-  70: turn  +38.9 deg   target offset A1 +4.00
+    70-  80: turn   +1.2 deg   target offset A1 +3.34
+    80-  90: turn   +0.1 deg   target offset A1 +1.26
+    90- 100: turn   +0.0 deg   target offset A1 +0.13
+   100- 110: turn   +0.0 deg   target offset A1 +0.00
+   110- 120: turn   +0.0 deg   target offset A1 +0.00
+   120- 130: turn   +0.0 deg   target offset A1 +0.00
+   130- 140: turn   +0.0 deg   target offset A1 +0.00
+   140- 150: turn   +0.0 deg   target offset A1 +0.00
+   150- 160: turn   +0.0 deg   target offset A1 +0.00
+   160- 170: turn   +0.0 deg   target offset A1 +0.00
+   170- 180: turn   +0.0 deg   target offset A1 -0.01
+   180- 190: turn   +0.0 deg   target offset A1 -0.17
+   190- 200: turn   +0.0 deg   target offset A1 -0.47
+   200- 210: turn   -8.0 deg   target offset A1 -0.77
+   210- 220: turn   -2.4 deg   target offset A1 -0.77
+   220- 230: turn   -1.9 deg   target offset A1 -0.56
+   230- 240: turn   -1.1 deg   target offset A1 -0.06
+   240- 250: turn   -0.8 deg   target offset A1 +1.11
+   250- 260: turn  +17.3 deg   target offset A1 +2.48
+   260- 270: turn  +23.3 deg   target offset A1 +3.03
+   270- 280: turn   +3.2 deg   target offset A1 +2.13
+   280- 290: turn   +0.5 deg   target offset A1 +0.90
+   290- 300: turn   +0.2 deg   target offset A1 +0.17
+   300- 310: turn   +0.1 deg   target offset A1 +0.04
+   310- 320: turn   +0.0 deg   target offset A1 +0.01
+   320- 330: turn   +0.0 deg   target offset A1 +0.00
+   330- 340: turn   +0.0 deg   target offset A1 +0.09
+   340- 350: turn   +0.0 deg   target offset A1 +0.41
+   350- 360: turn   +3.6 deg   target offset A1 +0.91
+   360- 370: turn   +8.3 deg   target offset A1 +1.38
+   370- 380: turn   +6.5 deg   target offset A1 +1.74
+   380- 390: turn   +9.9 deg   target offset A1 +1.93
+   390- 400: turn  +10.7 deg   target offset A1 +1.88
+   400- 410: turn   +5.7 deg   target offset A1 +1.52
+   410- 420: turn   +3.7 deg   target offset A1 +1.15
+   420- 430: turn   +2.0 deg   target offset A1 +1.03
+   430- 440: turn   +7.1 deg   target offset A1 +1.05
+   440- 450: turn   +4.6 deg   target offset A1 +0.85
+   450- 460: turn   +0.7 deg   target offset A1 +0.49
+   460- 470: turn   +0.2 deg   target offset A1 +0.16
+   470- 480: turn   +0.0 deg   target offset A1 +0.03
+   480- 490: turn   +0.0 deg   target offset A1 +0.01
+   490- 500: turn   -0.0 deg   target offset A1 +0.00
+   500- 510: turn   +0.0 deg   target offset A1 +0.33
+   510- 520: turn   +0.0 deg   target offset A1 +1.86
+   520- 530: turn  +17.8 deg   target offset A1 +3.75
+   530- 540: turn  +47.2 deg   target offset A1 +4.00
+   540- 550: turn  +14.4 deg   target offset A1 +3.94
+   550- 560: turn   +3.8 deg   target offset A1 +2.42
+   560- 570: turn   +1.0 deg   target offset A1 +0.82
+   570- 580: turn   +0.7 deg   target offset A1 +0.27
+   580- 590: turn   +0.4 deg   target offset A1 +0.13
+   590- 600: turn   +0.3 deg   target offset A1 +0.35
+   600- 610: turn   +0.2 deg   target offset A1 +1.06
+   610- 620: turn  +16.6 deg   target offset A1 +2.00
+   620- 630: turn  +13.0 deg   target offset A1 +2.37
+   630- 640: turn   +4.9 deg   target offset A1 +2.00
+   640- 650: turn   +4.9 deg   target offset A1 +1.19
+   650- 660: turn   +3.6 deg   target offset A1 +0.21
+   660- 670: turn   -5.7 deg   target offset A1 -0.74
+   670- 680: turn  -10.3 deg   target offset A1 -1.27
+   680- 690: turn   -3.2 deg   target offset A1 -1.08
+   690- 700: turn   -1.3 deg   target offset A1 -0.60
+   700- 710: turn   -0.5 deg   target offset A1 -0.25
+   710- 720: turn   -0.5 deg   target offset A1 +0.14
+   720- 730: turn   -0.4 deg   target offset A1 +1.10
+   730- 740: turn  +13.9 deg   target offset A1 +1.12
+   740- 750: turn  +14.8 deg   target offset A1 -0.13
+   750- 760: turn  -40.7 deg   target offset A1 -2.15
+   760- 770: turn   -1.7 deg   target offset A1 -2.20
+   770- 780: turn   -0.0 deg   target offset A1 -1.18
+   780- 790: turn   +0.0 deg   target offset A1 -0.13
+   790- 800: turn   +0.0 deg   target offset A1 -0.00
+   800- 810: turn   +0.0 deg   target offset A1 -0.00
+   810- 820: turn   +0.0 deg   target offset A1 +0.00
+   820- 830: turn   +0.0 deg   target offset A1 +0.00
+   830- 840: turn   +0.0 deg   target offset A1 +0.00
+   840- 850: turn   +0.0 deg   target offset A1 +0.00
+   850- 860: turn   +0.0 deg   target offset A1 +0.00
+   860- 870: turn   +0.0 deg   target offset A1 +0.28
+   870- 880: turn   +0.0 deg   target offset A1 +1.86
+   880- 890: turn  +17.8 deg   target offset A1 +3.86
+   890- 900: turn  +53.3 deg   target offset A1 +4.00
+   900- 910: turn  +25.4 deg   target offset A1 +4.00
+   910- 920: turn   +1.3 deg   target offset A1 +3.02
+   920- 930: turn   +0.3 deg   target offset A1 +0.89
+   930- 940: turn   +0.0 deg   target offset A1 +0.09
+   940- 950: turn   +0.0 deg   target offset A1 +0.01
+   950- 960: turn   -0.0 deg   target offset A1 +0.00
