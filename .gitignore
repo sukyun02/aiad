@@ -35,4 +35,6 @@ models/*.pth
 !models/baseline.pth
 
 .github
-
+CLAUDE.md
+assignment1/models/2026*
+assignment1/docs/*양식*
