@@ -1,0 +1,5 @@
+group                       ep fin   best    med  prog grass_s  off%   v10   v50   v90 v50ctx fast_on%  gas% steer% brake%  r/step  other ends
+baseline.pth                10  10  47.82  49.44 100.0    1.35   2.7 0.190 0.238 0.238  20.02     51.8  56.5   21.6    3.1   0.135  
+20261027_010753.pth         10  10  48.06  48.59 100.0    0.13   0.3 0.190 0.238 0.238  20.02     52.6  56.0   27.1    3.3   0.153  
+20261027_011033.pth         10  10  48.04  48.84 100.0    0.91   1.9 0.190 0.238 0.262  20.14     58.4  57.3   41.3    3.3   0.142  
+off-road per step from: ctx; fast = speed sensor > 0.235

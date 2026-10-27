@@ -1,0 +1,8 @@
+{"model": "baseline", "steps": 2351, "q_mean": 4.67, "G_mean": 15.63, "bias_mean": -10.96, "corr": -0.02, "off": 0}
+   off by progress 0:0 10:0 20:0 30:0 40:0 50:0 60:0 70:0 80:0 90:0
+{"model": "20261027_010753", "steps": 2342, "q_mean": 6.8, "G_mean": 15.39, "bias_mean": -8.59, "corr": -0.082, "off": 6}
+   off by progress 0:0 10:0 20:0 30:0 40:0 50:0 60:0 70:6 80:0 90:0
+{"model": "20261027_011033", "steps": 2337, "q_mean": 11.9, "G_mean": 12.39, "bias_mean": -0.5, "corr": -0.243, "off": 105}
+   off by progress 0:0 10:0 20:0 30:0 40:0 50:0 60:0 70:0 80:0 90:105
+{"model": "20261027_011323", "steps": 2337, "q_mean": 11.9, "G_mean": 12.39, "bias_mean": -0.5, "corr": -0.243, "off": 105}
+   off by progress 0:0 10:0 20:0 30:0 40:0 50:0 60:0 70:0 80:0 90:105

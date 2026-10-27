@@ -38,3 +38,6 @@ models/*.pth
 CLAUDE.md
 assignment1/models/2026*
 assignment1/docs/*양식*
+assignment2/models/2026*
+assignment2/models/candidates/
+assignment2/models/rejected/

@@ -1,0 +1,53 @@
+Training: cuda; continue baseline.pth
+Data: 100 shards; 5 epochs; batch=64; readers=2
+/home/sukyun02/workspace/aiad/assignment1/.venv/lib/python3.12/site-packages/torch/autograd/graph.py:865: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 1/5, update 1, samples 64: loss=0.36506
+Epoch 1/5, update 50, samples 3200: loss=0.64915
+Epoch 1/5, update 100, samples 6400: loss=0.51157
+Epoch 1/5, update 150, samples 9600: loss=0.38545
+Epoch 1/5, update 200, samples 12800: loss=0.65322
+Epoch 1/5, update 250, samples 16000: loss=1.06468
+Epoch 1/5, update 300, samples 19200: loss=0.62147
+Epoch 1/5, update 350, samples 22400: loss=0.37030
+Epoch 1/5: all 24701 transitions processed
+Epoch 2/5, update 400, samples 896: loss=0.99529
+Epoch 2/5, update 450, samples 4096: loss=0.45772
+Epoch 2/5, update 500, samples 7296: loss=0.75560
+Epoch 2/5, update 550, samples 10496: loss=0.32973
+Epoch 2/5, update 600, samples 13696: loss=0.37816
+Epoch 2/5, update 650, samples 16896: loss=0.86005
+Epoch 2/5, update 700, samples 20096: loss=0.57523
+Epoch 2/5, update 750, samples 23296: loss=1.07275
+Epoch 2/5: all 24701 transitions processed
+Epoch 3/5, update 800, samples 1792: loss=0.51860
+Epoch 3/5, update 850, samples 4992: loss=0.75583
+Epoch 3/5, update 900, samples 8192: loss=0.84591
+Epoch 3/5, update 950, samples 11392: loss=0.28485
+Epoch 3/5, update 1000, samples 14592: loss=0.83751
+Epoch 3/5, update 1050, samples 17792: loss=0.95907
+Epoch 3/5, update 1100, samples 20992: loss=0.82101
+Epoch 3/5, update 1150, samples 24192: loss=0.72563
+Epoch 3/5: all 24701 transitions processed
+Epoch 4/5, update 1200, samples 2688: loss=0.34170
+Epoch 4/5, update 1250, samples 5888: loss=0.87777
+Epoch 4/5, update 1300, samples 9088: loss=0.47744
+Epoch 4/5, update 1350, samples 12288: loss=1.00442
+Epoch 4/5, update 1400, samples 15488: loss=0.49712
+Epoch 4/5, update 1450, samples 18688: loss=0.73987
+Epoch 4/5, update 1500, samples 21888: loss=0.69808
+Epoch 4/5: all 24701 transitions processed
+Epoch 5/5, update 1550, samples 384: loss=0.74616
+Epoch 5/5, update 1600, samples 3584: loss=0.65446
+Epoch 5/5, update 1650, samples 6784: loss=0.73721
+Epoch 5/5, update 1700, samples 9984: loss=0.43040
+Epoch 5/5, update 1750, samples 13184: loss=0.23573
+Epoch 5/5, update 1800, samples 16384: loss=0.47214
+Epoch 5/5, update 1850, samples 19584: loss=0.77645
+Epoch 5/5, update 1900, samples 22784: loss=0.59336
+Epoch 5/5: all 24701 transitions processed
+Validating the trained candidate on the fixed track...
+Comparing with the previous agent...
+Saved: /home/sukyun02/workspace/aiad/assignment2/models/20261027_010753.pth
+Submit with: /home/sukyun02/workspace/aiad/assignment2/models/20261027_010753.network.py
+qtrace: {"event": "end", "model": "models/20261027_010753.pth", "candidate": "models/candidates/20261027_010732.pth", "selected": "trained_candidate", "scratch": false, "probe": 1024, "updates": 1930, "q_data_first": 4.561393141746521, "q_data_peak": 6.721803545951843, "q_data_peak_update": 1930, "q_data_last": 6.721803545951843, "td_abs_first": 0.6783033907413483, "td_abs_last": 0.6792725026607513, "throttle_cross_first": 0.23499999046325684, "throttle_cross_last": 0.23289797592825462, "wall_s": 31.1}

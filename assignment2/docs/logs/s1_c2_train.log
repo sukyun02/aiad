@@ -1,0 +1,91 @@
+Training: cuda; continue 20261027_010753.pth
+Data: 200 shards; 5 epochs; batch=64; readers=2
+/home/sukyun02/workspace/aiad/assignment1/.venv/lib/python3.12/site-packages/torch/autograd/graph.py:865: UserWarning: adaptive_avg_pool2d_backward_cuda does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True, warn_only=True)'. You can file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation. (Triggered internally at /pytorch/aten/src/ATen/Context.cpp:160.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+Epoch 1/5, update 1, samples 64: loss=0.42879
+Epoch 1/5, update 50, samples 3200: loss=0.59136
+Epoch 1/5, update 100, samples 6400: loss=0.69360
+Epoch 1/5, update 150, samples 9600: loss=0.54245
+Epoch 1/5, update 200, samples 12800: loss=0.63323
+Epoch 1/5, update 250, samples 16000: loss=0.66075
+Epoch 1/5, update 300, samples 19200: loss=0.64909
+Epoch 1/5, update 350, samples 22400: loss=0.87167
+Epoch 1/5, update 400, samples 25600: loss=0.43636
+Epoch 1/5, update 450, samples 28800: loss=0.38541
+Epoch 1/5, update 500, samples 32000: loss=0.77431
+Epoch 1/5, update 550, samples 35200: loss=0.53928
+Epoch 1/5, update 600, samples 38400: loss=0.42034
+Epoch 1/5, update 650, samples 41600: loss=0.36440
+Epoch 1/5, update 700, samples 44800: loss=0.36710
+Epoch 1/5, update 750, samples 48000: loss=0.83975
+Epoch 1/5: all 49046 transitions processed
+Epoch 2/5, update 800, samples 2112: loss=0.67658
+Epoch 2/5, update 850, samples 5312: loss=1.20939
+Epoch 2/5, update 900, samples 8512: loss=0.60944
+Epoch 2/5, update 950, samples 11712: loss=0.65751
+Epoch 2/5, update 1000, samples 14912: loss=0.38370
+Epoch 2/5, update 1050, samples 18112: loss=0.39751
+Epoch 2/5, update 1100, samples 21312: loss=0.38795
+Epoch 2/5, update 1150, samples 24512: loss=1.43203
+Epoch 2/5, update 1200, samples 27712: loss=0.53973
+Epoch 2/5, update 1250, samples 30912: loss=0.65431
+Epoch 2/5, update 1300, samples 34112: loss=0.92264
+Epoch 2/5, update 1350, samples 37312: loss=0.97638
+Epoch 2/5, update 1400, samples 40512: loss=0.95528
+Epoch 2/5, update 1450, samples 43712: loss=0.49687
+Epoch 2/5, update 1500, samples 46912: loss=0.51228
+Epoch 2/5: all 49046 transitions processed
+Epoch 3/5, update 1550, samples 1024: loss=0.57859
+Epoch 3/5, update 1600, samples 4224: loss=0.80170
+Epoch 3/5, update 1650, samples 7424: loss=0.92482
+Epoch 3/5, update 1700, samples 10624: loss=0.67113
+Epoch 3/5, update 1750, samples 13824: loss=0.49130
+Epoch 3/5, update 1800, samples 17024: loss=0.70737
+Epoch 3/5, update 1850, samples 20224: loss=0.87019
+Epoch 3/5, update 1900, samples 23424: loss=1.11702
+Epoch 3/5, update 1950, samples 26624: loss=0.51016
+Epoch 3/5, update 2000, samples 29824: loss=0.80565
+Epoch 3/5, update 2050, samples 33024: loss=0.31670
+Epoch 3/5, update 2100, samples 36224: loss=1.12564
+Epoch 3/5, update 2150, samples 39424: loss=0.62077
+Epoch 3/5, update 2200, samples 42624: loss=0.49827
+Epoch 3/5, update 2250, samples 45824: loss=0.59600
+Epoch 3/5, update 2300, samples 49024: loss=0.73836
+Epoch 3/5: all 49046 transitions processed
+Epoch 4/5, update 2350, samples 3136: loss=0.87842
+Epoch 4/5, update 2400, samples 6336: loss=1.19350
+Epoch 4/5, update 2450, samples 9536: loss=0.85766
+Epoch 4/5, update 2500, samples 12736: loss=0.44194
+Epoch 4/5, update 2550, samples 15936: loss=0.38408
+Epoch 4/5, update 2600, samples 19136: loss=0.62982
+Epoch 4/5, update 2650, samples 22336: loss=0.62680
+Epoch 4/5, update 2700, samples 25536: loss=0.54158
+Epoch 4/5, update 2750, samples 28736: loss=0.30890
+Epoch 4/5, update 2800, samples 31936: loss=0.52404
+Epoch 4/5, update 2850, samples 35136: loss=0.55084
+Epoch 4/5, update 2900, samples 38336: loss=0.74133
+Epoch 4/5, update 2950, samples 41536: loss=0.68927
+Epoch 4/5, update 3000, samples 44736: loss=0.60815
+Epoch 4/5, update 3050, samples 47936: loss=0.44668
+Epoch 4/5: all 49046 transitions processed
+Epoch 5/5, update 3100, samples 2048: loss=0.89802
+Epoch 5/5, update 3150, samples 5248: loss=0.24149
+Epoch 5/5, update 3200, samples 8448: loss=1.01102
+Epoch 5/5, update 3250, samples 11648: loss=0.60410
+Epoch 5/5, update 3300, samples 14848: loss=0.50610
+Epoch 5/5, update 3350, samples 18048: loss=0.43660
+Epoch 5/5, update 3400, samples 21248: loss=0.56918
+Epoch 5/5, update 3450, samples 24448: loss=0.32474
+Epoch 5/5, update 3500, samples 27648: loss=1.03210
+Epoch 5/5, update 3550, samples 30848: loss=0.63831
+Epoch 5/5, update 3600, samples 34048: loss=0.61784
+Epoch 5/5, update 3650, samples 37248: loss=0.44073
+Epoch 5/5, update 3700, samples 40448: loss=0.68313
+Epoch 5/5, update 3750, samples 43648: loss=0.85422
+Epoch 5/5, update 3800, samples 46848: loss=0.91519
+Epoch 5/5: all 49046 transitions processed
+Validating the trained candidate on the fixed track...
+Comparing with the previous agent...
+Saved: /home/sukyun02/workspace/aiad/assignment2/models/20261027_011033.pth
+Submit with: /home/sukyun02/workspace/aiad/assignment2/models/20261027_011033.network.py
+qtrace: {"event": "end", "model": "models/20261027_011033.pth", "candidate": "models/candidates/20261027_011012.pth", "selected": "trained_candidate", "scratch": false, "probe": 1024, "updates": 3835, "q_data_first": 6.565154075622559, "q_data_peak": 11.237161636352539, "q_data_peak_update": 3835, "q_data_last": 11.237161636352539, "td_abs_first": 0.8125735372304916, "td_abs_last": 0.8118539303541183, "throttle_cross_first": 0.23289797592825462, "throttle_cross_last": 0.2287979208186365, "wall_s": 38.8}
