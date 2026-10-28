@@ -14,7 +14,7 @@
 > - **2-0 결과 (2026-10-27 완료)**: 데이터 묶음 `fix_s1`(30개 모두 완주)과 `fix_extra`(30개 중 29개 완주, 1개는 `invalid_progress`로 중단된 정상 데이터)를 갖췄다. 기준 학습률은 3e-5를 골랐다((가) 48.14초 깨끗한 완주, 1e-5는 46.34초에 이탈 57스텝). 같은 설정이 (나)에서는 49.86초에 이탈 162스텝이라 기준 자체가 깨끗하지 않다. baseline 구조를 고정 데이터로 이어 학습하면 어떤 학습률에서도 "깨끗하면서 baseline 47.02초보다 빠른" 결과가 나오지 않았고, 목표 속도는 모두 내려갔다. D1(학습률 1e-4)은 52.92초에 이탈 95스텝이었다. Q 상승폭은 1e-5와 비슷한데 `agree`가 크게 떨어져(0.80 → 0.57) 갱신 잡음(6.3의 (2)) 쪽의 가설이다(02 문서 2절).
 > - **2-1a 결과 (2026-10-28)**: 큰 CNN 후보 C, M3b, M2 모두 (나)에서 깨끗하게 완주하지 못해 이긴 것이 없다. C가 가장 가까웠다. (나)에서 48.30초, 271/273, 이탈 23으로 기준(49.86초, 264/273, 이탈 162)보다 세 숫자 모두 나았지만 깨끗하지 않았다. C를 epochs 10으로 더 학습하자 출발 직후 이탈했다. 데이터에 더 잘 맞출수록 정책이 데이터에서 멀어지는 패턴이다(6.2의 7, 02 문서 3절).
 > - **2-1b 결과 (2026-10-28)**: H1(보수항 키우기)에서 **C + 보수항 3.0**(학습률 3e-4, epochs 5, batch 64)이 이겼다. (가) 47.12초, (나) 47.46초로 두 묶음 모두 273/273, 이탈 0이다. (나) 기준 49.86초보다 2.40초 빠르다. 보수항으로 정책을 데이터 근처에 붙잡자 C가 깨끗하게 달렸다(6.2의 7). baseline 구조는 보수항 3.0이 (가)에서 46.90초로 깨끗했지만, (나)에서는 50.28초에 이탈 327스텝으로 졌다. H1에서 이긴 것이 있으므로 H2·M1·M3a는 하지 않는다(6.1의 표). C + 3.0은 제공 baseline 47.02초보다 아직 0.44초 느리다. 고정 데이터 단계의 기준이며 최종 채택이 아니다(47.02초와의 비교는 2-3a, 6.8). 설정마다 1회씩만 돌린 결과다(02 문서 3절).
-> - **다음 단계: 2-2a 보상 1차** (6.1의 표, 6.5). 기준은 2-1에서 이긴 run이다. 구조는 C(`work/cands_2_1a/c.py`), 설정은 학습률 3e-4, epochs 5, batch 64, 보수항 3.0이다. 비교할 숫자는 (가) `c_h1_s1_cw3` 47.12초, (나) `c_h1_ex_cw3` 47.46초다. 구조를 바꿨으므로 2-2b의 R4a는 건너뛴다(6.5). 먼저 C 위에 보상 후보 파일(R5, R3 값 넷, R5+R3)을 만들어 검증하고, 실행은 사용자가 정한 뒤 한다. 다시 매기는 데 필요한 보상 입력 파일(`reward_context.ctx`)은 두 묶음 모두 30개씩 있다.
+> - **다음 단계: 2-2a 보상 1차** (6.1의 표, 6.5). 기준은 2-1에서 이긴 run이다. 구조는 C(`work/cands_2_1a/c.py`), 설정은 학습률 3e-4, epochs 5, batch 64, 보수항 3.0이다. 비교할 숫자는 (가) `c_h1_s1_cw3` 47.12초, (나) `c_h1_ex_cw3` 47.46초다. 구조를 바꿨으므로 2-2b의 R4a는 건너뛴다(6.5). C 위에 보상 후보 파일 9개(R5, R3 값 넷, R5+R3 값 넷)를 `work/cands_2_2a/`에 만들고 검증했다(2026-10-28, 02 문서 4절). 실행은 사용자가 정한 뒤 한다(명령과 run 9개의 순서는 6.9).
 
 ## 1. 요약
 
@@ -551,15 +551,29 @@ grep 'new architecture, scratch' runs/$RUN/docs/logs/fix_train.log
 
 - H1 run 이름은 baseline 구조가 `h1_<묶음>_cw<값>`(예: `h1_s1_cw03`, `h1_s1_cw1`, `h1_s1_cw3`), C가 `c_h1_<묶음>_cw<값>`이다. 보수항 0.3·1.0·3.0을 (가)에서 비교해 구조마다 하나를 고르고(6.3의 순서), 그 값으로 (나)에서 판정한다. (가) 6개, (나) 2개, 모두 8개 run이다.
 
-**2-2a·2-2b 보상** (다시 매긴 폴더는 run마다 새로 만든다. 틀에서 `RUN=r5_s1; DATA=r5_s1`, `LR`·`EP`·`BS`·`CW`는 2-1에서 이긴 run의 값):
+**2-2a 보상** (후보 파일은 `$W/cands_2_2a/`에 준비돼 있다. 복사만 하고 직접 고치지 않는다. 다시 매긴 폴더는 run마다 새로 만들고 이름을 run과 같게 한다. 틀에서 `DATA=$RUN`, 설정은 2-1에서 이긴 run의 값 `LR=0.0003; EP=5; BS=64; CW=3.0`):
 
 ```bash
-cp runs/<2-1에서 이긴 run>/src/network.py runs/r5_s1/src/network.py                 # 2-1에서 고른 구조. 2-2b면 2-2a에서 이긴 run의 것
-# runs/r5_s1/src/network.py의 REWARD_SETTINGS·calculate_reward를 후보대로 고친다
-$K job -- python $W/ctxdata.py relabel data/fix_s1 --verify --reward-from ~/workspace/aiad/assignment2/src/network.py   # 기대: max 0
-$K job -- python $W/ctxdata.py relabel data/fix_s1 data/r5_s1 --reward-from runs/r5_s1/src/network.py
-(cd runs/r5_s1 && QTRACE=1 $W/official_cycle.sh config.yaml fix 0)                  # 고른 구조로 학습(구조를 바꿨으면 처음부터) + 후보 판정
+# 처음 한 번: 수집 때의 보상으로 두 묶음을 확인한다. 기대: 두 줄 모두 max |new - stored| 0
+$K job -- python $W/ctxdata.py relabel data/fix_s1 --verify --reward-from ~/workspace/aiad/assignment2/src/network.py | tail -1
+$K job -- python $W/ctxdata.py relabel data/fix_extra --verify --reward-from ~/workspace/aiad/assignment2/src/network.py | tail -1
+# run마다. 예: RUN=r5_s1; SRC=fix_s1; CAND=r5 (DATA=$RUN으로 위 틀을 먼저 실행)
+cp $W/cands_2_2a/$CAND.py runs/$RUN/src/network.py                                   # C 구조 + 후보 보상
+$K job -- python $W/ctxdata.py relabel data/$SRC data/$RUN --reward-from runs/$RUN/src/network.py
+(cd runs/$RUN && QTRACE=1 $W/official_cycle.sh config.yaml fix 0)                  # C라 처음부터 학습 + 후보 판정
+grep 'new architecture, scratch' runs/$RUN/docs/logs/fix_train.log
+# (나) run만: 그 run의 보상 기준 rollout. <이름>은 judge.jsonl의 model 값
+$K job -- python $W/qdiag.py rollout runs/$RUN/models/candidates/<이름>.pth --out runs/$RUN/docs/logs/rollout_steps.jsonl > runs/$RUN/docs/logs/rollout.txt
 ```
+
+- **2-2a 후보 파일** (`pilot/a2/work/cands_2_2a/`). `build.py`가 2-1에서 이긴 C 파일(`cands_2_1a/c.py`)에서 `REWARD_SETTINGS` 한 줄만 바꿔 9개를 만든다. R5는 `r5.py`, R3는 이탈 벌점 0.1·0.25·1.0·2.0의 `r3_g01.py`·`r3_g025.py`·`r3_g1.py`·`r3_g2.py`, R5+R3는 같은 벌점 넷의 `r5r3_g*.py`다. 구조, `calculate_reward()`, 탐색, 고정 보조 코드는 C 파일과 바이트 단위로 같다. `verify.py`로 2026-10-28에 확인했다(02 문서 4절).
+- **run 이름과 순서** (모두 9개 run):
+  1. R5: (가) `r5_s1`, (나) `r5_ex`.
+  2. R3: (가) `r3_s1_g01`·`r3_s1_g025`·`r3_s1_g1`·`r3_s1_g2`. 6.3의 순서로 하나를 고르고 (나) `r3_ex_g<값>`.
+  3. R5+R3: R3에서 (가)로 고른 값으로 (가) `r5r3_s1_g<값>`, (나) `r5r3_ex_g<값>`(`CAND=r5r3_g<값>`).
+- R5와 R5+R3는 (가) 결과와 관계없이 (나)까지 돌린다. 판정은 6.8대로 두 묶음 모두에서 기준((가) `c_h1_s1_cw3` 47.12초, (나) `c_h1_ex_cw3` 47.46초)보다 빠른 깨끗한 완주이고, 여럿이면 (나)의 랩타임이 가장 빠른 것이다.
+- 기준 run의 rollout도 한 번 남긴다. 대상은 `runs/c_h1_ex_cw3/models/candidates/20261028_163659.pth`이고 제공 보상 기준이다.
+- **2-2b**는 2-2a 결과를 본 뒤 후보 파일을 같은 방식으로 준비한다. R4a는 2-1에서 구조를 C로 바꿨으므로 건너뛴다(6.5).
 
 **2-3a·2-3b 새 수집 run과 2-4** (빈 데이터 폴더에서 시작. 틀에서 `RUN=a23_1; DATA=a23_1`처럼 run마다 새 폴더, `LR`·`EP`·`BS`·`CW`는 2-1에서 이긴 run의 값. 2-3b는 `RUN=e1_1` 등, E0이면 `config.yaml`의 `epsilon` 줄도 바꾼다):
 
@@ -767,3 +781,4 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 - 2026-10-28 9판 보완 4: 2-1a 후보 파일(C, M3b, M2)을 `pilot/a2/work/cands_2_1a/`에 만들고 검증함(10절). 6.9에 후보 파일을 복사만 하도록 적고 run 이름 규칙을 정함. 파일럿 P2 파일을 M2로 쓰지 않는 이유를 적고, 2-1a 첫 실행은 epochs 5만 돌리게 함(6.4).
 - 2026-10-28 10판(이 문서): 실행 기록을 `docs/02_rl_experiment_log.md`로 옮기고 10절에는 단계별 요약표만 남김. 결과를 적는 곳을 모두 02 문서로 바꿈(실행한 사람이나 AI는 02 문서에만 적고, 상태 박스와 요약표는 확인 뒤 고침). 2-1a 결과에 따라 2-1b를 H1부터 보고, baseline 구조와 C 둘 다에 시험하게 함(보수항 0.3·1.0·3.0, 0.03은 뺌). 6.2에 관찰한 패턴(7)을 더함. `config.yaml`로 수집하지 않는다는 규칙(4절), 1단계 모델 이동(8절), 조향 부드러움 항을 보상으로 만들 수 없는 이유(6.5)를 적음.
 - 2026-10-28 10판 보완 1: 2-1b H1 결과를 상태 박스와 10절에 요약함. C + 보수항 3.0이 2-1의 기준이 되어 H2·M1·M3a는 건너뛰고, 다음 단계를 2-2a로 적음(기준 run과 설정, 후보 파일을 먼저 준비한다는 것).
+- 2026-10-28 10판 보완 2: 2-2a 보상 후보 파일 9개를 `pilot/a2/work/cands_2_2a/`에 만들고 검증함(02 문서 4절). 6.9의 2-2 명령을 후보 파일을 복사만 하는 방식으로 바꾸고, run 이름과 순서, rollout 대상을 적음.
