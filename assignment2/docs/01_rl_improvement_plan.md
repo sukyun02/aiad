@@ -1,8 +1,8 @@
 # 01. 강화학습 과제 계획 (assignment2)
 
-작성 2026-10-24, 2026-10-26에 다시 쓰고(7판) 2026-10-27에 근거를 보강하고(8판) 같은 날 1단계 결과를 반영하고 2단계를 세분화함(9판). 2026-10-28에 실행 기록을 02 문서로 옮기고 2-1a 결과를 반영함(10판). 2026-10-29에 결과 요약을 계획서에서 빼고 02 문서로 모음(11판). 고친 이력은 맨 아래 "개정 이력"에 있다.
+작성 2026-10-24, 2026-10-26에 다시 쓰고(7판) 2026-10-27에 근거를 보강하고(8판) 같은 날 1단계 결과를 반영하고 2단계를 세분화함(9판). 2026-10-28에 실행 기록을 02 문서로 옮기고 2-1a 결과를 반영함(10판). 2026-10-29에 결과 요약을 계획서에서 빼고 02 문서로 모음(11판). 2026-10-30에 진단 결과와 논문에 따라 2-3c(학습 안정화)를 더함(12판). 고친 이력은 맨 아래 "개정 이력"에 있다.
 
-> **상태 (2026-10-29)**
+> **상태 (2026-10-30)**
 > - **목표**: 랩타임 19초대, 타일 273/273(사용자가 정함. 현재 1등 19.00초. 교수님 통과 기준은 없다).
 > - **과제의 본 작업**: README 할 일 2, `src/network.py`의 모델 구조·보상함수·탐색 전략 개선. 이 문서의 2단계(6절)가 그 작업이다. 1단계(5절)는 고친 결과를 비교할 기준을 기록하는 단계다.
 > - **바꾸는 것**: `src/network.py`의 세 곳(`ClassificationNetwork`, `REWARD_SETTINGS`·`calculate_reward()`, `collection_action()`)과 설정 파일의 학습 설정 값. 학습 코드(Double DQN), `network.py` 하단 고정 보조 코드, 입출력 규약은 바꾸지 않는다(6.0).
@@ -12,7 +12,7 @@
 > - **진행 방식**: 2단계를 세부 단계로 나눠 차례로 한다(6.1의 표). 2-0 준비(묶음 (나) `fix_extra` 30 에피소드, 기준 학습, D1) → 2-1a 큰 CNN(이긴 것이 없으면 2-1b) → 2-2a·2-2b 보상 → 2-3a 새 수집 확인 → 2-3b 탐색 → 2-4 오래 돌리기. 단계마다 이긴 것이 다음 단계의 기준이 된다(누적). 한 번에 한 단계만 하고, 끝나면 결과를 02 문서(`docs/02_rl_experiment_log.md`)에 적고 보고한 뒤 멈춘다. 다음 단계는 사용자가 정한다.
 > - **결과는 02 문서에만 적는다.** 계획서는 계획이 바뀔 때만 고치고, 결과가 나오면 확인한 뒤 이 상자의 "현재 기준"과 "다음 단계"만 고친다(6.1).
 > - **현재 기준 (2026-10-29, 2-3b E2까지)**: 고정 데이터 단계에서 이긴 C + 보수항 3.0(`work/cands_2_1a/c.py`, 기본 보상, 학습률 3e-4, epochs 5, batch 64)에 탐색 E1(`work/cands_2_3b/e1.py`)을 더한 것이 기준이다. E1을 4회로 맞춘 기록은 run별 최고 깨끗한 judge 42.30·42.62·42.88·43.38초, **중앙값 42.75초, 깨끗한 run 4/4**다. 이것이 다음 후보의 비교 대상이다(6.8의 "E1 뒤의 판정"). E1 위에 더한 후보는 모두 졌다. E1b(상한 기준을 judge 평균 속도로 고친 E1)는 깨끗한 run 2/4였고, E3(무작위 조향 유지)는 시험 수집에서 절반 넘게 중단돼 건너뛰었고, E2(매개변수 잡음)는 깨끗한 run 1/4였다(c1 모델 넷 중 셋이 완주하지 못함). 지금까지 가장 빠른 깨끗한 쌍은 `pilot/a2/runs/e1b_2/models/20261029_043215.pth`(42.22초, 273/273, 이탈 0)다. 같은 조건에서도 run마다 결과 차이가 크다(같은 c1 여덟 번 중 깨끗함 넷). 속도를 올리면 조향이 따라가지 못하는 모습이 보인다(40.60초에 이탈 23). 단계별 결과는 02 문서에 있다.
-> - **다음 단계: 사용자 결정 대기** (6.6, 6.7). 2-3b의 남은 후보는 E0(E1 위에서 `collect.epsilon`만 0.05 또는 0.2)이다. E0을 볼지, 2-3b를 E1로 마치고 2-4(E1 run을 30~60사이클까지 이어 돌리기)로 갈지 정한다.
+> - **다음 단계: 2-3c 학습 안정화** (6.6의 2-3c). 고정 데이터 진단(02 문서 5절)에서 막힌 곳이 탐색보다 학습 쪽으로 보였고(갱신이 쌓일수록 Q가 부풀고 주행이 나빠짐, 6.2의 8), 논문에도 같은 현상과 처방이 있어 더한 단계다. 먼저 L1(C + LayerNorm, 2-1a의 M3b를 보수항 3.0으로)을 진단과 같은 틀의 고정 데이터로 시험한다(80개 네 묶음 × epochs 5·10, run 8개, 약 40분). 통과하면 E1 기준 위에 L1을 넣어 새로 수집하며 4회 돌려 E1과 비교하고, 그다음 U1(c2부터 사이클마다 epochs 2)을 같은 방식으로 본다. W1(좋은 에피소드 비중 늘리기)은 같은 에피소드를 겹쳐 넣어도 되는지 사용자가 정한 뒤에 한다(9절). E0은 2-3c 뒤로 미룬다. 2-4와 제출 쌍 고르기(6.10의 S1)는 그 뒤다.
 
 ## 1. 요약
 
@@ -327,7 +327,8 @@ README 할 일 2("모델 구조, 보상함수 및 탐색 전략 개선")가 이 
 | 2-2a 보상 1차 | 6.5 | 2-1의 기준으로 R5, R3(값 넷), R5+R3 | 고정 (다시 매김) | 이긴 보상이 다음 기준 |
 | 2-2b 보상 2차 | 6.5 | 2-2a의 기준 위에 R1, R2, R1b, R4a (6.5의 건너뛰는 규칙) | 고정 (다시 매김) | 이긴 보상이 다음 기준 |
 | 2-3a 새 수집 확인 | 6.6 | 2-1·2-2에서 고른 것을, 탐색은 제공본 그대로 두고 새로 수집하며 6사이클 × 2회 | 새 수집 | 1단계 기준 쌍보다 빠른 깨끗한 완주 |
-| 2-3b 탐색 | 6.6 | 2-3a의 조건 위에 E1. 그 뒤로는 E1을 기준에 넣고 E1b → E3 → E2 → E0을 쌓는다 | 새 수집 | E1은 47.02초보다 빠른 깨끗한 완주. 그 뒤의 후보는 지금 기준과 4회씩 비교해 더 빠르고 깨끗한 run이 적지 않음(6.8) |
+| 2-3b 탐색 | 6.6 | 2-3a의 조건 위에 E1. 그 뒤로는 E1을 기준에 넣고 E1b → E3 → E2를 쌓는다(E0은 2-3c 뒤로 미룸) | 새 수집 | E1은 47.02초보다 빠른 깨끗한 완주. 그 뒤의 후보는 지금 기준과 4회씩 비교해 더 빠르고 깨끗한 run이 적지 않음(6.8) |
+| 2-3c 학습 안정화 | 6.6 | 진단(02 문서 5절)과 논문에 따라 L1(LayerNorm) → U1(갱신 수 상한) → W1(좋은 에피소드 비중, 사용자 확인 뒤). L1은 고정 데이터 시험을 먼저 하고, 통과하면 E1 기준 위에서 새로 수집 | 고정 → 새 수집 | 고정 데이터 시험은 6.8의 2-3c 조건. 새 수집은 E1 뒤의 판정과 같다 |
 | 2-4 오래 돌리기 | 6.7 | 2-3에서 이긴 run을 30~60사이클까지 이어 돌림. 데이터 범위, 소성 손실 확인 | 새 수집 | 최종 채택 |
 
 ### 6.2 무엇이 막혔는가 (3.5)
@@ -339,6 +340,7 @@ README 할 일 2("모델 구조, 보상함수 및 탐색 전략 개선")가 이 
 5. **(가설) Q값이 실제 수익을 따라가지 않는다.** 도구 시험(2026-10-26)에서 baseline의 Q(s, a)는 평균 약 4.7인데, 같은 바퀴에서 실제로 받은 할인 수익은 약 15.6이고 상관이 −0.02였다. 1사이클 학습한 쌍도 −10.4, 상관 −0.01이었다. Q의 수준은 손으로 정한 가속 head bias 4.7에서 오고, 학습률 1e-5에서는 갱신 77번에 4.64 → 4.72만 올랐다. 모델 2개를 한 바퀴씩 본 것이라 6.3에서 확인한다. 4에서 학습률 1e-4가 조향을 망가뜨린 것이, Q가 실제 수익 쪽으로 올라가는 동안 행동 순서가 흔들린 결과(Nakamoto 2023)인지, Q 수준과 상관없이 갱신의 잡음으로 탐욕 행동이 바뀐 결과(Schaul 2022)인지 6.3의 D1에서 확인한다.
 6. **(계산) 이탈 벌점이 할인 수익을 압도한다.** 기본 보상의 할인 수익은 속도 21에서 약 12~19, 속도 50에서 약 29~43이다(6.5). 그런데 5초 동안 이탈하면 벌점만으로 약 −46이다(0.5 × (1 − 0.99²⁵⁰) ÷ 0.01). 빠르게 달린 시도가 한 번 이탈로 끝나면, 그 손해가 속도로 얻는 이득보다 훨씬 크게 학습된다. 1의 "빠르면 손해"를 이것으로 설명할 수 있다.
 7. **(관찰, 2-0·2-1a) 데이터에 더 잘 맞출수록 정책이 데이터에서 멀어지고 주행이 망가진다.** 학습률을 올리거나 오래 학습하면 Q는 실제 수익 쪽으로 오르고 TD 오차는 줄었다. 그런데 데이터와 같은 행동을 고르는 비율(`agree`)은 떨어지고 주행은 나빠졌다. baseline 구조의 학습률 1e-5 → 1e-4(D1)에서 `agree`가 0.80 → 0.57이었고, 주행은 46.34초에서 52.92초·이탈 95가 됐다. C의 epochs 5 → 10에서는 TD 0.53 → 0.44, `agree` 0.64 → 0.42였고, 주행은 48.30초에서 출발 직후 이탈이 됐다. 데이터에 없는 행동의 Q가 근거 없이 높아져 그 행동을 고르는, 오프라인 학습의 전형적인 문제로 본다(Levine 2020, Kumar 2020). 보수항 0.1은 이를 막기에 약한 것으로 보고 H1을 먼저 본다(6.4).
+8. **(관찰, 2026-10-29~30 진단) 학습 한 번의 갱신이 많을수록 Q가 부풀고 주행이 나빠지며, 학습한 모델마다 주행이 크게 다르다.** E1 데이터로 C를 처음부터 학습하니(02 문서 5절의 진단) 학습 끝 Q가 갱신 수를 따라 커졌다. 80개 데이터에서 약 0.6만 갱신에 5.7~10.0, 1.4만에 8.6~16.8, 2.8만에 17.8~20.8이었고, 640개·11만 갱신에서는 25.6~27.1이었다. 기본 보상의 실제 할인 수익은 15 안팎이다. epochs 10은 네 묶음 모두 epochs 5보다 이탈이 2~4배였다. 데이터를 8배로 늘리거나 보수항을 10으로 키워도 나아지지 않았다. 공식 루프는 사이클마다 쌓인 데이터 전체를 이어 학습하므로 갱신이 계속 쌓인다. E1 run의 학습 끝 Q도 c1의 6.6~11.5에서 c6의 17.0~21.7로 올랐다. 두 현상으로 설명된다. 오프라인 Q 학습에서는 갱신이 비슷한 상태의 목표값까지 함께 올려 Q가 스스로 커진다(Yue 2023). 또 같은 데이터로 갱신을 많이 할수록 표현력이 줄어 성능이 떨어진다(Kumar, Agarwal 2021). 같은 설정에서도 데이터 묶음마다 결과가 크게 달랐고(25개 중 깨끗한 완주 하나), 오프라인 RL의 결과가 설정에 민감하다는 보고(Le Paine 2020)와 맞는다.
 
 ### 6.3 2-0 계측과 준비 (1단계와 함께, 맨 먼저)
 
@@ -454,7 +456,7 @@ README 할 일 2("모델 구조, 보상함수 및 탐색 전략 개선")가 이 
 
 | ID | 바꾸는 것 | 겨냥 (6.2) | 의도한 데이터 (`datastats.py`) | 파일럿 |
 |---|---|---|---|---|
-| E0 | 탐색 비율만: `collect.epsilon` 0.1 → 0.05 또는 0.2. `collection_action()`은 제공본(무작위 행동 9개 중 하나) | E1~E3과 비교할 가장 단순한 탐색 | 0.2면 `off%`와 행동 다양성 상승(폭은 넓고 질은 낮음), 0.05면 반대 | 없음 |
+| E0 | (2-3c 뒤로 미룸) 탐색 비율만: `collect.epsilon` 0.1 → 0.05 또는 0.2. `collection_action()`은 제공본(무작위 행동 9개 중 하나) | E1~E3과 비교할 가장 단순한 탐색 | 0.2면 `off%`와 행동 다양성 상승(폭은 넓고 질은 낮음), 0.05면 반대 | 없음 |
 | E1 | 속도를 조금씩 올리는 탐색(`collection_action()`). 에피소드마다 속도 상한을 "지금 모델의 속도 + 0~3"에서 뽑아, 상한 아래에서는 가속하고 위에서는 무가속한다. 조향은 모델이 정한다 | 1 | `fast_on%`·`v90` 상승, `off%`는 거의 그대로 | Y1a(U(21, 27))는 후보 전부 이탈. Y1b(U(20, 24))는 44.0초가 나왔지만 이탈 70스텝 |
 | E1b | E1의 상한 기준 고치기(`collection_action()`). 에피소드마다 상한을 "기준 속도 + 0~3"에서 뽑는 것은 E1과 같고, 기준 속도를 `throttle_head`의 목표 속도와 수집하는 모델의 judge 평균 속도 중 큰 값으로 한다 | 1. E1에서는 모델이 빨라져도(judge 평균 속도 20.2 → 22.4~22.8) `throttle_head`의 목표 속도가 그대로여서 상한이 따라 오르지 않았다 | `fast_on%`·`v90`이 모델이 빨라지는 만큼 오름, `off%`는 E1 수준 | E1(2-3b): 6사이클 동안 상한 범위가 그대로였다 |
 | E2 | 매개변수 잡음(`collection_action()`). 에피소드마다 모델 사본의 출력층에 작은 잡음을 더해, 한 에피소드 안에서 일관되게 다른 조향을 시험한다(Plappert 2018, Fortunato 2018). 잡음은 PN보다 작게 | 2 | `steer%` 상승, `off%`가 크게 늘지 않음 | PN0·PN1은 큰 CNN에서 잡음이 커서 수집 대부분이 이탈 |
@@ -468,12 +470,30 @@ README 할 일 2("모델 구조, 보상함수 및 탐색 전략 개선")가 이 
 - 출발과 첫 사이클은 2-3a와 같다(첫 수집은 기준 쌍, 구조를 바꿨으면 첫 사이클 30 에피소드). 사이클은 `CTX=1 QTRACE=1`로 돌린다(6.9).
 - **매 사이클 `datastats.py`부터 본다.** 의도한 데이터가 나오지 않으면 학습 결과를 보기 전에 탐색 설정부터 고친다. 파일럿 P1·P3는 빠른 주행이 데이터에 들어갔지만 대부분 이탈로 끝나서 실패했다.
 
+**2-3c 학습 안정화 (2026-10-30, 진단과 논문에 따라).** E1 위에 더한 탐색 후보가 모두 진 뒤, 고정 데이터 진단(02 문서 5절)에서 막힌 곳이 탐색보다 학습 쪽으로 보였다(6.2의 8). 그래서 E0보다 먼저 학습을 안정시키는 후보를 본다. 기준은 2-3b의 기준(C + 보수항 3.0 + E1, 4회 중앙값 42.75초, 깨끗한 run 4/4)이다.
+
+**묻는 것**: 갱신이 쌓일수록 Q가 부풀고 주행이 나빠지는 것을 구조(LayerNorm)와 학습 설정(갱신 수 상한)으로 막으면, 새로 수집하며 반복할 때 더 빠르고 깨끗해지는가.
+
+| ID | 바꾸는 것 | 겨냥 (6.2) | 근거 | 규칙 (6.0) |
+|---|---|---|---|---|
+| L1 | 구조: C에 LayerNorm. 2-1a의 M3b 구조 그대로다(영상 특징 1024개에 LayerNorm, 은닉층 128에 LayerNorm 뒤 ReLU, 센서는 정규화하지 않음). 설정은 기준과 같다(학습률 3e-4, batch 64, 보수항 3.0). M3b는 2-1a에서 졌지만, 그때는 보수항 0.1이었고 갱신 수 문제를 보지 않았다 | 8 | 오프라인 Q 학습에서 LayerNorm이 Q가 스스로 커지는 것을 편향 없이 막고, 데이터가 1%일 때도 효과가 있었다(Yue 2023). 고전 제어 과제의 오프라인 Q 학습에서 LayerNorm이 가장 효과적인 정규화 중 하나였다(Snyder 2025). LayerNorm 같은 정규화가 off-policy TD를 안정시킨다는 이론도 있다(Gallici 2025, 이산 행동 Atari). LayerNorm은 학습 능력 유지에도 쓰인다(Lyle 2023, 6.7의 4) | 구조 변경이라 됨 |
+| U1 | 학습 설정: 사이클마다 갱신 수에 상한을 둔다. c1은 지금처럼 30 에피소드 × epochs 5로 처음부터 학습하고, c2부터는 epochs 2로 이어 학습한다. 6사이클 동안 쌓이는 갱신이 지금의 약 5.4만~5.9만(E1 run 넷)에서 약 2.5만~2.7만으로 준다 | 8 | 같은 데이터로 갱신을 많이 할수록 표현력이 줄어 성능이 떨어지고, 오프라인에서 특히 일관되다(Kumar, Agarwal 2021). 이어 학습이 처음 데이터에 과적합한다는 보고도 있다(Nikishin 2022. 해결법인 재초기화는 학습 코드를 바꿔야 해서 쓰지 않는다). 진단에서도 epochs 10이 epochs 5보다 나빴다. 다만 epochs 2가 epochs 5보다 나은 근거는 없다(진단에서 비슷함) | `train.epochs`만 사이클 사이에 바꾼다. 실행 스크립트가 사이클마다 설정 파일의 epochs 줄을 바꾼다 |
+| W1 | 데이터 비중: 그 사이클까지 모은 에피소드 중 깨끗하고 빠른 것을 학습 폴더에 하드 링크로 한 번 더 넣는다. 수집한 데이터를 그대로 쓰고 비중만 바꾼다 | 8. 모델이 깨끗한 주행보다 평범한 주행 쪽에 묶임 | 좋은 궤적이 적은 혼합 데이터에서 오프라인 RL은 평범한 궤적에 묶인다. 수익이 높은 궤적을 더 자주 뽑으면 CQL을 포함한 어떤 알고리즘에서도 나아졌다(Hong 2023) | **사용자 확인 필요.** 같은 에피소드를 겹쳐 넣는 것이 허용되는지 정한 뒤에만 한다(9절) |
+
+**순서와 판정** (6.8의 2-3c):
+
+1. **L1 고정 데이터 시험.** 진단과 같은 틀로 M3b 구조를 보수항 3.0, 80개 네 묶음(`ds80a`~`ds80d`) × epochs 5·10으로 처음부터 학습하고 judge한다(run 8개). 비교 대상은 진단의 C run 8개(`ds80a`~`ds80d`, `ds80a_ep10`~`ds80d_ep10`)다. 학습 끝 Q가 epochs 5 → 10에서 C보다 덜 커지는지도 함께 적는다(겨냥한 원리가 작동하는지 보는 것이고, 판정은 주행으로 한다).
+2. **L1 새 수집.** 1을 통과하면, E1 후보 파일의 `ClassificationNetwork`만 M3b 구조로 바꾼 파일로 2-3b와 같은 틀(`work/e1_loop.py`)로 4회 돌려 E1 뒤의 판정으로 E1과 비교한다. 1을 통과하지 못하면 2로 가지 않고 3으로 간다.
+3. **U1 새 수집.** 그때의 기준(L1이 이겼으면 E1 + L1, 아니면 E1) 위에 U1을 더해 4회 돌려 같은 규칙으로 비교한다. 한 번에 하나만 바꾼다(6.1).
+4. **W1**은 사용자가 허용하면, 먼저 고정 데이터에서 진단의 틀로 본다(같은 네 묶음에 깨끗한 에피소드를 한 번 더 넣은 묶음).
+5. 2-3c가 끝나면 E0을 볼지, 2-4로 갈지 사용자가 정한다.
+
 ### 6.7 2-4 오래 돌리기
 
 1. **출발점.** 2-3에서 이긴 run(2-3b에서 이긴 탐색이 없으면 2-3a의 run)을 그대로 이어 돌린다. 같은 조건의 run이 둘이면 나은 쪽을 잇고, 메모리가 되면 둘 다 잇는다. 데이터는 그 run이 처음부터 새로 모은 것뿐이다. 1단계 데이터나 다시 매긴 데이터는 섞지 않는다(README 주의사항).
 2. 하룻밤(30~60사이클) 돌린다. 사이클 수가 모자랐던 것인지(6.2의 4) 여기서 확인한다. 2-1에서 고른 학습률·epochs·배치는 30 에피소드 고정 데이터에서 고른 값이다. 가치 기반 Atari 에이전트에서 데이터가 적은 조건(100k)의 최적 설정은 많은 조건(40M)으로 대부분 옮겨 가지 않았다(Obando-Ceron 2024). 그래서 10사이클 넘게 judge가 나아지지 않으면, 그 시점의 run을 두 벌 복사해 지금 학습률과 이웃 값 하나로 학습만 다시 하고(에피소드 수 0, 데이터는 읽기만 한다) judge로 비교한다.
 3. **학습 데이터 범위를 정한다.** 공식 학습은 `train.data_dir` 아래 에피소드를 고르게 뽑으므로, 데이터가 쌓일수록 새 사이클의 비중이 줄어든다(20사이클이 쌓이면 새 10 에피소드는 5%). 오래된 사이클 폴더를 `train.data_dir` 밖으로 옮겨 최근 N사이클만 학습하는 것은 설정·데이터 관리로 할 수 있다. 전체와 최근 10사이클을 run 두 개로 나란히 돌려 judge로 정한다. 근거는 양쪽에 있다. Atari에서 1-step DQN은 리플레이 용량을 10배 늘려도 이득이 없었고(n-step 수익을 더해야 이득이 생겼다), Rainbow는 버퍼 속 가장 오래된 정책이 젊을수록 대체로 나았다(Fedus 2020). 이 과제의 학습도 1-step이다. 반대로 여러 정책이 모은 다양한 데이터가 오프라인 학습을 도왔다는 결과도 있다(Agarwal 2020). 이 과제에 어느 쪽이 맞는지는 두 run으로 정한다.
-4. **소성 손실을 확인한다 (진단).** 10사이클마다, 그 시점의 데이터로 처음부터 학습한 모델(`SCRATCH=1`. 판정만 하고 수집·제출에는 쓰지 않는다)과 이어 학습해 온 모델을 judge로 비교한다. Atari DQN에서 학습이 이어질수록 쓰이지 않는 뉴런이 쌓여 학습 능력이 떨어지는 현상이 보고됐다(Sokar 2023). 처음부터 학습한 쪽이 계속 낫다면 이 신호다. 연구의 해결법(주기적 재초기화)은 학습 코드를 바꿔야 하므로, 대응은 LayerNorm(M3)을 조합에 넣는 것이다(Lyle 2023). 그래도 계속되면 활성화 함수를 CReLU(ReLU(x)와 ReLU(−x)를 이어 붙임)로 바꾼다. Atari 게임을 차례로 배우는 가치 기반 에이전트에서 활성이 희소해지며 학습 능력이 떨어졌고, CReLU가 이를 줄였다(Abbas 2023). 출력 폭이 두 배가 되므로 다음 층의 입력 크기를 맞춘다.
+4. **소성 손실을 확인한다 (진단).** 10사이클마다, 그 시점의 데이터로 처음부터 학습한 모델(`SCRATCH=1`. 판정만 하고 수집·제출에는 쓰지 않는다)과 이어 학습해 온 모델을 judge로 비교한다. Atari DQN에서 학습이 이어질수록 쓰이지 않는 뉴런이 쌓여 학습 능력이 떨어지는 현상이 보고됐다(Sokar 2023). 처음부터 학습한 쪽이 계속 낫다면 이 신호다. 연구의 해결법(주기적 재초기화)은 학습 코드를 바꿔야 하므로, 대응은 LayerNorm(M3)을 조합에 넣는 것이다(Lyle 2023). 2-3c의 L1이 이미 넣었으면, 이 확인은 L1이 소성 손실까지 막는지 보는 것이 된다. 그래도 계속되면 활성화 함수를 CReLU(ReLU(x)와 ReLU(−x)를 이어 붙임)로 바꾼다. Atari 게임을 차례로 배우는 가치 기반 에이전트에서 활성이 희소해지며 학습 능력이 떨어졌고, CReLU가 이를 줄였다(Abbas 2023). 출력 폭이 두 배가 되므로 다음 층의 입력 크기를 맞춘다.
 5. **모델과 데이터 중 어느 쪽이 나은지 본다.** 사이클마다 수집한 모델의 judge 랩타임과, 그 사이클 데이터에서 이탈 없이 완주한 에피소드의 최고 랩타임(`datastats.py --by episode`)을 나란히 적는다. 데이터 쪽이 계속 빠르면 탐색은 좋은 데이터를 만들고 있지만 학습이 그것을 정책으로 옮기지 못하는 것이므로, 학습 쪽(구조 M3, 학습률·epochs, 3의 데이터 범위)을 본다. 모델 쪽이 계속 빠르면 탐색 데이터가 너무 거친 것이므로 E1의 범위를 줄이거나 `collect.epsilon`을 낮춘다. 탐색을 바꿨으므로 새 데이터 폴더에서 다시 시작한다.
 6. 43초 미만이 나오면 그 조건 위에 다음 변경을 얹는다. 앞 단계에서 건너뛰었거나 2위였던 후보부터 다시 본다.
 
@@ -485,6 +505,7 @@ README 할 일 2("모델 구조, 보상함수 및 탐색 전략 개선")가 이 
 | 2-2a·2-2b 보상 | 데이터 묶음 2개 × 1회 | 두 묶음 모두에서 그 단계의 기준(2-2a는 2-1에서 이긴 run, 2-2b는 2-2a에서 이긴 run이고 없으면 2-1에서 이긴 run)보다 빠른 깨끗한 완주. 값을 고르는 후보(R1의 k, R3의 벌점)는 (가)에서 고른 값이 (나)에서도. 여럿이면 (나)의 랩타임이 가장 빠른 것 | 두 묶음 모두 기준보다 나쁨 |
 | 2-3a 새 수집 확인 | 6사이클 × 2회 (데이터만 다름) | 1단계 기준 쌍보다 빠른 깨끗한 완주가 2회 중 2회. 1회면 2회를 더 돌려 4회 중 3회 이상 | 6사이클 동안 judge 결과가 한 번도 나아지지 않음 |
 | 2-3b 탐색 | E1: 6사이클 × 2회. E1 뒤의 후보와 기준: 조건마다 6사이클 × 4회(2회씩 두 번) | E1: 47.02초보다 빠른 깨끗한 완주가 2회 중 2회(이겼음). E1 뒤의 후보: 아래 "E1 뒤의 판정" 두 조건을 모두 충족 | 2-3a와 같음 |
+| 2-3c 학습 안정화 | L1 고정 데이터: 80개 네 묶음 × epochs 5·10 × 1회(진단의 C run 8개가 기준). 새 수집: 조건마다 6사이클 × 4회 | 고정 데이터: (1) 깨끗한 run이 C(8개 중 1개)보다 많거나, (2) 완주한 run이 C(8개 중 7개)보다 적지 않으면서 epochs 10의 judge 이탈 스텝 중앙값이 C(240)의 절반 이하. 둘 중 하나면 새 수집으로 간다. 새 수집: 아래 "E1 뒤의 판정"과 같다 | 고정 데이터 시험에서 두 조건 모두 못 미침 |
 | 2-4 오래 돌리기 | 2-3에서 이긴 run을 이어서 | 2-3과 2-4를 통틀어 가장 빠른 깨끗한 쌍. **이것만 최종 채택이다** | 6.7의 2에서 학습률을 다시 확인한 뒤에도 10사이클 넘게 나아지지 않음 |
 
 - 2-1·2-2에서 이긴 것은 다음 단계의 기준이 될 뿐 최종 채택이 아니다. 고정 데이터 판정이므로 2-3a에서 새로 수집하며 다시 확인한다. 제출하는 `network.py`와 `s2.yaml`에는 2-4에서 채택한 run의 변경만 넣는다.
@@ -667,6 +688,7 @@ CTX=1 QTRACE=1 ../pilot/a2/work/official_cycle.sh configs/s2.yaml s2_c2 10    # 
 ```
 
 - 가장 빠른 깨끗한 쌍으로 5.4의 확인을 하고, 그 쌍이 고친 코드를 담았는지 본다. 공식 비교는 이탈보다 랩타임을 보므로(2-3b에서 이탈이 있는 더 빠른 후보를 남겼다, 02 문서 5절) run의 마지막 쌍이 깨끗하지 않을 수 있다. 쌍은 `docs/logs/judge.jsonl`에서 `clean`이 참인 줄 중 가장 빠른 것으로 고른다.
+- **S1 (2-3c, 제출 쌍 고르기).** 같은 설정에서도 학습한 모델마다 주행이 크게 다르다(6.2의 8). 오프라인 RL은 설정에 민감해서, 후보를 여럿 만든 뒤 골라야 한다(Le Paine 2020). 기록 데이터만으로 추정하기보다 적은 수의 실제 실행을 섞어 고르는 편이 나았다는 결과도 있다(Konyushkova 2021). 이 과제는 judge가 싸고 결정적이어서, 실제 주행으로 고를 수 있다. 그래서 위처럼 2-3·2-4의 judge 기록 전체에서 깨끗하고 가장 빠른 쌍을 고른다. 후보를 더 늘릴지(예: 마지막 데이터로 설정을 바꿔 학습만 몇 번 더)는 2-4가 끝난 뒤 정한다. judge 트랙과 서버 트랙이 같다는 전제가 필요하다(9절).
 
 ```bash
 diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이 보여야 한다
@@ -683,6 +705,7 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 | 2단계에서 탐색·보상·학습 설정만 바꿨는데 `new architecture, scratch` | `ClassificationNetwork`까지 바뀌었거나, latest가 기준 쌍이 아님 | 6.10의 `diff`와 `ls -t`를 다시 본다 |
 | `datastats.py`에서 탐색 후보의 의도한 지표(6.6 표)가 움직이지 않음 | 탐색이 의도한 데이터를 만들지 못함 | 학습 결과를 보기 전에 탐색 설정을 고친다 |
 | `qtrace`에서 `q_data`가 올랐다가 정점 뒤 떨어짐 | 과적합 (Kumar 2021) | epochs를 줄여 다시 학습하거나 M3를 본다. 고정 데이터 실험이면 같은 데이터로 바로 다시 볼 수 있다 |
+| 학습 한 번의 갱신이 많을수록 `q_data`가 계속 커지고 judge 이탈이 늘어남 (진단의 epochs 10) | 갱신이 Q를 스스로 키움(Yue 2023), 표현력 감소(Kumar, Agarwal 2021) | 학습 한 번의 갱신을 줄이고(U1), LayerNorm(L1)을 본다(6.6의 2-3c) |
 | `qtrace`에서 `td_abs`가 높게 남음 | 과소적합 (Kumar 2021) | epochs를 늘리거나 더 큰 구조(C, M3b)를 본다 |
 | `rollout`의 `corr`이 0 근처 | Q가 실제 수익을 담지 않음 (6.2의 5) | 행동 사이 순서만 배우는 상태다. R4a·H1과, 보상 크기를 바꾸는 후보에서 Q 수준이 어떻게 움직이는지 본다 |
 | 후보가 이탈하고, 그 학습의 `qtrace`에서 `q_data`가 실제 수익 쪽으로 빠르게 오르며 `agree`가 떨어짐 (D1에서 특히) | Q 수준이 맞춰지는 동안 행동 순서가 흔들림 (Nakamoto 2023) | 학습률을 낮추고 R4a·M1·M3·H1을 본다 |
@@ -718,6 +741,8 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 - 제출 횟수 제한, 최고/마지막 기록 반영, 기한.
 - 구조에 상수로 넣는 선호(baseline의 제동 −5 같은 것, 예: 무가속 행동에 −5)는 어디까지 허용되는가.
 - 서버 주행의 최대 스텝(로컬 검증은 5,000스텝 = 100초)과 torch 버전(로컬 2.10.0+cu128).
+- 서버 주행 트랙이 로컬 judge 트랙과 같은가. 제출 쌍을 judge 기록으로 고르는 전제다(6.10의 S1).
+- 학습 폴더에 같은 에피소드를 여러 번 넣어 학습 비중을 바꾸는 것이 허용되는가(6.6 2-3c의 W1). 수집한 데이터를 그대로 쓰지만 비중은 바뀐다. 사용자가 먼저 정하고, 애매하면 조교에게 묻는다.
 
 ## 10. 실행 기록
 
@@ -725,7 +750,7 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 
 ## 11. 참고 문헌
 
-본문의 "(저자 연도)"가 각주 역할을 한다. 계획의 각 항목 바로 뒤에 그 근거 논문을 적었고, 아래 표의 "이 문서에서 쓰는 곳" 열에서 거꾸로 찾을 수 있다. 같은 저자·연도가 둘 이상이면 주제로 구분한다(Kumar 2020은 CQL, Kumar 2021은 진단 절차, Kumar 2023은 다중 과제 오프라인 Q 학습). 모든 서지 정보는 2026-10-26~27에 웹(학회 프로시딩, arXiv, mlanthology, RLJ)에서 확인했고, 내용은 초록과 요약 수준에서 확인했다. 2026-10-27에 더한 9편 중 Fedus 2020, Schweighofer 2022, Obando-Ceron 2024는 본문에 쓴 주장을 논문 본문에서 확인했다.
+본문의 "(저자 연도)"가 각주 역할을 한다. 계획의 각 항목 바로 뒤에 그 근거 논문을 적었고, 아래 표의 "이 문서에서 쓰는 곳" 열에서 거꾸로 찾을 수 있다. 같은 저자·연도가 둘 이상이면 주제로 구분한다(Kumar 2020은 CQL, Kumar 2021은 진단 절차, Kumar 2023은 다중 과제 오프라인 Q 학습). 2021년의 다른 Kumar 논문(표현력 감소)은 "Kumar, Agarwal 2021"로 적는다. 모든 서지 정보는 2026-10-26~27에 웹(학회 프로시딩, arXiv, mlanthology, RLJ)에서 확인했고, 내용은 초록과 요약 수준에서 확인했다. 2026-10-27에 더한 9편 중 Fedus 2020, Schweighofer 2022, Obando-Ceron 2024는 본문에 쓴 주장을 논문 본문에서 확인했다. 2026-10-30에 2-3c를 위해 더한 8편(Yue 2023, Snyder 2025, Gallici 2025, Kumar, Agarwal 2021, Nikishin 2022, Le Paine 2020, Konyushkova 2021, Hong 2023)은 같은 방식으로 초록과 요약 수준에서 확인했다.
 
 **남긴 기준.** 이 과제의 특성은 (1) 이산 행동 9개의 가치 기반 학습(Double DQN + 보수항), (2) 차가 화면에 고정된 96×96 영상 입력, (3) 수집·학습을 번갈아 하는 오프라인 학습과 사이클당 10 에피소드의 작은 데이터, (4) 고정된 한 트랙의 레이싱, (5) 바꿀 수 있는 것은 `network.py` 세 곳과 학습 설정 값뿐이고 학습 코드는 그대로, (6) 손으로 짠 주행 규칙 금지다. 논문은 (가) 권하는 것을 (5)·(6) 안에서 할 수 있고, (나) 결과가 나온 환경이 (1)~(4)의 핵심(가치 기반·이산 행동·영상 입력·오프라인 Q 학습, 또는 레이싱·주행)에 가깝거나 알고리즘과 무관한 일반 원리(보상 이론, 실험 통계)일 때만 남겼다. 빠진 논문과 이유는 11.2에 있다.
 
@@ -765,6 +790,14 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 | 지속 탐색 | Dabney, Ostrovski, Barreto. *Temporally-Extended ε-Greedy Exploration*. ICLR 2021 | Atari 이산 행동, ε-greedy 확장 | 6.6 E3 |
 | 지속 탐색의 한계 | Lee, Park, Tang, Oh. *Learning Uncertainty-Aware Temporally-Extended Actions*. AAAI 2024 | Atari 이산 행동의 행동 반복 | 6.6 E3 |
 | 매개변수 잡음 | Plappert et al. *Parameter Space Noise for Exploration*. ICLR 2018 / Fortunato et al. *Noisy Networks for Exploration*. ICLR 2018 | 둘 다 DQN에서 시험 | 6.6 E2 |
+| Q 값 발산과 LayerNorm | Yue, Lu, Kang, Song, Huang. *Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL*. NeurIPS 2023 | 오프라인 Q 학습. 갱신이 목표값까지 올려 Q가 스스로 커지는 현상(self-excitation)을 원인으로 보고, LayerNorm이 편향 없이 막는다(데이터 1%에서도) | 6.2의 8, 6.6 2-3c의 L1, 7절 |
+| LayerNorm과 Q 학습 | Snyder, Daneshmand, Wei. *How Does Layer Normalization Improve Deep Q-learning?*. NeurIPS 2025 | 고전 제어 과제의 오프라인 Q 학습에서 LayerNorm이 가장 효과적인 정규화 중 하나 | 6.6 2-3c의 L1 |
+| LayerNorm과 TD 안정성 | Gallici et al. *Simplifying Deep Temporal Difference Learning*. ICLR 2025 | 이산 행동 Atari. LayerNorm 같은 정규화가 목표 망 없이도 off-policy TD를 수렴하게 한다는 이론. 방법(PQN)은 학습 알고리즘을 바꿔야 해서 쓰지 않는다(11.2) | 6.6 2-3c의 L1 |
+| 갱신 수와 표현력 | Kumar, Agarwal, Ghosh, Levine. *Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning*. ICLR 2021 | Atari 오프라인·온라인 Q 학습. 같은 데이터로 갱신을 많이 할수록 특징의 랭크가 줄고 성능이 떨어지며, 오프라인에서 일관되게 나타남 | 6.2의 8, 6.6 2-3c의 U1, 7절 |
+| 처음 데이터 과적합 | Nikishin, Schwarzer, D'Oro, Bacon, Courville. *The Primacy Bias in Deep Reinforcement Learning*. ICML 2022 | Atari 100k와 DMC. 이어 학습이 처음 데이터에 과적합한다. 해결법(일부 층 재초기화)은 학습 코드를 바꿔야 해서 현상만 쓴다 | 6.6 2-3c의 U1 |
+| 후보 고르기 | Le Paine et al. *Hyperparameter Selection for Offline Reinforcement Learning*. arXiv 2007.09055, 2020 | 오프라인 RL이 설정에 민감하고, 여러 후보 중 고르는 절차가 필요하다 | 6.2의 8, 6.10의 S1 |
+| 실제 실행을 섞은 고르기 | Konyushkova, Chen, Paine et al. *Active Offline Policy Selection*. NeurIPS 2021 | 기록 데이터 추정에 적은 수의 실제 실행을 섞어 후보를 고르면, 어느 한쪽만 쓸 때보다 낫다 | 6.10의 S1 |
+| 좋은 궤적 비중 | Hong, Agrawal, Tachet des Combes, Laroche. *Harnessing Mixed Offline Reinforcement Learning Datasets via Trajectory Weighting*. ICLR 2023 | 좋은 궤적이 적은 혼합 데이터에서, 수익이 높은 궤적을 더 자주 뽑으면 CQL을 포함한 어떤 오프라인 알고리즘에서도 나아짐. 실험은 주로 연속 행동이지만 방법이 데이터 표본 비중이라 알고리즘과 무관 | 6.6 2-3c의 W1 |
 | 해석 | Greydanus, Koul, Dodge, Fern. *Visualizing and Understanding Atari Agents*. ICML 2018 | Atari 영상 입력 에이전트의 saliency | 6.4 (선택) |
 | 실험 반복 | Henderson, Islam, Bachman, Pineau, Precup, Meger. *Deep Reinforcement Learning that Matters*. AAAI 2018 | 일반 원리 | 6.1, 6.3 |
 | 실험 반복 | Colas, Sigaud, Oudeyer. *How Many Random Seeds? Statistical Power Analysis in Deep Reinforcement Learning Experiments*. arXiv, 2018 | 일반 원리 | 6.3 |
@@ -775,8 +808,8 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 
 | 이유 | 문헌 |
 |---|---|
-| **결과가 연속 행동·actor-critic(SAC, TD3 등)에서 나왔고, 핵심 주장이 그 구조에 기대어 이산 행동 DQN에 옮기기 어렵다** | Ball, Smith, Kostrikov, Levine. *Efficient Online Reinforcement Learning with Offline Data*. ICML 2023 · Tarasov et al. *Revisiting the Minimalist Approach to Offline Reinforcement Learning*. NeurIPS 2023 · Nauman et al. *Overestimation, Overfitting, and Plasticity in Actor-Critic*. ICML 2024 · Lee et al. *SimBa*. ICLR 2025 · Yue et al. *Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL*. NeurIPS 2023 · Kim et al. *Penalizing Infeasible Actions and Reward Scaling in Reinforcement Learning with Offline Data*. ICML 2025 · Park, Frans, Levine, Kumar. *Is Value Learning Really the Main Bottleneck in Offline RL?* NeurIPS 2024 · Zhou et al. *Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data*. ICLR 2025 · Li, Ni, Sun, Bacon. *The Three Regimes of Offline-to-Online Reinforcement Learning*. ICML 2026 · Mark et al. *Offline Retraining for Online RL*. arXiv 2023 · McInroe et al. *Planning to Go Out-of-Distribution in Offline-to-Online Reinforcement Learning*. RLC 2024 · Roknilamouki et al. *Escaping Offline Pessimism*. RLC 2026 · Eberhard et al. *Pink Noise Is All You Need*. ICLR 2023 · Hu, Weng, Ban. *State-Novelty Guided Action Persistence in Deep Reinforcement Learning*. Machine Learning 2025 · Matsushima et al. *Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization*. ICLR 2021 · Andrychowicz et al. *What Matters for On-Policy Deep Actor-Critic Methods?* ICLR 2021 · Song et al. *Reaching the Limit in Autonomous Racing: Optimal Control versus Reinforcement Learning*. Science Robotics 2023 · *A Champion-level Vision-based Reinforcement Learning Agent for Competitive Racing in Gran Turismo 7*. arXiv 2504.09021 (RA-L 2025) |
-| **학습 코드나 학습 알고리즘을 바꿔야 한다** | D'Oro et al. *Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier*. ICLR 2023 (주기적 재초기화) · Wu et al. *The Rank and Gradient Lost in Non-stationarity*. ICLR 2026 (표본 가중치 감쇠) · Gallici et al. *Simplifying Deep Temporal Difference Learning*. ICLR 2025 (목표 망 없는 병렬 온라인 학습) · Lyle et al. *Disentangling the Causes of Plasticity Loss in Neural Networks*. CoLLAs 2024 (권장 방법이 옵티마이저의 가중치 감쇠와 함께) · Zhao et al. *ENOTO*. IJCAI 2024 (Q 앙상블) · Mahankali et al. *Random Latent Exploration for Deep Reinforcement Learning*. ICML 2024 (조건부 정책과 무작위 보상) · Adamczyk et al. *Bootstrapped Reward Shaping*. AAAI 2025 (보상 함수가 모델의 가치 추정을 써야 함) · *Peng's Q(λ) for Conservative Value Estimation in Offline RL*. arXiv 2026 · Song et al. *Hybrid RL: Using Both Offline and Online Data Can Make RL Efficient*. ICLR 2023 (옛 데이터와 새 데이터를 함께 뽑는 방식을 학습 쪽에서 정함) · Lee et al. *PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning*. NeurIPS 2023 (SAM 옵티마이저와 주기적 재초기화. LayerNorm·CReLU 부분은 Lyle 2023·Abbas 2023으로 대신) · Obando-Ceron et al. *In Value-based Deep Reinforcement Learning, a Pruned Network is a Good Network*. ICML 2024 (학습 중 가지치기 일정) · Yu, Xu, Zhang. *Towards Safe Reinforcement Learning with a Safety Editor Policy*. arXiv 2201.12427 (행동을 고치는 두 번째 정책) |
+| **결과가 연속 행동·actor-critic(SAC, TD3 등)에서 나왔고, 핵심 주장이 그 구조에 기대어 이산 행동 DQN에 옮기기 어렵다** | Ball, Smith, Kostrikov, Levine. *Efficient Online Reinforcement Learning with Offline Data*. ICML 2023 · Tarasov et al. *Revisiting the Minimalist Approach to Offline Reinforcement Learning*. NeurIPS 2023 · Nauman et al. *Overestimation, Overfitting, and Plasticity in Actor-Critic*. ICML 2024 · Lee et al. *SimBa*. ICLR 2025 · Yue et al. *Understanding, Predicting and Better Resolving Q-Value Divergence in Offline-RL*. NeurIPS 2023 · Kim et al. *Penalizing Infeasible Actions and Reward Scaling in Reinforcement Learning with Offline Data*. ICML 2025 · Park, Frans, Levine, Kumar. *Is Value Learning Really the Main Bottleneck in Offline RL?* NeurIPS 2024 · Zhou et al. *Efficient Online Reinforcement Learning Fine-Tuning Need Not Retain Offline Data*. ICLR 2025 · Li, Ni, Sun, Bacon. *The Three Regimes of Offline-to-Online Reinforcement Learning*. ICML 2026 · Mark et al. *Offline Retraining for Online RL*. arXiv 2023 · McInroe et al. *Planning to Go Out-of-Distribution in Offline-to-Online Reinforcement Learning*. RLC 2024 · Roknilamouki et al. *Escaping Offline Pessimism*. RLC 2026 · Eberhard et al. *Pink Noise Is All You Need*. ICLR 2023 · Hu, Weng, Ban. *State-Novelty Guided Action Persistence in Deep Reinforcement Learning*. Machine Learning 2025 · Matsushima et al. *Deployment-Efficient Reinforcement Learning via Model-Based Offline Optimization*. ICLR 2021 · Andrychowicz et al. *What Matters for On-Policy Deep Actor-Critic Methods?* ICLR 2021 · Song et al. *Reaching the Limit in Autonomous Racing: Optimal Control versus Reinforcement Learning*. Science Robotics 2023 · *A Champion-level Vision-based Reinforcement Learning Agent for Competitive Racing in Gran Turismo 7*. arXiv 2504.09021 (RA-L 2025) · Bjorck, Gomes, Weinberger. *Is High Variance Unavoidable in RL? A Case Study in Continuous Control*. ICLR 2022 (마지막 직전 층 정규화로 실패 run을 줄임. 2-3c의 L1과 같은 방향이라 L1의 근거로 대신함) |
+| **학습 코드나 학습 알고리즘을 바꿔야 한다** | D'Oro et al. *Sample-Efficient Reinforcement Learning by Breaking the Replay Ratio Barrier*. ICLR 2023 (주기적 재초기화) · Wu et al. *The Rank and Gradient Lost in Non-stationarity*. ICLR 2026 (표본 가중치 감쇠) · Gallici et al. *Simplifying Deep Temporal Difference Learning*. ICLR 2025 (목표 망 없는 병렬 온라인 학습. LayerNorm 이론 부분은 11.1에서 씀) · Agarwal, Schuurmans, Norouzi 2020의 REM (여러 출력 헤드를 무작위로 섞어 학습. 손실을 바꿔야 함. 데이터 다양성 부분은 11.1에서 씀) · Lyle et al. *Disentangling the Causes of Plasticity Loss in Neural Networks*. CoLLAs 2024 (권장 방법이 옵티마이저의 가중치 감쇠와 함께) · Zhao et al. *ENOTO*. IJCAI 2024 (Q 앙상블) · Mahankali et al. *Random Latent Exploration for Deep Reinforcement Learning*. ICML 2024 (조건부 정책과 무작위 보상) · Adamczyk et al. *Bootstrapped Reward Shaping*. AAAI 2025 (보상 함수가 모델의 가치 추정을 써야 함) · *Peng's Q(λ) for Conservative Value Estimation in Offline RL*. arXiv 2026 · Song et al. *Hybrid RL: Using Both Offline and Online Data Can Make RL Efficient*. ICLR 2023 (옛 데이터와 새 데이터를 함께 뽑는 방식을 학습 쪽에서 정함) · Lee et al. *PLASTIC: Improving Input and Label Plasticity for Sample Efficient Reinforcement Learning*. NeurIPS 2023 (SAM 옵티마이저와 주기적 재초기화. LayerNorm·CReLU 부분은 Lyle 2023·Abbas 2023으로 대신) · Obando-Ceron et al. *In Value-based Deep Reinforcement Learning, a Pruned Network is a Good Network*. ICML 2024 (학습 중 가지치기 일정) · Yu, Xu, Zhang. *Towards Safe Reinforcement Learning with a Safety Editor Policy*. arXiv 2201.12427 (행동을 고치는 두 번째 정책) |
 | **이 화면·과제와 충돌한다** | Hu, Jiang, Weng. *Revisiting Data Augmentation in Deep Reinforcement Learning*. ICLR 2024와 원 방법 Laskin et al. *Reinforcement Learning with Augmented Data*. NeurIPS 2020 / Kostrikov, Yarats, Fergus. *Image Augmentation Is All You Need*. ICLR 2021: 화면을 몇 픽셀 옮기는 증강은 "옮겨진 화면에서도 같은 Q값"을 가르치는데, 이 화면은 차가 고정되어 있어 화면을 옆으로 옮기면 "차가 옆으로 비켜난 상태"가 되고 맞는 조향이 달라진다 · Leng et al. *Expert Knowledge-driven Reinforcement Learning for Autonomous Racing via Trajectory Guidance and Dynamics Constraints*. arXiv 2026: 전문가 기준 주행선을 쓰는 손으로 만든 지식이고, 보상 입력에 차의 위치가 없다 · Hildisch et al. *Drive Fast, Learn Faster*. RLC 2025: 기존 제어기에 RL을 덧붙인 잔차 구조라 손으로 짠 제어기가 들어간다 |
 | **언어·영상 모델 같은 다른 도구가 필요하다** | Ma et al. *Automated Reward Design for Gran Turismo*. NeurIPS 2025 · Müller, Kudenko. *Automating Potential-based Reward Shaping with Vision Language Model Guidance*. arXiv 2026 · TIPS (ICLR 2026), HERO (Tao et al., ICLR 2026) |
 | **범위 밖이거나 부수적이다** | Bozkurt, Zhang, Motai. *Active Offline-to-Online Reinforcement Learning*. arXiv 2026 (여러 후보 사이의 예산 배분) · Adamczyk, Kamoski, Kulkarni. *A Value-Based Approach to Maximum Entropy Exploration*. RLC 2026 (격자 세계, 환경 모형 필요) · Shin et al. *Flow Matching with Injected Noise for Offline-to-Online Reinforcement Learning*. ICLR 2026 (연속 행동 생성 모델 정책) · Kumar, Agarwal, Ghosh, Levine. *Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning*. ICLR 2021 (특징 순위 진단. 과적합 판단은 Kumar 2021 절차와 겹치고, 순위와 성능의 관계가 넓은 설정에서는 사라졌다는 반론이 있다: Gulcehre et al. *An Empirical Study of Implicit Regularization in Deep Offline RL*. arXiv 2207.02099) · Fujimoto, Conti, Ghavamzadeh, Pineau. *Benchmarking Batch Deep Reinforcement Learning Algorithms*. arXiv 2019 (Ostrovski 2021과 같은 결론) · *Reward Design and Hyperparameter Tuning for Generalizable Deep Reinforcement Learning Agents in Autonomous Racing*. Scientific Reports 2025 (PPO·SAC로 DeepRacer의 보상 항과 설정을 함께 조정. 이 계획의 보상 후보에 더할 내용이 없었다) |
@@ -816,7 +849,7 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 - 2026-10-28 10판 보완 2: 2-2a 보상 후보 파일 9개를 `pilot/a2/work/cands_2_2a/`에 만들고 검증함(02 문서 4절). 6.9의 2-2 명령을 후보 파일을 복사만 하는 방식으로 바꾸고, run 이름과 순서, rollout 대상을 적음.
 - 2026-10-28 10판 보완 3: 2-2a 결과(이긴 보상 없음)를 상태 박스와 10절에 요약하고 다음 단계를 2-2b로 적음. 2-2a에서 이긴 보상이 없을 때 2-2b의 기준은 2-1에서 이긴 run이라는 것을 6.5와 6.8에 적음.
 - 2026-10-28 10판 보완 4: 2-2b 보상 후보 파일 6개를 `pilot/a2/work/cands_2_2b/`에 만들고 검증함(02 문서 4절). 6.9에 2-2b의 run 이름과 순서를 적고, R1의 기억을 함수 속성으로 두는 이유(`model_definition`)를 적음. R1의 항이 k 0.05·0.1에서 너무 작아 k 1.0을 더함(사용자 결정, 6.5).
-- 2026-10-29 11판(이 문서): 결과 요약이 상태 박스·10절 요약표·02 문서에 겹쳐 있어, 계획서에서 결과 요약을 뺌. 상태 박스의 단계별 결과 문단(1단계~2-2a)과 10절 요약표를 없애고, 상태 박스에는 "현재 기준"(2-2b까지)과 "다음 단계"(2-3a)만 둠. 계획서는 계획이 바뀔 때만 고친다는 규칙을 6.1에 적음. 6.9의 2-3a 명령에 2-2에서 이긴 run이 없을 때의 파일을 적음.
+- 2026-10-29 11판: 결과 요약이 상태 박스·10절 요약표·02 문서에 겹쳐 있어, 계획서에서 결과 요약을 뺌. 상태 박스의 단계별 결과 문단(1단계~2-2a)과 10절 요약표를 없애고, 상태 박스에는 "현재 기준"(2-2b까지)과 "다음 단계"(2-3a)만 둠. 계획서는 계획이 바뀔 때만 고친다는 규칙을 6.1에 적음. 6.9의 2-3a 명령에 2-2에서 이긴 run이 없을 때의 파일을 적음.
 - 2026-10-29 11판 보완 1: 2-3a 결과(짐)를 상태 박스의 "현재 기준"에 반영함. 사용자 결정으로 2-3a의 재확인을 건너뛰고 2-3b를 C + 보수항 3.0 위에서 하기로 하고 이유를 6.6에 적음. 2-3b의 비교 기준을 2-3a와 1단계 기준 쌍 중 빠른 기록으로 바꿈(6.1, 6.8).
 - 2026-10-29 11판 보완 2: E1을 구체적으로 정함(목표 속도는 `throttle_head`가 가속을 바꾸는 속도, ε 무작위 행동과 모델의 제동은 유지, 계기판 속도 변환식, 범위 규칙의 숫자 3.26%·1.63%, 6.6). 6.9에 E1 후보 파일과 `work/e1_loop.py` 실행 명령을 적음.
 - 2026-10-29 11판 보완 3: 2-3b E1 결과(이김, 42.88초·42.30초)를 상태 박스의 "현재 기준"에 반영하고, "다음 단계"에 계획대로의 순서와 사용자에게 제안한 방식(E1을 기준에 넣고 쌓기)을 적음. 6.6에서 E1의 범위가 모델을 따라 오르지 않은 것과, 가속 여부가 `throttle_head`만으로 정해지지 않는다는 점을 바로잡음.
@@ -829,3 +862,4 @@ diff models/baseline.network.py $P.network.py    # 2-4에서 채택한 변경이
 - 2026-10-29 11판 보완 10: E3를 시험 수집에서 의도한 데이터가 나오지 않아 건너뛰기로 하고(사용자 결정) 이유를 6.6에 적음. 상태 박스의 다음 단계를 E2로 적음.
 - 2026-10-29 11판 보완 11: E2를 구체적으로 정함(마지막 층 잡음, 조향이 달라지는 비율 5%가 되게 σ를 모델마다 정함, 6.6). 6.9에 E2 후보 파일과 실행 명령을 적고, 상태 박스의 다음 단계를 E2 실행으로 적음.
 - 2026-10-29 11판 보완 12: 2-3b E2 결과(짐, 깨끗한 run 1/4)를 상태 박스의 "현재 기준"에 반영하고, 다음 단계를 "E0 또는 2-4, 사용자 결정 대기"로 적음.
+- 2026-10-30 12판(이 문서): 고정 데이터 진단(데이터 양·갱신 수·보수항, 02 문서 5절)과 논문 검색 결과에 따라 2-3c(학습 안정화)를 더함. 6.2에 관찰 8(갱신이 많을수록 Q가 부풀고 주행이 나빠짐, 모델마다 주행 차이가 큼)을 적고, 6.6에 L1(LayerNorm)·U1(갱신 수 상한)·W1(좋은 에피소드 비중, 사용자 확인 필요)과 순서를, 6.8에 2-3c 판정을, 6.10에 S1(후보 중 고르기)을, 7절에 증상 한 줄을, 9절에 질문 두 개를 더함. E0은 2-3c 뒤로 미룸. 11.1에 8편(Yue 2023, Snyder 2025, Gallici 2025, Kumar, Agarwal 2021, Nikishin 2022, Le Paine 2020, Konyushkova 2021, Hong 2023)을 더하고, 11.2에 Bjorck 2022와 REM을 뺀 이유를 적음.
