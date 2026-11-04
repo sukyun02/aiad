@@ -1,0 +1,5 @@
+[s2f_c8] collect 10 episodes (04:32:16)
+[s2f_c8] finished episodes: 9
+[s2f_c8] train (04:33:15)
+[s2f_c8] judge models/20261104_043422.pth (train selected: trained_candidate, judged: selected) (04:34:22)
+{"model": "models/20261104_043422.pth", "device": "cuda", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 52.76, "max_err": 5.44, "v_mean": 48.55, "v_max": 50.02, "steps": 956, "clean": true, "wall_s": 4.3, "tag": "s2f_c8", "selected": "trained_candidate", "judged": "selected"}

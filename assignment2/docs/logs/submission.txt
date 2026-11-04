@@ -1,3 +1,27 @@
 2026-11-03 final submission (V1P4 pilot pair, server 19.10 s, 273/273)
 6bc4f1ac42c560121241a4b273e4a41cd3d6f1825ffc3854a71e1cc9027fc144  models/20261103_210257.pth
 be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261103_210257.network.py
+2026-11-04 6.10 s2 pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+c8bde38ab2fca214117eb6df1d92d892366f6f5165d5014917e16d1d995297c1  models/20261104_002255.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_002255.network.py
+2026-11-04 6.10 retry s2b pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+fccbba409634f5e532f19280a99a7bbccba4eddd497c5ad85a2ed8cd1f5ac20e  models/20261104_005639.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_005639.network.py
+2026-11-04 6.10 retry s2c pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+1eedca0d333c222603f81d2d286fa78461cf0a8844d387c31cb6cda188d92e59  models/20261104_012702.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_012702.network.py
+2026-11-04 6.10 retry s2d pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+580e5e435798cfa4b7b0cf1184cadf8ba57af0c3300d53d5056a22a564359042  models/20261104_034256.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_034256.network.py
+2026-11-04 6.10 retry s2e pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+b5a20469d674f2435aeda63d1f58d1e522a4f76e1f36c10f4c41e8a5c10406cf  models/20261104_040418.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_040418.network.py
+2026-11-04 6.10 retry s2f pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+d1edcab3bda4e67fc98e28f7c82ccbb94ab38b9dacb02f8ce3459dd7ce8bec23  models/20261104_042801.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_042801.network.py
+2026-11-04 6.10 retry s2g pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+4b04a1fa8e9553c1013ac9db371c808cf22b381d22261f0d1239bb88a7541771  models/20261104_044603.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_044603.network.py
+2026-11-04 6.10 retry s2h pair (assignment2 rerun of V1P4, not the submitted pilot pair)
+b193b9a42d9311afee288058039ac08db0de7770d55a23feee3099c74704db26  models/20261104_051748.pth
+be75f3276ebe7210695299bfd6cec48a5e50048ae232f505b21e9db209a9e426  models/20261104_051748.network.py

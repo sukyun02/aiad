@@ -1,0 +1,5 @@
+[s2g_c6] collect 10 episodes (04:49:52)
+[s2g_c6] finished episodes: 9
+[s2g_c6] train (04:50:48)
+[s2g_c6] judge models/20261104_045144.pth (train selected: previous_agent, judged: selected) (04:51:44)
+{"model": "models/20261104_045144.pth", "device": "cuda", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 53.71, "max_err": 5.35, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clean": true, "wall_s": 4.3, "tag": "s2g_c6", "selected": "previous_agent", "judged": "selected"}

@@ -1,0 +1,87 @@
+Training: cuda; continue 20261104_044422.pth
+Data: 199 shards; 5 epochs; batch=64; readers=2
+Epoch 1/5, update 1, samples 64: loss=1.91455
+Epoch 1/5, update 50, samples 3200: loss=2.03881
+Epoch 1/5, update 100, samples 6400: loss=2.06129
+Epoch 1/5, update 150, samples 9600: loss=1.85595
+Epoch 1/5, update 200, samples 12800: loss=1.85243
+Epoch 1/5, update 250, samples 16000: loss=2.85185
+Epoch 1/5, update 300, samples 19200: loss=1.66324
+Epoch 1/5, update 350, samples 22400: loss=2.08560
+Epoch 1/5, update 400, samples 25600: loss=2.67936
+Epoch 1/5, update 450, samples 28800: loss=2.20267
+Epoch 1/5, update 500, samples 32000: loss=2.45818
+Epoch 1/5, update 550, samples 35200: loss=1.52618
+Epoch 1/5, update 600, samples 38400: loss=2.19742
+Epoch 1/5, update 650, samples 41600: loss=1.86247
+Epoch 1/5, update 700, samples 44800: loss=2.12213
+Epoch 1/5: all 47857 transitions processed
+Epoch 2/5, update 750, samples 128: loss=2.27829
+Epoch 2/5, update 800, samples 3328: loss=2.62179
+Epoch 2/5, update 850, samples 6528: loss=2.11412
+Epoch 2/5, update 900, samples 9728: loss=1.73470
+Epoch 2/5, update 950, samples 12928: loss=2.61106
+Epoch 2/5, update 1000, samples 16128: loss=1.73666
+Epoch 2/5, update 1050, samples 19328: loss=2.71863
+Epoch 2/5, update 1100, samples 22528: loss=2.54820
+Epoch 2/5, update 1150, samples 25728: loss=1.59157
+Epoch 2/5, update 1200, samples 28928: loss=1.83023
+Epoch 2/5, update 1250, samples 32128: loss=2.88153
+Epoch 2/5, update 1300, samples 35328: loss=1.73480
+Epoch 2/5, update 1350, samples 38528: loss=1.42354
+Epoch 2/5, update 1400, samples 41728: loss=1.59298
+Epoch 2/5, update 1450, samples 44928: loss=2.22351
+Epoch 2/5: all 47857 transitions processed
+Epoch 3/5, update 1500, samples 256: loss=2.50672
+Epoch 3/5, update 1550, samples 3456: loss=2.07482
+Epoch 3/5, update 1600, samples 6656: loss=1.90198
+Epoch 3/5, update 1650, samples 9856: loss=1.85047
+Epoch 3/5, update 1700, samples 13056: loss=2.21713
+Epoch 3/5, update 1750, samples 16256: loss=2.22006
+Epoch 3/5, update 1800, samples 19456: loss=1.82174
+Epoch 3/5, update 1850, samples 22656: loss=2.03252
+Epoch 3/5, update 1900, samples 25856: loss=2.24527
+Epoch 3/5, update 1950, samples 29056: loss=2.71771
+Epoch 3/5, update 2000, samples 32256: loss=1.74154
+Epoch 3/5, update 2050, samples 35456: loss=1.31693
+Epoch 3/5, update 2100, samples 38656: loss=1.54568
+Epoch 3/5, update 2150, samples 41856: loss=1.45224
+Epoch 3/5, update 2200, samples 45056: loss=2.30113
+Epoch 3/5: all 47857 transitions processed
+Epoch 4/5, update 2250, samples 384: loss=1.68493
+Epoch 4/5, update 2300, samples 3584: loss=2.09307
+Epoch 4/5, update 2350, samples 6784: loss=2.72767
+Epoch 4/5, update 2400, samples 9984: loss=2.09544
+Epoch 4/5, update 2450, samples 13184: loss=2.11289
+Epoch 4/5, update 2500, samples 16384: loss=2.36015
+Epoch 4/5, update 2550, samples 19584: loss=1.39011
+Epoch 4/5, update 2600, samples 22784: loss=1.81145
+Epoch 4/5, update 2650, samples 25984: loss=1.89561
+Epoch 4/5, update 2700, samples 29184: loss=2.72682
+Epoch 4/5, update 2750, samples 32384: loss=2.09149
+Epoch 4/5, update 2800, samples 35584: loss=1.45322
+Epoch 4/5, update 2850, samples 38784: loss=1.96811
+Epoch 4/5, update 2900, samples 41984: loss=2.11169
+Epoch 4/5, update 2950, samples 45184: loss=2.22094
+Epoch 4/5: all 47857 transitions processed
+Epoch 5/5, update 3000, samples 512: loss=2.21130
+Epoch 5/5, update 3050, samples 3712: loss=2.61488
+Epoch 5/5, update 3100, samples 6912: loss=3.04576
+Epoch 5/5, update 3150, samples 10112: loss=1.63706
+Epoch 5/5, update 3200, samples 13312: loss=1.56032
+Epoch 5/5, update 3250, samples 16512: loss=1.65991
+Epoch 5/5, update 3300, samples 19712: loss=1.63313
+Epoch 5/5, update 3350, samples 22912: loss=3.26270
+Epoch 5/5, update 3400, samples 26112: loss=2.34738
+Epoch 5/5, update 3450, samples 29312: loss=2.37496
+Epoch 5/5, update 3500, samples 32512: loss=2.12852
+Epoch 5/5, update 3550, samples 35712: loss=2.17857
+Epoch 5/5, update 3600, samples 38912: loss=2.05626
+Epoch 5/5, update 3650, samples 42112: loss=2.67433
+Epoch 5/5, update 3700, samples 45312: loss=1.97200
+Epoch 5/5: all 47857 transitions processed
+Validating the trained candidate on the fixed track...
+Comparing with the previous agent...
+Saved: /home/sukyun02/workspace/aiad/assignment2/models/20261104_044603.pth
+Submit with: /home/sukyun02/workspace/aiad/assignment2/models/20261104_044603.network.py
+qtrace: {"event": "end", "model": "models/20261104_044603.pth", "candidate": "models/candidates/20261104_044555.pth", "selected": "trained_candidate", "scratch": false, "probe": 1024, "updates": 3740, "q_data_first": 20.782567024230957, "q_data_peak": 27.70484447479248, "q_data_peak_update": 3740, "q_data_last": 27.70484447479248, "td_abs_first": 0.7914404422044754, "td_abs_last": 0.8232840895652771, "throttle_cross_first": null, "throttle_cross_last": null, "wall_s": 38.1}

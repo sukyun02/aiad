@@ -1,0 +1,110 @@
+2026-11-04 00:01:48 6.10 start: memory avail 21Gi swap used 0B 
+2026-11-04 00:05:01 s2_c1 trained_candidate invalid_progress None 141/273 215 models/20261104_000455.pth
+2026-11-04 00:06:38 s2_c2 trained_candidate invalid_progress None 241/273 271 models/20261104_000631.pth
+2026-11-04 00:08:22 s2_c3 trained_candidate invalid_progress None 261/273 83 models/20261104_000815.pth
+2026-11-04 00:10:10 s2_c4 trained_candidate finished 19.12 273/273 0 models/20261104_001003.pth
+2026-11-04 00:12:03 s2_c5 previous_agent finished 19.12 273/273 0 models/20261104_001156.pth
+2026-11-04 00:14:03 s2_c6 previous_agent finished 19.12 273/273 0 models/20261104_001356.pth
+2026-11-04 00:16:08 s2_c7 trained_candidate finished 19.12 273/273 0 models/20261104_001602.pth
+2026-11-04 00:18:21 s2_c8 trained_candidate finished 19.12 273/273 0 models/20261104_001814.pth
+2026-11-04 00:20:39 s2_c9 trained_candidate finished 19.12 273/273 0 models/20261104_002032.pth
+2026-11-04 00:23:02 s2_c10 previous_agent finished 19.12 273/273 0 models/20261104_002255.pth
+2026-11-04 00:23:02 fastest clean s2 pair: models/20261104_002255
+2026-11-04 00:23:14 5.4: cpu {"model": "models/20261104_002255.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 54.38, "max_err": 5.36, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clean": true, "wall_s": 3.9}
+2026-11-04 00:23:14 5.4: infer 19.12 finished 54.37694595868692
+2026-11-04 00:23:14 ALL DONE
+2026-11-04 00:44:20 s2b start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 21Gi
+2026-11-04 00:47:40 s2b_c1 trained_candidate finished 28.78 236/273 528 models/20261104_004731.pth
+2026-11-04 00:49:20 s2b_c2 trained_candidate finished 19.14 273/273 0 models/20261104_004914.pth
+2026-11-04 00:51:02 s2b_c3 previous_agent finished 19.14 273/273 0 models/20261104_005055.pth
+2026-11-04 00:52:50 s2b_c4 previous_agent finished 19.14 273/273 0 models/20261104_005243.pth
+2026-11-04 00:54:48 s2b_c5 previous_agent finished 19.14 273/273 0 models/20261104_005441.pth
+2026-11-04 00:56:46 s2b_c6 trained_candidate finished 19.12 273/273 0 models/20261104_005639.pth
+2026-11-04 00:58:50 s2b_c7 trained_candidate finished 19.12 273/273 0 models/20261104_005843.pth
+2026-11-04 01:01:00 s2b_c8 trained_candidate finished 19.12 273/273 0 models/20261104_010053.pth
+2026-11-04 01:03:09 s2b_c9 trained_candidate finished 19.12 273/273 0 models/20261104_010302.pth
+2026-11-04 01:05:27 s2b_c10 trained_candidate finished 19.12 273/273 0 models/20261104_010521.pth
+2026-11-04 01:05:27 s2b fastest clean pair: models/20261104_005639 (19.12 s)
+2026-11-04 01:05:39 s2b 5.4: cpu {"model": "models/20261104_005639.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 54.0, "max_err": 5.44, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clean | infer 19.12 finished
+2026-11-04 01:05:39 s2c start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 21Gi
+2026-11-04 01:09:01 s2c_c1 trained_candidate invalid_progress None 141/273 334 models/20261104_010855.pth
+2026-11-04 01:10:42 s2c_c2 trained_candidate finished 29.16 236/273 551 models/20261104_011033.pth
+2026-11-04 01:12:28 s2c_c3 trained_candidate finished 21.02 266/273 99 models/20261104_011220.pth
+2026-11-04 01:14:18 s2c_c4 previous_agent finished 21.02 266/273 99 models/20261104_011411.pth
+2026-11-04 01:16:15 s2c_c5 previous_agent finished 21.02 266/273 99 models/20261104_011608.pth
+2026-11-04 01:18:18 s2c_c6 trained_candidate finished 19.14 273/273 0 models/20261104_011811.pth
+2026-11-04 01:20:21 s2c_c7 previous_agent finished 19.14 273/273 0 models/20261104_012014.pth
+2026-11-04 01:22:33 s2c_c8 trained_candidate finished 19.14 273/273 0 models/20261104_012226.pth
+2026-11-04 01:24:49 s2c_c9 trained_candidate finished 19.14 273/273 0 models/20261104_012442.pth
+2026-11-04 01:27:09 s2c_c10 trained_candidate finished 19.12 273/273 0 models/20261104_012702.pth
+2026-11-04 01:27:09 s2c fastest clean pair: models/20261104_012702 (19.12 s)
+2026-11-04 01:27:21 s2c 5.4: cpu {"model": "models/20261104_012702.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 55.19, "max_err": 5.29, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 01:27:21 no retry beat 19.12 s. ALL DONE
+2026-11-04 03:34:49 s2d start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 21Gi
+2026-11-04 03:37:58 s2d_c1 trained_candidate invalid_progress None 13/273 57 models/20261104_033755.pth
+2026-11-04 03:39:35 s2d_c2 trained_candidate finished 19.22 273/273 2 models/20261104_033928.pth
+2026-11-04 03:41:16 s2d_c3 trained_candidate finished 19.16 273/273 0 models/20261104_034109.pth
+2026-11-04 03:43:02 s2d_c4 trained_candidate finished 19.12 273/273 0 models/20261104_034256.pth
+2026-11-04 03:44:56 s2d_c5 previous_agent finished 19.12 273/273 0 models/20261104_034449.pth
+2026-11-04 03:46:53 s2d_c6 previous_agent finished 19.12 273/273 0 models/20261104_034646.pth
+2026-11-04 03:48:59 s2d_c7 trained_candidate finished 19.12 273/273 0 models/20261104_034852.pth
+2026-11-04 03:51:08 s2d_c8 trained_candidate finished 19.12 273/273 0 models/20261104_035101.pth
+2026-11-04 03:53:22 s2d_c9 trained_candidate finished 19.12 273/273 0 models/20261104_035316.pth
+2026-11-04 03:55:43 s2d_c10 trained_candidate finished 19.12 273/273 0 models/20261104_035536.pth
+2026-11-04 03:55:43 s2d fastest clean pair: models/20261104_034256 (19.12 s)
+2026-11-04 03:55:54 s2d 5.4: cpu {"model": "models/20261104_034256.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 55.17, "max_err": 5.36, "v_mean": 48.55, "v_max": 50.02, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 03:55:54 s2e start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 21Gi
+2026-11-04 03:59:17 s2e_c1 trained_candidate grass_timeout None 155/273 252 models/20261104_035911.pth
+2026-11-04 04:00:52 s2e_c2 previous_agent grass_timeout None 155/273 252 models/20261104_040046.pth
+2026-11-04 04:02:36 s2e_c3 trained_candidate invalid_progress None 255/273 73 models/20261104_040229.pth
+2026-11-04 04:04:25 s2e_c4 trained_candidate finished 19.12 273/273 0 models/20261104_040418.pth
+2026-11-04 04:06:21 s2e_c5 trained_candidate finished 19.12 273/273 0 models/20261104_040614.pth
+2026-11-04 04:08:22 s2e_c6 previous_agent finished 19.12 273/273 0 models/20261104_040815.pth
+2026-11-04 04:10:29 s2e_c7 previous_agent finished 19.12 273/273 0 models/20261104_041022.pth
+2026-11-04 04:12:38 s2e_c8 previous_agent finished 19.12 273/273 0 models/20261104_041231.pth
+2026-11-04 04:14:53 s2e_c9 trained_candidate finished 19.12 273/273 0 models/20261104_041446.pth
+2026-11-04 04:17:17 s2e_c10 previous_agent finished 19.12 273/273 0 models/20261104_041710.pth
+2026-11-04 04:17:17 s2e fastest clean pair: models/20261104_040418 (19.12 s)
+2026-11-04 04:17:29 s2e 5.4: cpu {"model": "models/20261104_040418.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 54.25, "max_err": 5.55, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 04:17:29 s2f start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 22Gi
+2026-11-04 04:20:55 s2f_c1 trained_candidate invalid_progress None 232/273 417 models/20261104_042047.pth
+2026-11-04 04:22:38 s2f_c2 trained_candidate invalid_progress None 245/273 198 models/20261104_042230.pth
+2026-11-04 04:24:21 s2f_c3 previous_agent invalid_progress None 245/273 198 models/20261104_042414.pth
+2026-11-04 04:26:11 s2f_c4 trained_candidate finished 21.46 266/273 122 models/20261104_042604.pth
+2026-11-04 04:28:08 s2f_c5 trained_candidate finished 19.12 273/273 0 models/20261104_042801.pth
+2026-11-04 04:30:11 s2f_c6 previous_agent finished 19.12 273/273 0 models/20261104_043004.pth
+2026-11-04 04:32:16 s2f_c7 previous_agent finished 19.12 273/273 0 models/20261104_043210.pth
+2026-11-04 04:34:29 s2f_c8 trained_candidate finished 19.12 273/273 0 models/20261104_043422.pth
+2026-11-04 04:36:50 s2f_c9 trained_candidate finished 19.12 273/273 0 models/20261104_043643.pth
+2026-11-04 04:39:19 s2f_c10 trained_candidate finished 19.12 273/273 0 models/20261104_043912.pth
+2026-11-04 04:39:19 s2f fastest clean pair: models/20261104_042801 (19.12 s)
+2026-11-04 04:39:31 s2f 5.4: cpu {"model": "models/20261104_042801.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 52.23, "max_err": 5.43, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 04:39:31 s2g start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 22Gi
+2026-11-04 04:42:53 s2g_c1 trained_candidate grass_timeout None 100/273 411 models/20261104_044247.pth
+2026-11-04 04:44:29 s2g_c2 trained_candidate invalid_progress None 255/273 50 models/20261104_044422.pth
+2026-11-04 04:46:10 s2g_c3 trained_candidate finished 19.12 273/273 0 models/20261104_044603.pth
+2026-11-04 04:47:58 s2g_c4 trained_candidate finished 19.12 273/273 0 models/20261104_044752.pth
+2026-11-04 04:49:52 s2g_c5 trained_candidate finished 19.12 273/273 0 models/20261104_044946.pth
+2026-11-04 04:51:51 s2g_c6 previous_agent finished 19.12 273/273 0 models/20261104_045144.pth
+2026-11-04 04:53:56 s2g_c7 previous_agent finished 19.12 273/273 0 models/20261104_045350.pth
+2026-11-04 04:56:09 s2g_c8 trained_candidate finished 19.12 273/273 0 models/20261104_045603.pth
+2026-11-04 04:58:30 s2g_c9 previous_agent finished 19.12 273/273 0 models/20261104_045824.pth
+2026-11-04 05:00:52 s2g_c10 trained_candidate finished 19.12 273/273 0 models/20261104_050045.pth
+2026-11-04 05:00:52 s2g fastest clean pair: models/20261104_044603 (19.12 s)
+2026-11-04 05:01:03 s2g 5.4: cpu {"model": "models/20261104_044603.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 54.79, "max_err": 5.38, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 05:01:03 s2h start: moved 10 trained pairs to models/rejected/, latest now models/baseline.pth; memory 22Gi
+2026-11-04 05:04:35 s2h_c1 trained_candidate invalid_progress None 241/273 233 models/20261104_050428.pth
+2026-11-04 05:06:11 s2h_c2 trained_candidate finished 19.26 273/273 3 models/20261104_050604.pth
+2026-11-04 05:07:52 s2h_c3 previous_agent finished 19.26 273/273 3 models/20261104_050745.pth
+2026-11-04 05:09:45 s2h_c4 previous_agent finished 19.26 273/273 3 models/20261104_050938.pth
+2026-11-04 05:11:38 s2h_c5 trained_candidate finished 19.240000000000002 273/273 2 models/20261104_051132.pth
+2026-11-04 05:13:38 s2h_c6 previous_agent finished 19.240000000000002 273/273 2 models/20261104_051331.pth
+2026-11-04 05:15:43 s2h_c7 previous_agent finished 19.240000000000002 273/273 2 models/20261104_051536.pth
+2026-11-04 05:17:55 s2h_c8 trained_candidate finished 19.12 273/273 0 models/20261104_051748.pth
+2026-11-04 05:20:14 s2h_c9 trained_candidate finished 19.12 273/273 0 models/20261104_052007.pth
+2026-11-04 05:22:39 s2h_c10 previous_agent finished 19.12 273/273 0 models/20261104_052232.pth
+2026-11-04 05:22:39 s2h fastest clean pair: models/20261104_051748 (19.12 s)
+2026-11-04 05:22:50 s2h 5.4: cpu {"model": "models/20261104_051748.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 52.69, "max_err": 5.39, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clea | infer 19.12 finished
+2026-11-04 05:22:50 no retry beat 19.12 s. ALL DONE
+2026-11-04 05:22:50 copied the submitted pilot pair into models/ (cp -p): 6bc4f1ac42c56012 be75f3276ebe7210
+2026-11-04 05:22:50 MORE DONE

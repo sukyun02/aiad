@@ -1,0 +1,1 @@
+{"model": "models/20261104_040418.pth", "device": "cpu", "status": "finished", "lap_time": 19.12, "tiles": "273/273", "off_road_steps": 0, "grass_s": 0.0, "progress": 100.0, "center": 54.25, "max_err": 5.55, "v_mean": 48.55, "v_max": 50.01, "steps": 956, "clean": true, "wall_s": 3.9}
